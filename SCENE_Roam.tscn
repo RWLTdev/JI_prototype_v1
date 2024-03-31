@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://bxea1bhdultw8"]
+
+[node name="MotherNode" type="Node3D"]

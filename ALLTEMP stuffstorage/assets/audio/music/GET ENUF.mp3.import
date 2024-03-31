@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b38o13wla301i"
+path="res://.godot/imported/GET ENUF.mp3-650ebc1e856149ac177d4e375e82fa10.mp3str"
+
+[deps]
+
+source_file="res://ALLTEMP stuffstorage/assets/audio/music/GET ENUF.mp3"
+dest_files=["res://.godot/imported/GET ENUF.mp3-650ebc1e856149ac177d4e375e82fa10.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

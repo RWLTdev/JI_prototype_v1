@@ -1,0 +1,8 @@
+
+* = player input
+! = system to system info report
+? = system to system request
+
+<watchesforglobalinputsF> -> node DevPanelMenuBG (*toggles visible)
+<watchesgamestateF> -> <fCORE> (!game is loaded)
+<fCORE> -> <initializerF> (?get everything ready)

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://duffyf6gquqex"
+path="res://.godot/imported/Deal 'Em Out.mp3-354a8b3a1f8914142a3b716bcd2017ce.mp3str"
+
+[deps]
+
+source_file="res://ALLTEMP stuffstorage/assets/audio/music/Deal 'Em Out.mp3"
+dest_files=["res://.godot/imported/Deal 'Em Out.mp3-354a8b3a1f8914142a3b716bcd2017ce.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

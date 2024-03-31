@@ -1,0 +1,4 @@
+This file contains each InputMap event name paired with its current input
+binding. (ONLY FOR MOUSE AND KEYBOARD)
+
+[global] toggle dev panel = QuoteLeft (Physical)

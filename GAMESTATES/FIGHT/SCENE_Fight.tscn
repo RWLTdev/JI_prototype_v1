@@ -1,0 +1,2068 @@
+[gd_scene load_steps=341 format=3 uid="uid://c4vcanqeed16j"]
+
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/rootreadyF.cs" id="1_hq2st"]
+[ext_resource type="Texture2D" uid="uid://fv6ouw785jsm" path="res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png" id="1_s3x03"]
+[ext_resource type="Texture2D" uid="uid://c8nxin8gviscu" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0001.png" id="2_tfgfy"]
+[ext_resource type="Script" path="res://ALLTEMP stuffstorage/scripts/functions/initialization/gui/initializesthisdevpanelonscenechange.cs" id="2_yufo8"]
+[ext_resource type="Texture2D" uid="uid://delc0u20ixvdw" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0002.png" id="3_7ib7d"]
+[ext_resource type="Script" path="res://ALLTEMP stuffstorage/scripts/functions/scene management/rotatessceneonbuttonTEMP.cs" id="3_e4uk6"]
+[ext_resource type="Texture2D" uid="uid://dmx8g2d147l8a" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0003.png" id="4_dvxa7"]
+[ext_resource type="Texture2D" uid="uid://badoj1aati82k" path="res://ALLTEMP stuffstorage/assets/3dmodeltextures/PrototypeObjectTexture.png" id="4_q3ald"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/watchers/watchesforglobalinputsF.cs" id="4_w6hsg"]
+[ext_resource type="Texture2D" uid="uid://db4nxld4pr5tl" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0001.png" id="5_xcr7u"]
+[ext_resource type="Texture2D" uid="uid://dediqb7fvc08p" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHfantasyrock.png" id="5_xhvjd"]
+[ext_resource type="Texture2D" uid="uid://e3mudljm4o4b" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0004.png" id="5_y65pi"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/Rez_Lgridnotchdata.cs" id="6_autyt"]
+[ext_resource type="Texture2D" uid="uid://be03lpu6bioqd" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0005.png" id="6_iun8l"]
+[ext_resource type="Texture2D" uid="uid://ymsdtohc57ci" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHPunch!.png" id="6_q2se1"]
+[ext_resource type="Texture2D" uid="uid://bvksm3i11c6rs" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0002.png" id="6_xx8hk"]
+[ext_resource type="Texture2D" uid="uid://cx0uk4ck73moj" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0006.png" id="7_dnt2s"]
+[ext_resource type="Texture2D" uid="uid://cwoueajsyghnh" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0003.png" id="7_nau62"]
+[ext_resource type="Texture2D" uid="uid://iih334gbsbfe" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHTVspikes.png" id="7_rjna2"]
+[ext_resource type="Texture2D" uid="uid://dkn02l2rrm8qd" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0007.png" id="8_0wwqt"]
+[ext_resource type="Texture2D" uid="uid://c0hjalx1rxt0m" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0004.png" id="8_6ytbd"]
+[ext_resource type="Texture2D" uid="uid://dswdqdfm5huur" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHThinker.png" id="8_v2q4x"]
+[ext_resource type="Texture2D" uid="uid://crmn7a4vk5fgd" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0008.png" id="9_1qb5m"]
+[ext_resource type="Texture2D" uid="uid://oa4rftc7n5ea" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0005.png" id="9_qctio"]
+[ext_resource type="Texture2D" uid="uid://bvkmy6oacr3nj" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/playerchars/ReprobatePH.png" id="9_us2bp"]
+[ext_resource type="Texture2D" uid="uid://c8wes5dbbq4jr" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0006.png" id="10_0fkxu"]
+[ext_resource type="Script" path="res://ALLTEMP stuffstorage/scripts/functions/watchers/watchesgamestateF.cs" id="10_6pxfr"]
+[ext_resource type="Texture2D" uid="uid://y5221ufql21o" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0009.png" id="10_aot0g"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/fCORE.cs" id="10_d7h8g"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/data containers/playerunits/P1values.cs" id="10_yyspo"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/initializescenarioF.cs" id="11_7gy4w"]
+[ext_resource type="Texture2D" uid="uid://b5mq5xdfsn53u" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0007.png" id="11_esrkr"]
+[ext_resource type="Script" path="res://ALLTEMP stuffstorage/scripts/functions/initialization/problemcheckerF.cs" id="11_nvdsy"]
+[ext_resource type="Texture2D" uid="uid://e8r2fv6yyw50" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0010.png" id="11_vebbi"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/data containers/playerunits/P2values.cs" id="11_vrjp7"]
+[ext_resource type="Texture2D" uid="uid://1a81fftm0p63" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0011.png" id="12_aldc0"]
+[ext_resource type="Texture2D" uid="uid://cjrpf2djjdwwd" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0008.png" id="12_lma8n"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/data containers/playerunits/P3values.cs" id="12_nx7j4"]
+[ext_resource type="Texture2D" uid="uid://bnymcf2xugukg" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0012.png" id="13_3uljv"]
+[ext_resource type="Texture2D" uid="uid://c528pv08sly5a" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0009.png" id="13_45ddr"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/data containers/playerunits/P4values.cs" id="13_pep6b"]
+[ext_resource type="Texture2D" uid="uid://ottv2skxrdss" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0010.png" id="14_7akmr"]
+[ext_resource type="Texture2D" uid="uid://d2c5566ukkqso" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0013.png" id="14_cfo5h"]
+[ext_resource type="Texture2D" uid="uid://ctmfljqnhx0tl" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0011.png" id="15_fjqh5"]
+[ext_resource type="Texture2D" uid="uid://dlwhq0y0vgw1l" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0014.png" id="15_mmxa1"]
+[ext_resource type="Texture2D" uid="uid://r3bc1o758bm3" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0015.png" id="16_sv8kf"]
+[ext_resource type="Texture2D" uid="uid://dksdmeggehcwi" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0012.png" id="16_x1mmi"]
+[ext_resource type="Texture2D" uid="uid://bp1lpjlxbn5va" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0016.png" id="17_k3b2a"]
+[ext_resource type="Texture2D" uid="uid://6vbc41ybospp" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0013.png" id="17_rbvyg"]
+[ext_resource type="Texture2D" uid="uid://706wr7lbjlex" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0017.png" id="18_d6gc0"]
+[ext_resource type="Texture2D" uid="uid://bx2tsv6lye3ue" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0014.png" id="18_r4h3i"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/djhandlesmusicandtempo.cs" id="18_tt8ml"]
+[ext_resource type="Texture2D" uid="uid://mql4xmv5bf24" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0015.png" id="19_bdvq6"]
+[ext_resource type="Texture2D" uid="uid://w404a24kbt44" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0018.png" id="19_kjjo3"]
+[ext_resource type="Texture2D" uid="uid://b1tv1ixfx3uf" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0019.png" id="20_hnp8c"]
+[ext_resource type="Texture2D" uid="uid://b7wyua3q7okxv" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0016.png" id="20_rmx7s"]
+[ext_resource type="Texture2D" uid="uid://b5aukus5mljl8" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0017.png" id="21_iu00i"]
+[ext_resource type="Texture2D" uid="uid://biwmiksknekle" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0020.png" id="21_qwidu"]
+[ext_resource type="Texture2D" uid="uid://b54cbisckugka" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0021.png" id="22_dhf0g"]
+[ext_resource type="Texture2D" uid="uid://dvq7p7qahxpa0" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0018.png" id="22_i6w6h"]
+[ext_resource type="Texture2D" uid="uid://e17dqeqymwx0" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0022.png" id="23_136n7"]
+[ext_resource type="Texture2D" uid="uid://crn8akrimxm4c" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0019.png" id="23_roodd"]
+[ext_resource type="Texture2D" uid="uid://bx606htwgnam5" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0023.png" id="24_ic2tk"]
+[ext_resource type="Texture2D" uid="uid://bqloblaidoi2o" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0020.png" id="24_mvyvi"]
+[ext_resource type="Texture2D" uid="uid://ij8u430bnqf8" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0021.png" id="25_lunkb"]
+[ext_resource type="Texture2D" uid="uid://csf12el4j2627" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0024.png" id="25_omjj6"]
+[ext_resource type="Texture2D" uid="uid://68dsq2fesljf" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0025.png" id="26_rr042"]
+[ext_resource type="Texture2D" uid="uid://mcf144lqhq5l" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0022.png" id="26_yk73y"]
+[ext_resource type="Texture2D" uid="uid://byccmrix831h8" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0023.png" id="27_b5x8b"]
+[ext_resource type="Texture2D" uid="uid://by0fwle7disyf" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0026.png" id="27_orfmj"]
+[ext_resource type="Texture2D" uid="uid://m0ccmq2d8gmg" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0024.png" id="28_16c0p"]
+[ext_resource type="Texture2D" uid="uid://36d8k23kr5ck" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0027.png" id="28_xjbok"]
+[ext_resource type="Texture2D" uid="uid://dkmbusn2bqa4y" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0025.png" id="29_6wtaq"]
+[ext_resource type="Texture2D" uid="uid://c28wbygie61tc" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0028.png" id="29_jxovt"]
+[ext_resource type="Texture2D" uid="uid://rdsb3orvekwy" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0026.png" id="30_8smvy"]
+[ext_resource type="Texture2D" uid="uid://dyw3e2rtw4wyd" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0029.png" id="30_w7v5j"]
+[ext_resource type="Texture2D" uid="uid://dwndhx4cpngvc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0027.png" id="31_jxd76"]
+[ext_resource type="Texture2D" uid="uid://ck7210i0pb7dd" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0030.png" id="31_rnsk6"]
+[ext_resource type="Texture2D" uid="uid://pardwxey45ld" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0028.png" id="32_8a58b"]
+[ext_resource type="Texture2D" uid="uid://b65dudnvh4ckq" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0031.png" id="32_q6omo"]
+[ext_resource type="Texture2D" uid="uid://dkfko1i1c0i17" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0032.png" id="33_1i4ow"]
+[ext_resource type="Texture2D" uid="uid://nymkdicdi581" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0029.png" id="33_x36wy"]
+[ext_resource type="Texture2D" uid="uid://cx47i54o3byjr" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0033.png" id="34_1xbmy"]
+[ext_resource type="Texture2D" uid="uid://d2uu0lgsulwb6" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0030.png" id="34_r373s"]
+[ext_resource type="Texture2D" uid="uid://b6i7c704m1jff" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0034.png" id="35_0w5uc"]
+[ext_resource type="Texture2D" uid="uid://dpypacd87lkhm" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0001.png" id="35_f7uxh"]
+[ext_resource type="Texture2D" uid="uid://bjgcdiqdwsn2l" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0002.png" id="36_2qdo5"]
+[ext_resource type="Texture2D" uid="uid://c54vmkjign1c8" path="res://GAMEASSETS/in Fight/GUI/Sprites/ScreenFillers/FightTransitionBlackscreen.png" id="36_esirx"]
+[ext_resource type="Texture2D" uid="uid://dpfkd1ef80kvh" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0003.png" id="37_f233o"]
+[ext_resource type="Texture2D" uid="uid://jhv1dug1mh45" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0004.png" id="38_rf52d"]
+[ext_resource type="Texture2D" uid="uid://e18jvpknwtix" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0005.png" id="39_bjv1i"]
+[ext_resource type="Texture2D" uid="uid://dfkr0mn51ygo4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0006.png" id="40_tfr2g"]
+[ext_resource type="Texture2D" uid="uid://ca5vn0noebfqn" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0007.png" id="41_s4a3r"]
+[ext_resource type="Texture2D" uid="uid://cmj4ivfaxwb6c" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0008.png" id="42_ufrlq"]
+[ext_resource type="Texture2D" uid="uid://bhig01t11m68e" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0009.png" id="43_daidr"]
+[ext_resource type="Texture2D" uid="uid://cb5p0m100gqka" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0010.png" id="44_7hgew"]
+[ext_resource type="Texture2D" uid="uid://ccqr6froyy1mf" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0011.png" id="45_vdpyk"]
+[ext_resource type="Texture2D" uid="uid://ot0r84mrarg6" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0012.png" id="46_0s4xw"]
+[ext_resource type="Texture2D" uid="uid://coqt0km5q2sbt" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0013.png" id="47_paqli"]
+[ext_resource type="Texture2D" uid="uid://ddph8bcg1ht0f" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0014.png" id="48_geulv"]
+[ext_resource type="Texture2D" uid="uid://c16q63wx4jqvk" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0015.png" id="49_gwwm8"]
+[ext_resource type="Texture2D" uid="uid://cf8v2kfa8j3yr" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_00016.png" id="50_ygaot"]
+[ext_resource type="Texture2D" uid="uid://dpy2ss5hkphjl" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0002.png" id="51_0r7yn"]
+[ext_resource type="Texture2D" uid="uid://cy33qy15ww7r4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0003.png" id="52_tihnj"]
+[ext_resource type="Texture2D" uid="uid://c0nna0bul6tts" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0004.png" id="53_jey77"]
+[ext_resource type="Texture2D" uid="uid://d0mcpc2jck7km" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0005.png" id="54_pl863"]
+[ext_resource type="Texture2D" uid="uid://drndi0r6u4k2r" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0006.png" id="55_h748w"]
+[ext_resource type="Texture2D" uid="uid://b02wbw2yi6i0n" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0007.png" id="56_c0iso"]
+[ext_resource type="Texture2D" uid="uid://b5mavnpxo0cbm" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0008.png" id="57_pet77"]
+[ext_resource type="Texture2D" uid="uid://dlpgqope5phad" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0009.png" id="58_hra7r"]
+[ext_resource type="Texture2D" uid="uid://b7042e0g8lc3c" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0010.png" id="59_gxsj5"]
+[ext_resource type="Texture2D" uid="uid://cqd4w5gaxouwe" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0011.png" id="60_14to0"]
+[ext_resource type="Texture2D" uid="uid://lsgskghfswmb" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0012.png" id="61_plece"]
+[ext_resource type="Texture2D" uid="uid://bepi8ihynft7x" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0013.png" id="62_b8ja4"]
+[ext_resource type="Texture2D" uid="uid://ggnrbrprlhnt" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0014.png" id="63_sa1vw"]
+[ext_resource type="Texture2D" uid="uid://dnqkiwqvardof" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0015.png" id="64_o2wu4"]
+[ext_resource type="Texture2D" uid="uid://b5ouowknp4iss" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0016.png" id="65_5pcnf"]
+[ext_resource type="Texture2D" uid="uid://dcpdmsmxyvmg8" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0001.png" id="66_cdyn6"]
+[ext_resource type="Texture2D" uid="uid://ckt80e83dkghc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0002.png" id="67_40d1h"]
+[ext_resource type="Texture2D" uid="uid://0uy0fh3hvlxu" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0003.png" id="68_eby7j"]
+[ext_resource type="Texture2D" uid="uid://bjg3g6trky6cq" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0004.png" id="69_ec825"]
+[ext_resource type="Texture2D" uid="uid://cy33ddo17yh7y" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0005.png" id="70_m3ukn"]
+[ext_resource type="Texture2D" uid="uid://cp4gwjiv4jrhc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0006.png" id="71_awisk"]
+[ext_resource type="Texture2D" uid="uid://di0sgbalg0mhk" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0007.png" id="72_fmtrj"]
+[ext_resource type="Texture2D" uid="uid://dk2d24is3enjj" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0008.png" id="73_cu6i8"]
+[ext_resource type="Texture2D" uid="uid://c8c60yeugy04e" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0009.png" id="74_47d2p"]
+[ext_resource type="Texture2D" uid="uid://bcl1vegbh3ejm" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0010.png" id="75_qnj3f"]
+[ext_resource type="Texture2D" uid="uid://ulochppclnnc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0011.png" id="76_kxldp"]
+[ext_resource type="Texture2D" uid="uid://dc23mh1ee2iol" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0012.png" id="77_rptmr"]
+[ext_resource type="Texture2D" uid="uid://ct33atb56twwx" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0013.png" id="78_mb3oa"]
+[ext_resource type="Texture2D" uid="uid://drm0o4jp1rm5r" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0014.png" id="79_4pk7e"]
+[ext_resource type="Texture2D" uid="uid://dph50agdiri00" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0015.png" id="80_2aih2"]
+[ext_resource type="Texture2D" uid="uid://f5w6c0s8512l" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0016.png" id="81_h81sx"]
+[ext_resource type="Texture2D" uid="uid://dtouxrcbrq2ke" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0017.png" id="82_6cn5o"]
+[ext_resource type="Texture2D" uid="uid://docg32tyd0x0" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0018.png" id="83_v8p5y"]
+[ext_resource type="Texture2D" uid="uid://biu5ne847swjk" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0019.png" id="84_lyy3h"]
+[ext_resource type="Texture2D" uid="uid://dtr1c2q06w0i6" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0020.png" id="85_gmvhc"]
+[ext_resource type="Texture2D" uid="uid://qbcckvitf06a" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0021.png" id="86_dx4ye"]
+[ext_resource type="Texture2D" uid="uid://bysncr8wleofy" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0022.png" id="87_mam4u"]
+[ext_resource type="Texture2D" uid="uid://cc15t06ga7jhd" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0023.png" id="88_sr5lg"]
+[ext_resource type="Texture2D" uid="uid://onxmcjyn606m" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0024.png" id="89_6ieo4"]
+[ext_resource type="Texture2D" uid="uid://bmr1t77yrmrdf" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0025.png" id="90_sd8ch"]
+[ext_resource type="Texture2D" uid="uid://c2626jpprj8yo" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0026.png" id="91_728mc"]
+[ext_resource type="Texture2D" uid="uid://fbldmkv7nxrs" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0027.png" id="92_62jsu"]
+[ext_resource type="Texture2D" uid="uid://bi0g6h1sefjwd" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0028.png" id="93_am8ej"]
+[ext_resource type="Texture2D" uid="uid://o4luq8ob6doo" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0029.png" id="94_1t1vs"]
+[ext_resource type="Texture2D" uid="uid://8uqqsaik8luh" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0030.png" id="95_utrwq"]
+[ext_resource type="Texture2D" uid="uid://d1f6r6i0wlijg" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0001.png" id="128_ygh70"]
+[ext_resource type="Texture2D" uid="uid://bsd83es0ociq0" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0002.png" id="129_bkyqu"]
+[ext_resource type="Texture2D" uid="uid://juf81xu1nod4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0003.png" id="130_l7xk7"]
+[ext_resource type="Texture2D" uid="uid://bqmqnw3xcoxev" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0004.png" id="131_f7jxg"]
+[ext_resource type="Texture2D" uid="uid://brp7rah40s8oe" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0005.png" id="132_n12gh"]
+[ext_resource type="Texture2D" uid="uid://v21578adifda" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0006.png" id="133_biadd"]
+[ext_resource type="Texture2D" uid="uid://b4hegkn1f53hm" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0007.png" id="134_2yosn"]
+[ext_resource type="Texture2D" uid="uid://c6yaylvah6qhu" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0008.png" id="135_u6bhl"]
+[ext_resource type="Texture2D" uid="uid://wkefl7fj7fq4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0009.png" id="136_j64sk"]
+[ext_resource type="Texture2D" uid="uid://cad32ft8k3axd" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0010.png" id="137_xn065"]
+[ext_resource type="Texture2D" uid="uid://c4mtuyliwcofe" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0011.png" id="138_sxhd4"]
+[ext_resource type="Texture2D" uid="uid://bqjfngenj4yi6" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0012.png" id="139_6whg7"]
+[ext_resource type="Texture2D" uid="uid://bqpjwes31fvi7" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0013.png" id="140_ooiv4"]
+[ext_resource type="Texture2D" uid="uid://dgh1h7kn2vxiy" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0014.png" id="141_f1xwg"]
+[ext_resource type="Texture2D" uid="uid://xwa0pv1j5cow" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0015.png" id="142_45s3h"]
+[ext_resource type="Texture2D" uid="uid://bkusirnbdkvcx" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0016.png" id="143_utw1g"]
+[ext_resource type="Texture2D" uid="uid://m1ayv6ycowwl" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0017.png" id="144_ie32o"]
+[ext_resource type="Texture2D" uid="uid://3f0xhich43nu" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0018.png" id="145_elhmt"]
+[ext_resource type="Texture2D" uid="uid://brgdip3oi7ycd" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0019.png" id="146_bdv7w"]
+[ext_resource type="Texture2D" uid="uid://dlqd8q6rjwqqt" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0020.png" id="147_1hleh"]
+[ext_resource type="Texture2D" uid="uid://c84thfyc1x8k2" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0021.png" id="148_dp8mk"]
+[ext_resource type="Texture2D" uid="uid://i7c5uwf2ebay" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0022.png" id="149_glknf"]
+[ext_resource type="Texture2D" uid="uid://ddw107gy428qo" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0023.png" id="150_gintp"]
+[ext_resource type="Texture2D" uid="uid://cxwaew448ea37" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0024.png" id="151_vi562"]
+[ext_resource type="Texture2D" uid="uid://bk14bvyoxi4fc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0025.png" id="152_uu1g6"]
+[ext_resource type="Texture2D" uid="uid://dxmcdb51eh2q2" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0026.png" id="153_8vixy"]
+[ext_resource type="Texture2D" uid="uid://bvwpu6x4kfsfc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0027.png" id="154_uwdw2"]
+[ext_resource type="Texture2D" uid="uid://c3m3wbtihnpuw" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0028.png" id="155_tp5qw"]
+[ext_resource type="Texture2D" uid="uid://cqiqdlqotkfue" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0029.png" id="156_7vsxr"]
+[ext_resource type="Texture2D" uid="uid://bw0rt5hks5d0c" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0030.png" id="157_s1r6g"]
+[ext_resource type="Texture2D" uid="uid://bxaia1q250cnw" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0031.png" id="158_w74qs"]
+[ext_resource type="Texture2D" uid="uid://dmokfgk4tpmtt" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0032.png" id="159_ef235"]
+[ext_resource type="Texture2D" uid="uid://bvsnukgm8ynwi" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0033.png" id="160_6jh4m"]
+[ext_resource type="Texture2D" uid="uid://crj7mhc3fiwqp" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0034.png" id="161_qthjl"]
+[ext_resource type="Texture2D" uid="uid://bjcnu10a1k3hb" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0035.png" id="162_tkd68"]
+[ext_resource type="Texture2D" uid="uid://dx7xykjbdmojb" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0036.png" id="163_1ucy6"]
+[ext_resource type="Texture2D" uid="uid://cbunpo1r27qtx" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0037.png" id="164_2wn36"]
+[ext_resource type="Texture2D" uid="uid://dnc1n5u5k3gkf" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0038.png" id="165_d51qi"]
+[ext_resource type="Texture2D" uid="uid://dwwn8n3ljgvub" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0039.png" id="166_0yjgy"]
+[ext_resource type="Texture2D" uid="uid://dj2b87h0xg6h6" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0040.png" id="167_5le7t"]
+[ext_resource type="Texture2D" uid="uid://otr1jx5rp366" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0041.png" id="168_tmfxn"]
+[ext_resource type="Texture2D" uid="uid://ba602fqbcnkbu" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0042.png" id="169_ba15g"]
+[ext_resource type="Texture2D" uid="uid://dvp2qmyp0s5hi" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0043.png" id="170_k80kn"]
+[ext_resource type="Texture2D" uid="uid://bwmb4mapx55ui" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0044.png" id="171_jptv1"]
+[ext_resource type="Texture2D" uid="uid://dwnad72f8qcd7" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0045.png" id="172_3xcko"]
+[ext_resource type="Texture2D" uid="uid://cfme2ib0o3ur7" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0046.png" id="173_qpt4j"]
+[ext_resource type="Texture2D" uid="uid://bsjwo58i6cvxg" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0047.png" id="174_2upn6"]
+[ext_resource type="Texture2D" uid="uid://dvq16m5feytyp" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0048.png" id="175_gv2jp"]
+[ext_resource type="Texture2D" uid="uid://yxebhiyhyhb4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0049.png" id="176_atvvl"]
+[ext_resource type="Texture2D" uid="uid://hetfvbt6e7bw" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0050.png" id="177_blwfi"]
+[ext_resource type="Texture2D" uid="uid://hafbqw4upmcs" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0051.png" id="178_5wfdg"]
+[ext_resource type="Texture2D" uid="uid://c7ty3rus5vg54" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0052.png" id="179_wn70m"]
+[ext_resource type="Texture2D" uid="uid://pfl4pkj6ijbk" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0053.png" id="180_l5di7"]
+[ext_resource type="Texture2D" uid="uid://i72h233id6oi" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0054.png" id="181_wpycm"]
+[ext_resource type="Texture2D" uid="uid://cm6p7rptpx6td" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0055.png" id="182_uew8a"]
+[ext_resource type="Texture2D" uid="uid://datwdm6xsa6ef" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0056.png" id="183_hfhr1"]
+[ext_resource type="Texture2D" uid="uid://b8nekamah7pxb" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0057.png" id="184_jdcfy"]
+[ext_resource type="Texture2D" uid="uid://cyaiyop0n2ig8" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0058.png" id="185_6hnqu"]
+[ext_resource type="Texture2D" uid="uid://drpo07l50g2b" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0059.png" id="186_in50n"]
+[ext_resource type="Texture2D" uid="uid://crybr8dy6th0s" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0060.png" id="187_vamkv"]
+[ext_resource type="Texture2D" uid="uid://bkx1tucq8l84a" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0061.png" id="188_jxgsr"]
+[ext_resource type="Texture2D" uid="uid://b4ko14yqhi6va" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0062.png" id="189_ot5wg"]
+[ext_resource type="Texture2D" uid="uid://drmg1q8d0xklm" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0063.png" id="190_scho8"]
+[ext_resource type="Texture2D" uid="uid://04ewcrefxjv6" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0064.png" id="191_8ud67"]
+[ext_resource type="Texture2D" uid="uid://c3feqxnspeb4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0065.png" id="192_yt5iw"]
+[ext_resource type="Texture2D" uid="uid://yx2o6yyqnygi" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0066.png" id="193_fjikn"]
+[ext_resource type="Texture2D" uid="uid://b782r2n3wlnf3" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0067.png" id="194_1bytt"]
+[ext_resource type="Texture2D" uid="uid://brs77qhjq1lu7" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0068.png" id="195_t3qqc"]
+[ext_resource type="Texture2D" uid="uid://dtg6wkv7sakvy" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0069.png" id="196_if2k3"]
+[ext_resource type="Texture2D" uid="uid://b6x3aqgxt4yee" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0070.png" id="197_24uiu"]
+[ext_resource type="Texture2D" uid="uid://futr6bmtm72m" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0071.png" id="198_kb8ub"]
+[ext_resource type="Texture2D" uid="uid://sdhfs14ldbtq" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0072.png" id="199_4ygmh"]
+[ext_resource type="Texture2D" uid="uid://bohnr0wuc0hp1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0073.png" id="200_hj0bs"]
+[ext_resource type="Texture2D" uid="uid://qiodq2yyumq1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0074.png" id="201_3mjf7"]
+[ext_resource type="Texture2D" uid="uid://cyv1r7uqr1mjr" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0075.png" id="202_vdp2m"]
+[ext_resource type="Texture2D" uid="uid://cywsehn7k1uf4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0076.png" id="203_lr3k5"]
+[ext_resource type="Texture2D" uid="uid://dxuwaaccnfyr6" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0077.png" id="204_b2kd4"]
+[ext_resource type="Texture2D" uid="uid://c8ecn1a33becj" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0078.png" id="205_kbomp"]
+[ext_resource type="Texture2D" uid="uid://c73a0dfni7grw" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0079.png" id="206_vv7wl"]
+[ext_resource type="Texture2D" uid="uid://c48sw76shgpgk" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0080.png" id="207_j1e7c"]
+[ext_resource type="Texture2D" uid="uid://x6a1xtkqg2lt" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0081.png" id="208_kkqme"]
+[ext_resource type="Texture2D" uid="uid://crg2b7abxknqh" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0082.png" id="209_tlid8"]
+[ext_resource type="Texture2D" uid="uid://c5la10hofyu06" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0083.png" id="210_c0gc1"]
+[ext_resource type="Texture2D" uid="uid://cbh042kkcnefa" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0084.png" id="211_6kasi"]
+[ext_resource type="Texture2D" uid="uid://bpex6mj4po2of" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0085.png" id="212_4w0p2"]
+[ext_resource type="Texture2D" uid="uid://b44mia64b07wp" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0086.png" id="213_10i43"]
+[ext_resource type="Texture2D" uid="uid://du6wke8x3teb6" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0087.png" id="214_76itf"]
+[ext_resource type="Texture2D" uid="uid://bfiq585wc3iyg" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0088.png" id="215_to6si"]
+[ext_resource type="Texture2D" uid="uid://brq3wqreou1jg" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0089.png" id="216_cn2a7"]
+[ext_resource type="Texture2D" uid="uid://cpkphi7dyhpww" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0090.png" id="217_1828l"]
+[ext_resource type="Texture2D" uid="uid://b6dqtbtqol4rl" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0091.png" id="218_lm4i8"]
+[ext_resource type="Texture2D" uid="uid://wymeq4pfvxe5" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0092.png" id="219_2fc2m"]
+[ext_resource type="Texture2D" uid="uid://btrrdvy26f2km" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0093.png" id="220_hqmso"]
+[ext_resource type="Texture2D" uid="uid://bk5sppq2fl3ty" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0094.png" id="221_yuwx3"]
+[ext_resource type="Texture2D" uid="uid://dkkamja3kspju" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0095.png" id="222_o2rhh"]
+[ext_resource type="Texture2D" uid="uid://bohu3joab38wd" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0096.png" id="223_4i8f1"]
+[ext_resource type="Texture2D" uid="uid://byup1j7bxp71u" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0097.png" id="224_t4ure"]
+[ext_resource type="Texture2D" uid="uid://dheax6wk6ywn6" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0098.png" id="225_a063m"]
+[ext_resource type="Texture2D" uid="uid://cxog0k7cogkax" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0099.png" id="226_uq8pe"]
+[ext_resource type="Texture2D" uid="uid://by4spils68r2b" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0100.png" id="227_bqbs5"]
+[ext_resource type="Texture2D" uid="uid://cfk8cxlbsv6p7" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0101.png" id="228_20jd0"]
+[ext_resource type="Texture2D" uid="uid://b4j8n88vnvrhj" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0102.png" id="229_jhjey"]
+[ext_resource type="Texture2D" uid="uid://cu2x630yoyva" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0103.png" id="230_3bod6"]
+[ext_resource type="Texture2D" uid="uid://csejab4n7ab2a" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0104.png" id="231_udkcs"]
+[ext_resource type="Texture2D" uid="uid://d3b6yp1vuhjqj" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0105.png" id="232_08ro8"]
+[ext_resource type="Texture2D" uid="uid://d2yefv6b1dj3c" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0106.png" id="233_h76ke"]
+[ext_resource type="Texture2D" uid="uid://blurs6lp6ib2t" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0107.png" id="234_xrpf6"]
+[ext_resource type="Texture2D" uid="uid://b34rkju2pc0il" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0108.png" id="235_qm448"]
+[ext_resource type="Texture2D" uid="uid://bd0mpetq3s15" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0109.png" id="236_kg2qk"]
+[ext_resource type="Texture2D" uid="uid://dvqe25xxwavjw" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0110.png" id="237_0h36i"]
+[ext_resource type="Texture2D" uid="uid://3yw01efa6w23" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0111.png" id="238_c81e6"]
+[ext_resource type="Texture2D" uid="uid://b3fm0blp1db52" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0112.png" id="239_ejs6g"]
+[ext_resource type="Texture2D" uid="uid://bgdbnllbam5ai" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0113.png" id="240_cm5ym"]
+[ext_resource type="Texture2D" uid="uid://dwrisvlcxn42f" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0114.png" id="241_mks8b"]
+[ext_resource type="Texture2D" uid="uid://dxi0a4g3ysrwn" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0115.png" id="242_qr86i"]
+[ext_resource type="Texture2D" uid="uid://b6ntykv2ior6s" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0116.png" id="243_3p16t"]
+[ext_resource type="Texture2D" uid="uid://b4ga2c5gquu7q" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0117.png" id="244_tevrg"]
+[ext_resource type="Texture2D" uid="uid://b8tuic0o316tr" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0118.png" id="245_q612j"]
+[ext_resource type="Texture2D" uid="uid://b2g176xef3r6h" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0119.png" id="246_gxsej"]
+[ext_resource type="Texture2D" uid="uid://cqp0ojvwf88i4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0120.png" id="247_67fcc"]
+[ext_resource type="Texture2D" uid="uid://41u3uk40rlrn" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0121.png" id="248_cncja"]
+[ext_resource type="Texture2D" uid="uid://c2lyejka72muv" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0122.png" id="249_u6hp8"]
+[ext_resource type="Texture2D" uid="uid://b37afyb7mdiu7" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0123.png" id="250_fijoj"]
+[ext_resource type="Texture2D" uid="uid://bae3xhcm4mwmc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0124.png" id="251_icq8e"]
+[ext_resource type="Texture2D" uid="uid://vvjrtughxd6u" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0125.png" id="252_f736r"]
+[ext_resource type="Texture2D" uid="uid://drsgaucdva5io" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0126.png" id="253_m88j4"]
+[ext_resource type="Texture2D" uid="uid://1rm4841hl846" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0127.png" id="254_rmcu6"]
+[ext_resource type="Texture2D" uid="uid://dqrmmtaahkef5" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0128.png" id="255_pgk22"]
+[ext_resource type="Texture2D" uid="uid://kn4omcfkk65g" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0129.png" id="256_xa2eq"]
+[ext_resource type="Texture2D" uid="uid://d0hdrx27t3w8y" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0130.png" id="257_ie3fn"]
+[ext_resource type="Texture2D" uid="uid://mjkdfqalucfa" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0131.png" id="258_d3tnj"]
+[ext_resource type="Texture2D" uid="uid://scp1xkudsj03" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0132.png" id="259_mw75q"]
+[ext_resource type="Texture2D" uid="uid://csvaq1lst1qgk" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0133.png" id="260_xjjju"]
+[ext_resource type="Texture2D" uid="uid://vxowjgthshk0" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0134.png" id="261_odmvs"]
+[ext_resource type="Texture2D" uid="uid://bgpejmy7vxckk" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0135.png" id="262_gbddp"]
+[ext_resource type="Texture2D" uid="uid://b6idbrbgeg6pb" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0136.png" id="263_rtexy"]
+[ext_resource type="Texture2D" uid="uid://bhknu1ocdodgo" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0137.png" id="264_hrgjl"]
+[ext_resource type="Texture2D" uid="uid://b40reiwxkr1g5" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0138.png" id="265_sqy01"]
+[ext_resource type="Texture2D" uid="uid://dhw78v0haq345" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0139.png" id="266_rqt5d"]
+[ext_resource type="Texture2D" uid="uid://bkgiel5wrgna1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0140.png" id="267_swa1d"]
+[ext_resource type="Texture2D" uid="uid://cy7w1o0spjacl" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0141.png" id="268_sv5te"]
+[ext_resource type="Texture2D" uid="uid://deyuyt0nyjdk1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0142.png" id="269_bq1jh"]
+[ext_resource type="Texture2D" uid="uid://beudm0vg2ymqy" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0143.png" id="270_ohpjf"]
+[ext_resource type="Texture2D" uid="uid://4gwwc0vcg3gg" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0144.png" id="271_ec5hw"]
+[ext_resource type="Texture2D" uid="uid://o5iag05k31fa" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0145.png" id="272_ifvp8"]
+[ext_resource type="Texture2D" uid="uid://c8apblcvjejd1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0146.png" id="273_5n7dn"]
+[ext_resource type="Texture2D" uid="uid://c0dl7mdymgstg" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0147.png" id="274_v7y4k"]
+[ext_resource type="Texture2D" uid="uid://bmur7vkt3h6hi" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0148.png" id="275_b7xij"]
+[ext_resource type="Texture2D" uid="uid://v685nsu8i023" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0149.png" id="276_tdhtt"]
+[ext_resource type="Texture2D" uid="uid://gmhhj1wh0te5" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0150.png" id="277_gpqnc"]
+[ext_resource type="Texture2D" uid="uid://dpa35fbecgxvg" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0151.png" id="278_ty8fr"]
+[ext_resource type="Texture2D" uid="uid://dhmple5dm75ng" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0152.png" id="279_netqk"]
+[ext_resource type="Texture2D" uid="uid://f2ao5pc3woiy" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0153.png" id="280_fu2l8"]
+[ext_resource type="Texture2D" uid="uid://b7duk8ot4wtfb" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0154.png" id="281_dx88s"]
+[ext_resource type="Texture2D" uid="uid://cghdlkp2y6eq1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0155.png" id="282_xihld"]
+[ext_resource type="Texture2D" uid="uid://bht6lmfqk3e5v" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0156.png" id="283_oruqp"]
+[ext_resource type="Texture2D" uid="uid://dhem0wvreblih" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0157.png" id="284_io3q8"]
+[ext_resource type="Texture2D" uid="uid://eas57t1gokok" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0158.png" id="285_f6ypj"]
+[ext_resource type="Texture2D" uid="uid://c6gqed0wmqh6x" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0159.png" id="286_x3asp"]
+[ext_resource type="Texture2D" uid="uid://650vqnjxkwdt" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0160.png" id="287_m1qji"]
+[ext_resource type="Texture2D" uid="uid://3njjobvmu03" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0161.png" id="288_75005"]
+[ext_resource type="Texture2D" uid="uid://ck03heehf0bie" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0162.png" id="289_6v1mk"]
+[ext_resource type="Texture2D" uid="uid://csg051yn50vl1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0163.png" id="290_rlmed"]
+[ext_resource type="Texture2D" uid="uid://wyd8ibyks7wo" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0164.png" id="291_r5h21"]
+[ext_resource type="Texture2D" uid="uid://qhm5esp82xua" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0165.png" id="292_vn7k2"]
+[ext_resource type="Texture2D" uid="uid://nt72be6xehpw" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0166.png" id="293_118tr"]
+[ext_resource type="Texture2D" uid="uid://ds44xk26t7be3" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0167.png" id="294_55ljn"]
+[ext_resource type="Texture2D" uid="uid://dymw3kattnp0o" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0168.png" id="295_1m76d"]
+[ext_resource type="Texture2D" uid="uid://b5y81hiafwdqi" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0169.png" id="296_25iqb"]
+[ext_resource type="Texture2D" uid="uid://b5xj32nifu1ye" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0170.png" id="297_nfcxp"]
+[ext_resource type="Texture2D" uid="uid://cbbijsh82frva" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0171.png" id="298_s4kyl"]
+[ext_resource type="Texture2D" uid="uid://c60i3u5cbngtc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0172.png" id="299_mf2n2"]
+[ext_resource type="Texture2D" uid="uid://cijq7a4do6vpv" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0173.png" id="300_ki2hk"]
+[ext_resource type="Texture2D" uid="uid://wlkfnplijsjf" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0174.png" id="301_qhyi5"]
+[ext_resource type="Texture2D" uid="uid://chff8me0mbp3c" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0175.png" id="302_mhnxr"]
+[ext_resource type="Texture2D" uid="uid://dw5lwn3uk6ofc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0176.png" id="303_vg424"]
+[ext_resource type="Texture2D" uid="uid://dovtsklak1xul" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0177.png" id="304_1l88u"]
+[ext_resource type="Texture2D" uid="uid://c3151e2hewnea" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0178.png" id="305_rjfux"]
+[ext_resource type="Texture2D" uid="uid://b8pr2lwj0ikrw" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0179.png" id="306_avgfh"]
+[ext_resource type="Texture2D" uid="uid://bo0hqemdtm3fx" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0180.png" id="307_s6qxp"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xi1nc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_tfgfy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7ib7d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dvxa7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_y65pi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_iun8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_dnt2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_0wwqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1qb5m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_aot0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_vebbi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_aldc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_3uljv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_cfo5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_mmxa1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_sv8kf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_k3b2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_d6gc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_kjjo3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_hnp8c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_qwidu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_dhf0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_136n7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ic2tk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_omjj6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_rr042")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_orfmj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_xjbok")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_jxovt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_w7v5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_rnsk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_q6omo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_1i4ow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_1xbmy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_0w5uc")
+}],
+"loop": false,
+"name": &"StartTransitionBasic",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("36_esirx")
+}],
+"loop": true,
+"name": &"StaticBlackScreen",
+"speed": 1.0
+}]
+
+[sub_resource type="Curve2D" id="Curve2D_3erfb"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -700, 0, 0, 0, 0, 0, -40, 0)
+}
+point_count = 2
+
+[sub_resource type="Curve2D" id="Curve2D_n46vc"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 700, 0, 0, 0, 0, 0, 40, 0)
+}
+point_count = 2
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mksvl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_xcr7u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xx8hk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_nau62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_6ytbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_qctio")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_0fkxu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_esrkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_lma8n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_45ddr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_7akmr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_fjqh5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_x1mmi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_rbvyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_r4h3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_bdvq6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_rmx7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_iu00i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_i6w6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_roodd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_mvyvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_lunkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_yk73y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_b5x8b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_16c0p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_6wtaq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_8smvy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_jxd76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_8a58b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_x36wy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_r373s")
+}],
+"loop": true,
+"name": &"LockActing",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("35_f7uxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_2qdo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_f233o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_rf52d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_bjv1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_tfr2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_s4a3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_ufrlq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_daidr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_7hgew")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_vdpyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_0s4xw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_paqli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_geulv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_gwwm8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ygaot")
+}],
+"loop": true,
+"name": &"LockError1",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("51_0r7yn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_tihnj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_jey77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_pl863")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_h748w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_c0iso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_pet77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_hra7r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_gxsj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_14to0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_plece")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_b8ja4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_sa1vw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_o2wu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_5pcnf")
+}],
+"loop": true,
+"name": &"LockError2",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("66_cdyn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_40d1h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_eby7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_ec825")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_m3ukn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_awisk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_fmtrj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_cu6i8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_47d2p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_qnj3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_kxldp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_rptmr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_mb3oa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_4pk7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_2aih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_h81sx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_6cn5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_v8p5y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_lyy3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_gmvhc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_dx4ye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_mam4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_sr5lg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_6ieo4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_sd8ch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_728mc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_62jsu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_am8ej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_1t1vs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_utrwq")
+}],
+"loop": true,
+"name": &"LockThinking",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("128_ygh70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_bkyqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_l7xk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_f7jxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_n12gh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_biadd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_2yosn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_u6bhl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_j64sk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_xn065")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_sxhd4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_6whg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_ooiv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_f1xwg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_45s3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_utw1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_ie32o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_elhmt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_bdv7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_1hleh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_dp8mk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_glknf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_gintp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_vi562")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_uu1g6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_8vixy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_uwdw2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_tp5qw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_7vsxr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_s1r6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_w74qs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_ef235")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_6jh4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_qthjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_tkd68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_1ucy6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_2wn36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_d51qi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_0yjgy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_5le7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_tmfxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_ba15g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_k80kn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_jptv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_3xcko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_qpt4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_2upn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_gv2jp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_atvvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_blwfi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_5wfdg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_wn70m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_l5di7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_wpycm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_uew8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_hfhr1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_jdcfy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_6hnqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_in50n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_vamkv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_jxgsr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_ot5wg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_scho8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_8ud67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_yt5iw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_fjikn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_1bytt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_t3qqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_if2k3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_24uiu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_kb8ub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_4ygmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_hj0bs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_3mjf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_vdp2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_lr3k5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_b2kd4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_kbomp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_vv7wl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_j1e7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_kkqme")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_tlid8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_c0gc1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_6kasi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_4w0p2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_10i43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_76itf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_to6si")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_cn2a7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_1828l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_lm4i8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_2fc2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_hqmso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_yuwx3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_o2rhh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_4i8f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_t4ure")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_a063m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_uq8pe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_bqbs5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_20jd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_jhjey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_3bod6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_udkcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_08ro8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_h76ke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_xrpf6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_qm448")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_kg2qk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_0h36i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_c81e6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_ejs6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_cm5ym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_mks8b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_qr86i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_3p16t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_tevrg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_q612j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_gxsej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_67fcc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_cncja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_u6hp8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_fijoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_icq8e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_f736r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_m88j4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_rmcu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_pgk22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_xa2eq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_ie3fn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_d3tnj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_mw75q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_xjjju")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_odmvs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_gbddp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_rtexy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_hrgjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_sqy01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266_rqt5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_swa1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_sv5te")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_bq1jh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_ohpjf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_ec5hw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_ifvp8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_5n7dn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274_v7y4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_b7xij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_tdhtt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_gpqnc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278_ty8fr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_netqk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_fu2l8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_dx88s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282_xihld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_oruqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_io3q8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_f6ypj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_x3asp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287_m1qji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288_75005")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289_6v1mk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290_rlmed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291_r5h21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292_vn7k2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293_118tr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294_55ljn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295_1m76d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296_25iqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297_nfcxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298_s4kyl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299_mf2n2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300_ki2hk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_qhyi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302_mhnxr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303_vg424")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_1l88u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_rjfux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306_avgfh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_s6qxp")
+}],
+"loop": true,
+"name": &"StartBeats",
+"speed": 30.0
+}]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hldwg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5ecte"]
+albedo_texture = ExtResource("4_q3ald")
+uv1_scale = Vector3(20, 1, 20)
+uv1_triplanar = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_vikb1"]
+lightmap_size_hint = Vector2i(14, 21)
+material = SubResource("StandardMaterial3D_5ecte")
+
+[sub_resource type="Curve3D" id="Curve3D_bwfw5"]
+bake_interval = 512.0
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3.53319, -0.541934, 0.323073, 0, 0, 0, 0, 0, 0, 6.25517, -0.435669, 2.03431, 0, 0, 0, 0, 0, 0, 8.74711, -0.276995, 4.853),
+"tilts": PackedFloat32Array(0, 0, -0.00158876, 0)
+}
+point_count = 4
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_lai02"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_61tnm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_xhvjd")
+}],
+"loop": true,
+"name": &"BGObjFantasyRockTEMP",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_q2se1")
+}],
+"loop": true,
+"name": &"BGObjPunch!TEMP",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rjna2")
+}],
+"loop": true,
+"name": &"BGObjTVSpikesTEMP",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_v2q4x")
+}],
+"loop": true,
+"name": &"BGObjThinkerTEMP",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_us2bp")
+}],
+"loop": true,
+"name": &"PLChfkjhksejf",
+"speed": 5.0
+}]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_k0m1e"]
+
+[sub_resource type="Sky" id="Sky_mbf7d"]
+sky_material = SubResource("ProceduralSkyMaterial_k0m1e")
+
+[sub_resource type="Environment" id="Environment_raqp2"]
+background_mode = 2
+sky = SubResource("Sky_mbf7d")
+
+[node name="Root3D" type="Node3D"]
+script = ExtResource("1_hq2st")
+
+[node name="GUI&CameraParent" type="SubViewportContainer" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="SubViewport" type="SubViewport" parent="GUI&CameraParent"]
+handle_input_locally = false
+size = Vector2i(1920, 1080)
+render_target_update_mode = 4
+
+[node name="MainCam" type="Camera3D" parent="GUI&CameraParent/SubViewport"]
+transform = Transform3D(-1, -7.62898e-10, -8.74195e-08, 0, 0.999962, -0.00872654, 8.74228e-08, -0.00872654, -0.999962, 0, 3, 0)
+fov = 65.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="GUI&CameraParent"]
+
+[node name="ScreenEffects" type="AnimatedSprite2D" parent="GUI&CameraParent/CanvasLayer"]
+position = Vector2(960, 540)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_xi1nc")
+animation = &"StartTransitionBasic"
+
+[node name="LockHUD" type="Node2D" parent="GUI&CameraParent/CanvasLayer"]
+
+[node name="RhythmBar" type="Node2D" parent="GUI&CameraParent/CanvasLayer/LockHUD"]
+position = Vector2(960, 958)
+
+[node name="BarPathL" type="Path2D" parent="GUI&CameraParent/CanvasLayer/LockHUD/RhythmBar"]
+curve = SubResource("Curve2D_3erfb")
+
+[node name="BarPathR" type="Path2D" parent="GUI&CameraParent/CanvasLayer/LockHUD/RhythmBar"]
+curve = SubResource("Curve2D_n46vc")
+
+[node name="RhythmLock" type="AnimatedSprite2D" parent="GUI&CameraParent/CanvasLayer/LockHUD"]
+position = Vector2(960, 922)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_mksvl")
+animation = &"LockThinking"
+
+[node name="DevpanelMenuBG" type="Sprite2D" parent="GUI&CameraParent/CanvasLayer"]
+visible = false
+position = Vector2(1615, 765)
+scale = Vector2(0.684068, 0.728357)
+texture = ExtResource("1_s3x03")
+script = ExtResource("2_yufo8")
+
+[node name="SceneSwitchButTEMP" type="Button" parent="GUI&CameraParent/CanvasLayer/DevpanelMenuBG"]
+offset_left = -182.731
+offset_top = -356.968
+offset_right = -1.73051
+offset_bottom = -306.968
+scale = Vector2(2.04166, 1.82758)
+text = "change scene"
+script = ExtResource("3_e4uk6")
+metadata/_edit_use_anchors_ = true
+
+[node name="ToggleConsoleTEMP" type="Button" parent="GUI&CameraParent/CanvasLayer/DevpanelMenuBG"]
+offset_left = -181.269
+offset_top = -214.181
+offset_right = -0.268127
+offset_bottom = -164.181
+scale = Vector2(2.04166, 1.82758)
+text = "toggle console WIP"
+metadata/_edit_use_anchors_ = true
+
+[node name="ForegroundParent" type="Node3D" parent="."]
+
+[node name="GroundModel" type="StaticBody3D" parent="ForegroundParent"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 8)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ForegroundParent/GroundModel"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 0, 0, 0)
+shape = SubResource("BoxShape3D_hldwg")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ForegroundParent/GroundModel"]
+transform = Transform3D(-20, 0, -1.74846e-06, 0, 1, 0, 1.74846e-06, 0, -20, 0, 0, 0)
+mesh = SubResource("BoxMesh_vikb1")
+skeleton = NodePath("../CollisionShape3D")
+
+[node name="Path3D" type="Path3D" parent="ForegroundParent"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+curve = SubResource("Curve3D_bwfw5")
+
+[node name="GridParent" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 8)
+
+[node name="GridL" type="Node3D" parent="GridParent"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+
+[node name="Grid" type="Node3D" parent="GridParent/GridL"]
+
+[node name="LNotch (3, 3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (3, 3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (3, 3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (2, 3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (2, 3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (2, 3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (1, 3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (1, 3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (1, 3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (0, 3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (0, 3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (0, 3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-1, 3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-1, 3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-1, 3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-2, 3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-2, 3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-2, 3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-3, 3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-3, 3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-3, 3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (3, 2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (3, 2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (3, 2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (2, 2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (2, 2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (2, 2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (1, 2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (1, 2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (1, 2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (0, 2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (0, 2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (0, 2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-1, 2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-1, 2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-1, 2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-2, 2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-2, 2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-2, 2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-3, 2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-3, 2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-3, 2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (3, 1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (3, 1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (3, 1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (2, 1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (2, 1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (2, 1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (1, 1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (1, 1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (1, 1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (0, 1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (0, 1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (0, 1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-1, 1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-1, 1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-1, 1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-2, 1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-2, 1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-2, 1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-3, 1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-3, 1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-3, 1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (3, 0)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (3, 0)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (3, 0)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (2, 0)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (2, 0)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (2, 0)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (1, 0)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (1, 0)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (1, 0)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (0, 0)" type="Node3D" parent="GridParent/GridL/Grid"]
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (0, 0)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (0, 0)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-1, 0)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-1, 0)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-1, 0)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-2, 0)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-2, 0)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-2, 0)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-3, 0)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-3, 0)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-3, 0)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (3, -1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (3, -1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (3, -1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (2, -1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (2, -1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (2, -1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (1, -1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (1, -1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (1, -1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (0, -1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (0, -1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (0, -1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-1, -1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-1, -1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-1, -1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-2, -1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-2, -1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-2, -1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-3, -1)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -1)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-3, -1)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-3, -1)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (3, -2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (3, -2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (3, -2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (2, -2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (2, -2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (2, -2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (1, -2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (1, -2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (1, -2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (0, -2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (0, -2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (0, -2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-1, -2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-1, -2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-1, -2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-2, -2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-2, -2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-2, -2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-3, -2)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -2)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-3, -2)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-3, -2)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (3, -3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (3, -3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (3, -3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (2, -3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (2, -3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (2, -3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (1, -3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (1, -3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (1, -3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (0, -3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (0, -3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (0, -3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-1, -3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-1, -3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-1, -3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-2, -3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -3)
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-2, -3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-2, -3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="LNotch (-3, -3)" type="Node3D" parent="GridParent/GridL/Grid"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -3)
+script = ExtResource("6_autyt")
+
+[node name="AnchorDetector" type="Area3D" parent="GridParent/GridL/Grid/LNotch (-3, -3)"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridParent/GridL/Grid/LNotch (-3, -3)/AnchorDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="RotateAxle" type="Node3D" parent="GridParent/GridL"]
+
+[node name="AxleSnap1" type="Node3D" parent="GridParent/GridL/RotateAxle"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="AxleSnap2" type="Node3D" parent="GridParent/GridL/RotateAxle"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+
+[node name="AxleSnap3" type="Node3D" parent="GridParent/GridL/RotateAxle"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="AxleSnap4" type="Node3D" parent="GridParent/GridL/RotateAxle"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="GridR" type="Node3D" parent="GridParent"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0)
+
+[node name="Grid" type="Node3D" parent="GridParent/GridR"]
+
+[node name="UnitContainerParent" type="Node" parent="."]
+
+[node name="PlayerUnitContainer" type="Node" parent="UnitContainerParent"]
+
+[node name="P1 Anchor" type="Node3D" parent="UnitContainerParent/PlayerUnitContainer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.59542, 1.61986, 4.90325)
+
+[node name="NotchDetector" type="Area3D" parent="UnitContainerParent/PlayerUnitContainer/P1 Anchor"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="UnitContainerParent/PlayerUnitContainer/P1 Anchor/NotchDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="UnitContainerParent/PlayerUnitContainer/P1 Anchor"]
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0, 0)
+offset = Vector2(0, 500)
+billboard = 2
+sprite_frames = SubResource("SpriteFrames_61tnm")
+animation = &"PLChfkjhksejf"
+
+[node name="P1 MainSpriteAnim" type="AnimationPlayer" parent="UnitContainerParent/PlayerUnitContainer/P1 Anchor/AnimatedSprite3D"]
+
+[node name="Values" type="Node" parent="UnitContainerParent/PlayerUnitContainer/P1 Anchor"]
+script = ExtResource("10_yyspo")
+
+[node name="P2 Anchor" type="Node3D" parent="UnitContainerParent/PlayerUnitContainer"]
+
+[node name="NotchDetector" type="Area3D" parent="UnitContainerParent/PlayerUnitContainer/P2 Anchor"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="UnitContainerParent/PlayerUnitContainer/P2 Anchor/NotchDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="Values" type="Node" parent="UnitContainerParent/PlayerUnitContainer/P2 Anchor"]
+script = ExtResource("11_vrjp7")
+
+[node name="P3 Anchor" type="Node3D" parent="UnitContainerParent/PlayerUnitContainer"]
+
+[node name="NotchDetector" type="Area3D" parent="UnitContainerParent/PlayerUnitContainer/P3 Anchor"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="UnitContainerParent/PlayerUnitContainer/P3 Anchor/NotchDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="Values" type="Node" parent="UnitContainerParent/PlayerUnitContainer/P3 Anchor"]
+script = ExtResource("12_nx7j4")
+
+[node name="P4 Anchor" type="Node3D" parent="UnitContainerParent/PlayerUnitContainer"]
+
+[node name="NotchDetector" type="Area3D" parent="UnitContainerParent/PlayerUnitContainer/P4 Anchor"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="UnitContainerParent/PlayerUnitContainer/P4 Anchor/NotchDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="Values" type="Node" parent="UnitContainerParent/PlayerUnitContainer/P4 Anchor"]
+script = ExtResource("13_pep6b")
+
+[node name="EnemyUnitContainer" type="Node" parent="UnitContainerParent"]
+
+[node name="BackgroundParent" type="Node3D" parent="."]
+
+[node name="CloseBGElements" type="Node3D" parent="BackgroundParent"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 14)
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="BackgroundParent/CloseBGElements"]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 2.18004, 0, -1.75866)
+offset = Vector2(0, 400)
+flip_h = true
+sprite_frames = SubResource("SpriteFrames_61tnm")
+animation = &"BGObjPunch!TEMP"
+
+[node name="AnimatedSprite3D2" type="AnimatedSprite3D" parent="BackgroundParent/CloseBGElements"]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 5.68344, 0, 1.14136)
+offset = Vector2(0, 400)
+flip_h = true
+sprite_frames = SubResource("SpriteFrames_61tnm")
+animation = &"BGObjTVSpikesTEMP"
+
+[node name="AnimatedSprite3D3" type="AnimatedSprite3D" parent="BackgroundParent/CloseBGElements"]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, -3.9555, 0, -1.20999)
+offset = Vector2(0, 300)
+flip_h = true
+sprite_frames = SubResource("SpriteFrames_61tnm")
+animation = &"BGObjThinkerTEMP"
+
+[node name="AnimatedSprite3D4" type="AnimatedSprite3D" parent="BackgroundParent/CloseBGElements"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -2.29473, 0, 1.91213)
+offset = Vector2(0, 450)
+flip_h = true
+sprite_frames = SubResource("SpriteFrames_61tnm")
+animation = &"BGObjFantasyRockTEMP"
+
+[node name="LightingParent" type="Node" parent="."]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="LightingParent"]
+transform = Transform3D(0.78043, -0.105347, -0.616304, 0, -0.985703, 0.168489, -0.625243, -0.131494, -0.769273, 0, 0, 0)
+light_color = Color(0.992157, 0.952941, 0.87451, 1)
+light_energy = 1.51
+
+[node name="SkyboxTEMP" type="WorldEnvironment" parent="LightingParent"]
+environment = SubResource("Environment_raqp2")
+
+[node name="AudioParent" type="Node" parent="."]
+
+[node name="MusicPlayer1" type="AudioStreamPlayer" parent="AudioParent"]
+
+[node name="GUISFX1" type="AudioStreamPlayer" parent="AudioParent"]
+volume_db = 8.096
+
+[node name="LogicParent" type="Node" parent="."]
+
+[node name="GameLogic" type="Node" parent="LogicParent"]
+
+[node name="CORE" type="Node" parent="LogicParent/GameLogic"]
+script = ExtResource("10_d7h8g")
+
+[node name="ScenarioSetup" type="Node" parent="LogicParent/GameLogic"]
+script = ExtResource("11_7gy4w")
+
+[node name="TurnHandler" type="Node" parent="LogicParent/GameLogic"]
+
+[node name="ProblemChecker" type="Node" parent="LogicParent/GameLogic"]
+script = ExtResource("11_nvdsy")
+
+[node name="DJ" type="Node" parent="LogicParent/GameLogic"]
+script = ExtResource("18_tt8ml")
+
+[node name="ScenarioConstantsHolder" type="Node" parent="LogicParent/GameLogic"]
+
+[node name="Watchers" type="Node" parent="LogicParent"]
+
+[node name="WatchingFightGamestate" type="Node" parent="LogicParent/Watchers"]
+script = ExtResource("10_6pxfr")
+
+[node name="WatchingForGlobalInputs" type="Node" parent="LogicParent/Watchers"]
+script = ExtResource("4_w6hsg")
+
+[node name="WatchingForInputs" type="Node" parent="LogicParent/Watchers"]
+
+[connection signal="pressed" from="GUI&CameraParent/CanvasLayer/DevpanelMenuBG/SceneSwitchButTEMP" to="GUI&CameraParent/CanvasLayer/DevpanelMenuBG/SceneSwitchButTEMP" method="onRotateSceneButtonPressed"]

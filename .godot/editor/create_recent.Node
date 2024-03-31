@@ -1,0 +1,14 @@
+Path2D
+Node2D
+AnimatedSprite2D
+AnimationTree
+Sprite2D
+AnimationPlayer
+Path3D
+Node
+AudioStreamPlayer
+RichTextLabel
+CollisionShape2D
+Area2D
+PathFollow2D
+VBoxContainer

@@ -1,0 +1,657 @@
+[gd_scene load_steps=104 format=3 uid="uid://tvvfahnmr3xa"]
+
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/management/rootreadySM.cs" id="1_7ej4l"]
+[ext_resource type="Texture2D" uid="uid://fv6ouw785jsm" path="res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png" id="2_dsk7e"]
+[ext_resource type="Script" path="res://ALLTEMP stuffstorage/scripts/functions/initialization/gui/initializesthisdevpanelonscenechange.cs" id="2_w6qud"]
+[ext_resource type="Texture2D" uid="uid://cu70eiig70enp" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0001.png" id="3_fd4ix"]
+[ext_resource type="Script" path="res://ALLTEMP stuffstorage/scripts/functions/scene management/rotatessceneonbuttonTEMP.cs" id="3_fwd18"]
+[ext_resource type="Texture2D" uid="uid://cd7gjlweyb1hr" path="res://GAMESTATES/STARTMENU/assets/icons/JIprotosplash1.png" id="4_nemv7"]
+[ext_resource type="Texture2D" uid="uid://bj8by5unrd6og" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0002.png" id="4_ty5i1"]
+[ext_resource type="Texture2D" uid="uid://crgdpinwp65i1" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0003.png" id="5_h3ed0"]
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforglobalinputsSM.cs" id="5_q86tn"]
+[ext_resource type="Texture2D" uid="uid://dksgqwplpwbxt" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0004.png" id="6_aieyp"]
+[ext_resource type="Texture2D" uid="uid://c1ughcw55x6ss" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0005.png" id="7_c614y"]
+[ext_resource type="Texture2D" uid="uid://dyy4gl0ophn0v" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0006.png" id="8_bnn63"]
+[ext_resource type="Texture2D" uid="uid://cvbc5mwv3wwte" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0007.png" id="9_bd2nk"]
+[ext_resource type="Texture2D" uid="uid://dj2awhj1b5hnt" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0008.png" id="10_qq6fv"]
+[ext_resource type="Texture2D" uid="uid://bmufs0g41q5bq" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0009.png" id="11_yxio0"]
+[ext_resource type="Texture2D" uid="uid://cks73oj13ep62" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0010.png" id="12_f1sy7"]
+[ext_resource type="Texture2D" uid="uid://c850hy1fnhnn5" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0011.png" id="13_x5alr"]
+[ext_resource type="Texture2D" uid="uid://twbaayunitow" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0012.png" id="14_jhgrb"]
+[ext_resource type="Texture2D" uid="uid://m8u61covbv4m" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0013.png" id="15_hf4fd"]
+[ext_resource type="Texture2D" uid="uid://cvq6m6rlv5x2l" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0014.png" id="16_fraeb"]
+[ext_resource type="Texture2D" uid="uid://bnfw0x7nkn5jf" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0015.png" id="17_gntkm"]
+[ext_resource type="Texture2D" uid="uid://b64o5s0a7f8l6" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0016.png" id="18_74wwm"]
+[ext_resource type="Texture2D" uid="uid://du153dyiwt0op" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0017.png" id="19_kxwdf"]
+[ext_resource type="Texture2D" uid="uid://bwcs43xbrwgta" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0018.png" id="20_j2g4m"]
+[ext_resource type="Texture2D" uid="uid://uurtdlosqi35" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0019.png" id="21_ijtda"]
+[ext_resource type="Texture2D" uid="uid://rm7vvdauw65e" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0020.png" id="22_kx5ai"]
+[ext_resource type="Texture2D" uid="uid://g0f0f3bsxp24" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0021.png" id="23_wv2n7"]
+[ext_resource type="Texture2D" uid="uid://berxy5l5b11hy" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0022.png" id="24_0u2pr"]
+[ext_resource type="Texture2D" uid="uid://b2g5vgr3x5vt5" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0023.png" id="25_epelr"]
+[ext_resource type="Texture2D" uid="uid://b2hpscsc8t7tt" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0024.png" id="26_82b4u"]
+[ext_resource type="Texture2D" uid="uid://ba3uxflg3jma1" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0025.png" id="27_bbpmb"]
+[ext_resource type="Texture2D" uid="uid://d3ptjuij8smyy" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0026.png" id="28_n8ct7"]
+[ext_resource type="Texture2D" uid="uid://bxpbxd3gbsas8" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0027.png" id="29_8v41r"]
+[ext_resource type="Texture2D" uid="uid://bf3j3r22kvvmc" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0028.png" id="30_v0imf"]
+[ext_resource type="Texture2D" uid="uid://bryfll4pyeie6" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0029.png" id="31_jxohx"]
+[ext_resource type="Texture2D" uid="uid://5i4e4vqdqber" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0030.png" id="32_eoxki"]
+[ext_resource type="Texture2D" uid="uid://dss1wsfklo2bt" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0031.png" id="33_v1343"]
+[ext_resource type="Texture2D" uid="uid://5gnmvx5yg8ny" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0032.png" id="34_ttyr3"]
+[ext_resource type="Texture2D" uid="uid://ctef2ibcyywxs" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0033.png" id="35_ldugx"]
+[ext_resource type="Texture2D" uid="uid://0olrqqwm0ibb" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0034.png" id="36_y4bcs"]
+[ext_resource type="Texture2D" uid="uid://c7jdrlqb4foae" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0035.png" id="37_667nn"]
+[ext_resource type="Texture2D" uid="uid://bxx7gudivy4bs" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0036.png" id="38_ynsci"]
+[ext_resource type="Texture2D" uid="uid://cqrdgnehpihf" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0037.png" id="39_6ruld"]
+[ext_resource type="Texture2D" uid="uid://cwm6ygk8oieur" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0038.png" id="40_2ts5c"]
+[ext_resource type="Texture2D" uid="uid://bfxltsgu62bgv" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0039.png" id="41_rtj8x"]
+[ext_resource type="Texture2D" uid="uid://b3yyjkj7p1nrb" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0040.png" id="42_k87ri"]
+[ext_resource type="Texture2D" uid="uid://cqnrjggp8xjdu" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0041.png" id="43_blfdg"]
+[ext_resource type="Texture2D" uid="uid://cxhacn2cnmeli" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0042.png" id="44_7p5dh"]
+[ext_resource type="Texture2D" uid="uid://dhd7kms6tpwy1" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0043.png" id="45_is13o"]
+[ext_resource type="Texture2D" uid="uid://dgwp40optuxlw" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0044.png" id="46_hhkeu"]
+[ext_resource type="Texture2D" uid="uid://c2bjw62ysqv23" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0045.png" id="47_kpe26"]
+[ext_resource type="Texture2D" uid="uid://dbcbj10wiyyot" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0046.png" id="48_pmw0e"]
+[ext_resource type="Texture2D" uid="uid://bcv25pe2737t8" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0047.png" id="49_ya61t"]
+[ext_resource type="Texture2D" uid="uid://duaylchtrbt6y" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0048.png" id="50_n6jhc"]
+[ext_resource type="Texture2D" uid="uid://cokv4t1y5eefb" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0049.png" id="51_45lem"]
+[ext_resource type="Texture2D" uid="uid://biayjk1t7oq46" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0050.png" id="52_v2re1"]
+[ext_resource type="Texture2D" uid="uid://cfifp8wbi4d1t" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0051.png" id="53_epy2s"]
+[ext_resource type="Texture2D" uid="uid://b7er6vjllewoe" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0052.png" id="54_ipc7s"]
+[ext_resource type="Texture2D" uid="uid://c70xar04t5aff" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0053.png" id="55_dwm6w"]
+[ext_resource type="Texture2D" uid="uid://dfjql5xph6une" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0054.png" id="56_xgdwe"]
+[ext_resource type="Texture2D" uid="uid://cecj8qkvu4jmi" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0055.png" id="57_j0n07"]
+[ext_resource type="Texture2D" uid="uid://eivavn5vclu2" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0056.png" id="58_uv5lx"]
+[ext_resource type="Texture2D" uid="uid://d5x3wcrs18fs" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0057.png" id="59_5ypsu"]
+[ext_resource type="Texture2D" uid="uid://217ojlwqovd8" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0058.png" id="60_m0bvp"]
+[ext_resource type="Texture2D" uid="uid://ds66dh6chde8n" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0059.png" id="61_vk571"]
+[ext_resource type="Texture2D" uid="uid://dl10dpuxj813e" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0060.png" id="62_8d5nn"]
+[ext_resource type="Texture2D" uid="uid://wjy5ipb00oi4" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0061.png" id="63_c48kl"]
+[ext_resource type="Texture2D" uid="uid://b0b6080ykfgwe" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0062.png" id="64_vedrd"]
+[ext_resource type="Texture2D" uid="uid://bl07nsp244oj6" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0063.png" id="65_2vhcb"]
+[ext_resource type="Texture2D" uid="uid://cv30k3ybs3myk" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0064.png" id="66_pcjpw"]
+[ext_resource type="Texture2D" uid="uid://1lgt7e3lmabb" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0065.png" id="67_m4gmj"]
+[ext_resource type="Texture2D" uid="uid://blosdny8npv8r" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0066.png" id="68_b6fe2"]
+[ext_resource type="Texture2D" uid="uid://qam00x82i2xq" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0067.png" id="69_fsp4n"]
+[ext_resource type="Texture2D" uid="uid://duhwmjl6dm25o" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0068.png" id="70_vd1jj"]
+[ext_resource type="Texture2D" uid="uid://dicdxch00mb5h" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0069.png" id="71_ywpep"]
+[ext_resource type="Texture2D" uid="uid://b72flfa8pdplr" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0070.png" id="72_usk3g"]
+[ext_resource type="Texture2D" uid="uid://6vw2146n7ybo" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0071.png" id="73_vgcqx"]
+[ext_resource type="Texture2D" uid="uid://dpp32p6fvxsfp" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0072.png" id="74_5t7cp"]
+[ext_resource type="Texture2D" uid="uid://dx14r7fw1i606" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0073.png" id="75_nigbo"]
+[ext_resource type="Texture2D" uid="uid://dc1ts5chkuqxs" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0074.png" id="76_vyf7h"]
+[ext_resource type="Texture2D" uid="uid://cfp3ajqm6850c" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0075.png" id="77_li30p"]
+[ext_resource type="FontFile" uid="uid://dga6y27hrp3hw" path="res://GAMEDATA/universal stuff/calibrib.ttf" id="78_ceh1e"]
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/independent object scripts/menuoptsizefunctionsSM.cs" id="78_i1mhd"]
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/independent object scripts/scrollmenufollowfunctionsSM.cs" id="78_plt6p"]
+[ext_resource type="Texture2D" uid="uid://dmhedctj7jcfo" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPLoadSubmenuFrames/TempLoadMenu.png" id="81_i6atd"]
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/independent object scripts/detectsmenuoptionnodesinareaSM.cs" id="81_p7t82"]
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/management/smCORE.cs" id="82_5jn0h"]
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/independent object scripts/loadsubmenufunctionsSM.cs" id="83_nu44i"]
+[ext_resource type="Texture2D" uid="uid://dhnhmpnvuk7xm" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPLoadSubmenuFrames/TEMPLoadMenuButton.png" id="84_0qqiw"]
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforinputsSM.cs" id="84_pfe8t"]
+[ext_resource type="AudioStream" uid="uid://yejk0i1163p7" path="res://ALLTEMP stuffstorage/assets/audio/music/LonelyWindFade.wav" id="88_77qr6"]
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/independent object scripts/musicplayerfunctions.cs" id="89_b83ak"]
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/management/managesaudio.cs" id="93_c3nck"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8vvt2"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oqtk8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_8vvt2")
+}],
+"loop": true,
+"name": &"SMBGIdle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_fd4ix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ty5i1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_h3ed0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_aieyp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_c614y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_bnn63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_bd2nk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_qq6fv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_yxio0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_f1sy7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_x5alr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_jhgrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_hf4fd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_fraeb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_gntkm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_74wwm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_kxwdf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_j2g4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ijtda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_kx5ai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_wv2n7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_0u2pr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_epelr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_82b4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_bbpmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_n8ct7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_8v41r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_v0imf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_jxohx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_eoxki")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_v1343")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_ttyr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ldugx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_y4bcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_667nn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ynsci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_6ruld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_2ts5c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_rtj8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_k87ri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_blfdg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_7p5dh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_is13o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_hhkeu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_kpe26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_pmw0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_ya61t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_n6jhc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_45lem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_v2re1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_epy2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_ipc7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_dwm6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_xgdwe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_j0n07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_uv5lx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_5ypsu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_m0bvp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_vk571")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_8d5nn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_c48kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_vedrd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_2vhcb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_pcjpw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_m4gmj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_b6fe2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_fsp4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_vd1jj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_ywpep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_usk3g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_vgcqx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_5t7cp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_nigbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_vyf7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_li30p")
+}],
+"loop": false,
+"name": &"SMBGStartSwipe",
+"speed": 30.0
+}]
+
+[sub_resource type="Curve2D" id="Curve2D_2x50y"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 1572.75, 111.335, 0, -279.01, 0, 279.01, 1460.95, 577.305, 0, 0, 0, 0, 1572.75, 1044.33)
+}
+point_count = 3
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_q2e30"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7b4hv"]
+size = Vector2(96.92, 83.8875)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ak3oc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("81_i6atd")
+}],
+"loop": false,
+"name": &"staticTEMP",
+"speed": 1.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_50nx4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("84_0qqiw")
+}],
+"loop": false,
+"name": &"static",
+"speed": 1.0
+}]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_13bep"]
+sky_top_color = Color(0.0156863, 0.027451, 0.0235294, 1)
+sky_horizon_color = Color(0.337255, 0.345098, 0.380392, 1)
+ground_bottom_color = Color(0.215686, 0.219608, 0.223529, 1)
+ground_horizon_color = Color(0.25098, 0.235294, 0.231373, 1)
+ground_curve = 0.211122
+
+[sub_resource type="Sky" id="Sky_7dyk1"]
+sky_material = SubResource("ProceduralSkyMaterial_13bep")
+
+[sub_resource type="Environment" id="Environment_rxsxi"]
+background_mode = 2
+sky = SubResource("Sky_7dyk1")
+
+[node name="Root3D" type="Node3D"]
+script = ExtResource("1_7ej4l")
+
+[node name="GUI&CameraParent" type="SubViewportContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SubViewport" type="SubViewport" parent="GUI&CameraParent"]
+handle_input_locally = false
+size = Vector2i(1920, 1080)
+render_target_update_mode = 4
+
+[node name="MainCam" type="Camera3D" parent="GUI&CameraParent/SubViewport"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 2.5, 0)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="GUI&CameraParent"]
+
+[node name="2DElements" type="Node" parent="GUI&CameraParent/CanvasLayer"]
+
+[node name="ProceedTipTEMP" type="LineEdit" parent="GUI&CameraParent/CanvasLayer/2DElements"]
+offset_left = 268.0
+offset_top = 845.0
+offset_right = 810.0
+offset_bottom = 876.0
+text = "Main menu is unfinished! Use ~ to open the Dev Panel for navigation."
+editable = false
+
+[node name="Sprite2D" type="Sprite2D" parent="GUI&CameraParent/CanvasLayer/2DElements"]
+position = Vector2(550, 500)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_nemv7")
+
+[node name="StartMenuBGAnim" type="AnimatedSprite2D" parent="GUI&CameraParent/CanvasLayer/2DElements"]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_oqtk8")
+animation = &"SMBGStartSwipe"
+centered = false
+
+[node name="StartMenuOptions" type="Node2D" parent="GUI&CameraParent/CanvasLayer/2DElements"]
+position = Vector2(1501.92, 532.225)
+
+[node name="MenuOptionsPath" type="Path2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions"]
+position = Vector2(-1460.82, -577.815)
+curve = SubResource("Curve2D_2x50y")
+
+[node name="PathFollowLoad" type="PathFollow2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath"]
+position = Vector2(1470.95, 432.932)
+rotation = 1.72199
+progress = 339.11
+rotates = false
+script = ExtResource("78_plt6p")
+thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad"
+
+[node name="TextAnchorLoadSave" type="Node2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad"]
+position = Vector2(0.470927, 0.302546)
+rotation = -1.72199
+script = ExtResource("78_i1mhd")
+thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/TextAnchorLoadSave"
+
+[node name="LoadSaveText" type="RichTextLabel" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/TextAnchorLoadSave"]
+layout_direction = 2
+offset_left = 1.0
+offset_top = -21.0
+offset_right = 273.0
+offset_bottom = 21.0
+theme_override_fonts/normal_font = ExtResource("78_ceh1e")
+theme_override_font_sizes/normal_font_size = 45
+text = "Load Save"
+scroll_active = false
+metadata/_edit_use_anchors_ = true
+
+[node name="SelectDetectorLoad" type="Area2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/SelectDetectorLoad"]
+scale = Vector2(0.5, 0.5)
+shape = SubResource("CircleShape2D_q2e30")
+
+[node name="PathFollowResume" type="PathFollow2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath"]
+position = Vector2(1460.95, 577.805)
+progress = 484.443
+rotates = false
+script = ExtResource("78_plt6p")
+thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume"
+
+[node name="TextAnchorResume" type="Node2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume"]
+script = ExtResource("78_i1mhd")
+thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/TextAnchorResume"
+
+[node name="ResumeGameText" type="RichTextLabel" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/TextAnchorResume"]
+layout_direction = 2
+offset_left = 1.0
+offset_top = -21.0
+offset_right = 273.0
+offset_bottom = 21.0
+theme_override_fonts/normal_font = ExtResource("78_ceh1e")
+theme_override_font_sizes/normal_font_size = 45
+text = "Resume Game"
+scroll_active = false
+metadata/_edit_use_anchors_ = true
+
+[node name="SelectDetectorResume" type="Area2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/SelectDetectorResume"]
+scale = Vector2(0.5, 0.5)
+shape = SubResource("CircleShape2D_q2e30")
+
+[node name="PathFollowSettings" type="PathFollow2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath"]
+position = Vector2(1471.08, 722.667)
+progress = 629.773
+rotates = false
+script = ExtResource("78_plt6p")
+thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings"
+
+[node name="TextAnchorSettings" type="Node2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings"]
+script = ExtResource("78_i1mhd")
+thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings//TextAnchorSettings"
+
+[node name="SettingsText" type="RichTextLabel" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/TextAnchorSettings"]
+layout_direction = 2
+offset_left = 0.149536
+offset_top = -21.0366
+offset_right = 272.15
+offset_bottom = 20.9634
+theme_override_fonts/normal_font = ExtResource("78_ceh1e")
+theme_override_font_sizes/normal_font_size = 45
+text = "Settings"
+scroll_active = false
+metadata/_edit_use_anchors_ = true
+
+[node name="SelectDetectorSettings" type="Area2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/SelectDetectorSettings"]
+scale = Vector2(0.5, 0.5)
+shape = SubResource("CircleShape2D_q2e30")
+
+[node name="PathFollowQuit" type="PathFollow2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath"]
+position = Vector2(1501.02, 864.77)
+progress = 775.109
+rotates = false
+script = ExtResource("78_plt6p")
+thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit"
+
+[node name="TextAnchorQuit" type="Node2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit"]
+script = ExtResource("78_i1mhd")
+thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/TextAnchorQuit"
+
+[node name="QuitText" type="RichTextLabel" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/TextAnchorQuit"]
+layout_direction = 2
+offset_left = 1.0
+offset_top = -21.0
+offset_right = 273.0
+offset_bottom = 21.0
+theme_override_fonts/normal_font = ExtResource("78_ceh1e")
+theme_override_font_sizes/normal_font_size = 45
+text = "Quit Game"
+scroll_active = false
+metadata/_edit_use_anchors_ = true
+
+[node name="SelectDetectorQuit" type="Area2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/SelectDetectorQuit"]
+scale = Vector2(0.5, 0.5)
+shape = SubResource("CircleShape2D_q2e30")
+
+[node name="MenuOptionSelectDetector" type="Area2D" parent="GUI&CameraParent/CanvasLayer/2DElements"]
+position = Vector2(1501.92, 532.225)
+script = ExtResource("81_p7t82")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GUI&CameraParent/CanvasLayer/2DElements/MenuOptionSelectDetector"]
+position = Vector2(-20.4601, 0)
+shape = SubResource("RectangleShape2D_7b4hv")
+
+[node name="SubmenuLoadBG" type="AnimatedSprite2D" parent="GUI&CameraParent/CanvasLayer/2DElements"]
+visible = false
+position = Vector2(1097, 540)
+scale = Vector2(0.459, 0.489)
+sprite_frames = SubResource("SpriteFrames_ak3oc")
+animation = &"staticTEMP"
+script = ExtResource("83_nu44i")
+
+[node name="TestSaveButton" type="AnimatedSprite2D" parent="GUI&CameraParent/CanvasLayer/2DElements/SubmenuLoadBG"]
+position = Vector2(-313.726, -353.783)
+sprite_frames = SubResource("SpriteFrames_50nx4")
+animation = &"static"
+
+[node name="LoadSaveText" type="RichTextLabel" parent="GUI&CameraParent/CanvasLayer/2DElements/SubmenuLoadBG/TestSaveButton"]
+layout_direction = 2
+anchors_preset = -1
+anchor_left = 0.166
+anchor_top = 0.269
+anchor_right = 0.849
+anchor_bottom = 0.622
+offset_left = -348.984
+offset_top = -110.574
+offset_right = -348.718
+offset_bottom = -110.587
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/normal_font = ExtResource("78_ceh1e")
+theme_override_font_sizes/normal_font_size = 95
+text = "TEST SAVE 1"
+scroll_active = false
+metadata/_edit_use_anchors_ = true
+
+[node name="DevpanelMenuBG" type="Sprite2D" parent="GUI&CameraParent/CanvasLayer"]
+visible = false
+position = Vector2(1615, 765)
+scale = Vector2(0.684068, 0.728357)
+texture = ExtResource("2_dsk7e")
+script = ExtResource("2_w6qud")
+
+[node name="SceneSwitchButTEMP" type="Button" parent="GUI&CameraParent/CanvasLayer/DevpanelMenuBG"]
+offset_left = -182.731
+offset_top = -356.968
+offset_right = -1.73051
+offset_bottom = -306.968
+scale = Vector2(2.04166, 1.82758)
+text = "change scene"
+script = ExtResource("3_fwd18")
+metadata/_edit_use_anchors_ = true
+
+[node name="ToggleConsoleTEMP" type="Button" parent="GUI&CameraParent/CanvasLayer/DevpanelMenuBG"]
+offset_left = -181.269
+offset_top = -214.181
+offset_right = -0.268127
+offset_bottom = -164.181
+scale = Vector2(2.04166, 1.82758)
+text = "toggle console WIP"
+metadata/_edit_use_anchors_ = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_rxsxi")
+
+[node name="AudioParent" type="Node" parent="."]
+
+[node name="MusicPlayer1" type="AudioStreamPlayer" parent="AudioParent"]
+stream = ExtResource("88_77qr6")
+script = ExtResource("89_b83ak")
+
+[node name="GUISFX1" type="AudioStreamPlayer" parent="AudioParent"]
+
+[node name="LogicParent" type="Node" parent="."]
+
+[node name="Watchers" type="Node" parent="LogicParent"]
+
+[node name="WatchingForGlobalInputs" type="Node" parent="LogicParent/Watchers"]
+script = ExtResource("5_q86tn")
+
+[node name="WatchingForInputs" type="Node" parent="LogicParent/Watchers"]
+script = ExtResource("84_pfe8t")
+
+[node name="GameLogic" type="Node" parent="LogicParent"]
+
+[node name="CORE" type="Node" parent="LogicParent/GameLogic"]
+script = ExtResource("82_5jn0h")
+
+[node name="AudioManager" type="Node" parent="LogicParent/GameLogic"]
+script = ExtResource("93_c3nck")
+
+[connection signal="animation_finished" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuBGAnim" to="LogicParent/GameLogic/CORE" method="StartMenuBGAnimFinished"]
+[connection signal="area_entered" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/SelectDetectorLoad" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/TextAnchorLoadSave" method="MakeBiggerOnAreaEnter"]
+[connection signal="area_exited" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/SelectDetectorLoad" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/TextAnchorLoadSave" method="MakeSmallerOnAreaExit"]
+[connection signal="area_entered" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/SelectDetectorResume" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/TextAnchorResume" method="MakeBiggerOnAreaEnter"]
+[connection signal="area_exited" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/SelectDetectorResume" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/TextAnchorResume" method="MakeSmallerOnAreaExit"]
+[connection signal="area_entered" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/SelectDetectorSettings" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/TextAnchorSettings" method="MakeBiggerOnAreaEnter"]
+[connection signal="area_exited" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/SelectDetectorSettings" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/TextAnchorSettings" method="MakeSmallerOnAreaExit"]
+[connection signal="area_entered" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/SelectDetectorQuit" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/TextAnchorQuit" method="MakeBiggerOnAreaEnter"]
+[connection signal="area_exited" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/SelectDetectorQuit" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/TextAnchorQuit" method="MakeSmallerOnAreaExit"]
+[connection signal="area_entered" from="GUI&CameraParent/CanvasLayer/2DElements/MenuOptionSelectDetector" to="GUI&CameraParent/CanvasLayer/2DElements/MenuOptionSelectDetector" method="GetMenuOptAreaName"]
+[connection signal="pressed" from="GUI&CameraParent/CanvasLayer/DevpanelMenuBG/SceneSwitchButTEMP" to="GUI&CameraParent/CanvasLayer/DevpanelMenuBG/SceneSwitchButTEMP" method="onRotateSceneButtonPressed"]
