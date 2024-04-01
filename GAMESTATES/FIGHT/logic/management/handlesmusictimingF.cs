@@ -9,7 +9,20 @@ public partial class handlesmusictimingF : Node
 	private Godot.Timer Beattimer;
 
 	Node Guimanager;
-    public override void _Ready()
+    [Signal] public delegate void BeatEventHandler(string notetype);
+	[Signal] public delegate void StartBeatsDoneEventHandler();
+
+	AudioStreamPlayer musicplayer1; AudioStreamPlayer guisfxplayer1; 
+
+	//whole bunch variables for calculating start/stop/duration/expected point in time of the current playing track
+	public float songbpm; private float songstarttrimvalue; private float songendtrimvalue;
+	public int BEATCOUNT = 0;
+
+	private bool firstplay = true;
+	private float length; private float trimmedend; private float playbackposition; private float fulltrimmedduration;
+
+	//connect Signals from here to other nodes (mostly telling them to connect to Heartbeat cause Startbeats is done)
+	 public override void _Ready()
     {
         SetProcess(false);
 
@@ -22,20 +35,10 @@ public partial class handlesmusictimingF : Node
 		this.Connect("Beat", new Callable(this, nameof(StartBeats)));
 		//gui manager
 		Guimanager = GetNode("/root/Root3D/LogicParent/GameLogic/GUIManager");
-		Callable heartbeattoguimanager2 = new Callable(Guimanager, "onHeartbeat");
-		this.Connect("Beat", heartbeattoguimanager2);
+		Callable heartbeattoguimanager = new Callable(Guimanager, "onStartBeatsDone");
+		this.Connect("StartBeatsDone", heartbeattoguimanager);
 		
     }
-    [Signal] public delegate void BeatEventHandler();
-
-	AudioStreamPlayer musicplayer1; AudioStreamPlayer guisfxplayer1; 
-
-	//whole bunch variables for calculating start/stop/duration/expected point in time of the current playing track
-	private float songbpm; private float songstarttrimvalue; private float songendtrimvalue;
-	public int BEATCOUNT = 0;
-
-	private bool firstplay = true;
-	private float length; private float trimmedend; private float playbackposition; private float fulltrimmedduration;
 
 	//actually caluclating those values
 	public void StartMusic(float bpm, float starttrim, float endtrim)
@@ -60,15 +63,25 @@ public partial class handlesmusictimingF : Node
 	}
 	
 	//The code that runs the BPM timer that everything relies on. The beating heart if you will
+	int heartbeatswitch = 0;
 	public void Heartbeat()
 	{
-		EmitSignal(SignalName.Beat);
+		heartbeatswitch = 1 - heartbeatswitch;
+		switch (heartbeatswitch)
+		{
+			case 0 :
+			{ EmitSignal(SignalName.Beat, "greyed"); } break;
+			case 1:
+			{ EmitSignal(SignalName.Beat, "white"); } break;
+			case 2:
+			{ EmitSignal(SignalName.Beat, "black"); } break;
+		}
 		BEATCOUNT++;
 		GD.Print(BEATCOUNT);	
 	}
 
 	//Queuing stuff that happens before the player actually gets control (start animations & stuff)
-	private async void StartBeats()
+	private async void StartBeats(string notetype)
 	{
 		this.Disconnect("Beat", new Callable(this, nameof(StartBeats)));
 		int onoffnum = 0;
@@ -83,6 +96,7 @@ public partial class handlesmusictimingF : Node
 			//start the song
 			await ToSignal(Beattimer, "timeout"); //wait for next beat
 		}
+		EmitSignal(SignalName.StartBeatsDone);
 		musicplayer1.Play(0.0f);
 		Guimanager.Call("onStartBeats", "StartTransitionBasic");
 		Guimanager.Call("onStartBeats", "StartLockThink");

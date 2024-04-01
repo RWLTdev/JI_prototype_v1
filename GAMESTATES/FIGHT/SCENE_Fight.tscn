@@ -1,4 +1,4 @@
-[gd_scene load_steps=283 format=3 uid="uid://c4vcanqeed16j"]
+[gd_scene load_steps=287 format=3 uid="uid://c4vcanqeed16j"]
 
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/rootreadyF.cs" id="1_hq2st"]
 [ext_resource type="Texture2D" uid="uid://fv6ouw785jsm" path="res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png" id="1_s3x03"]
@@ -267,6 +267,10 @@
 [ext_resource type="Texture2D" uid="uid://b8tuic0o316tr" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0118.png" id="245_q612j"]
 [ext_resource type="Texture2D" uid="uid://b2g176xef3r6h" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0119.png" id="246_gxsej"]
 [ext_resource type="Texture2D" uid="uid://cqp0ojvwf88i4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0120.png" id="247_67fcc"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/turnhandlerF.cs" id="264_ssxpa"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/PackedSceneTemplates/rhythmbarfunctions.cs" id="271_miv6h"]
+[ext_resource type="Texture2D" uid="uid://crdl7byh1r35n" path="res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarWhite.png" id="272_amlcx"]
+[ext_resource type="Texture2D" uid="uid://bldxxtqtd45rb" path="res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarGreyed.png" id="273_gu6t4"]
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/handlesmusictimingF.cs" id="326_7l32a"]
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/managesplayergui.cs" id="327_c4cg1"]
 
@@ -390,13 +394,13 @@ animations = [{
 
 [sub_resource type="Curve2D" id="Curve2D_3erfb"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, -700, 0, 0, 0, 0, 0, -40, 0)
+"points": PackedVector2Array(0, 0, 0, 0, -850, 0, 0, 0, 0, 0, -30, 0)
 }
 point_count = 2
 
 [sub_resource type="Curve2D" id="Curve2D_n46vc"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 700, 0, 0, 0, 0, 0, 40, 0)
+"points": PackedVector2Array(0, 0, 0, 0, 850, 0, 0, 0, 0, 0, 30, 0)
 }
 point_count = 2
 
@@ -1174,7 +1178,7 @@ curve = SubResource("Curve2D_n46vc")
 position = Vector2(960, 922)
 scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_mksvl")
-animation = &"StartBeats"
+animation = &"LockThinking"
 
 [node name="DevpanelMenuBG" type="Sprite2D" parent="GUI&CameraParent/CanvasLayer"]
 visible = false
@@ -1809,6 +1813,7 @@ script = ExtResource("10_d7h8g")
 script = ExtResource("11_7gy4w")
 
 [node name="TurnHandler" type="Node" parent="LogicParent/GameLogic"]
+script = ExtResource("264_ssxpa")
 
 [node name="ProblemChecker" type="Node" parent="LogicParent/GameLogic"]
 script = ExtResource("11_nvdsy")
@@ -1833,5 +1838,27 @@ script = ExtResource("10_6pxfr")
 script = ExtResource("4_w6hsg")
 
 [node name="WatchingForInputs" type="Node" parent="LogicParent/Watchers"]
+
+[node name="TEMP PackedSceneTemplates" type="Node" parent="."]
+
+[node name="2D Stuff" type="Node2D" parent="TEMP PackedSceneTemplates"]
+
+[node name="RhythmBars" type="Node2D" parent="TEMP PackedSceneTemplates/2D Stuff"]
+
+[node name="WhiteRhythmBar" type="PathFollow2D" parent="TEMP PackedSceneTemplates/2D Stuff/RhythmBars"]
+script = ExtResource("271_miv6h")
+
+[node name="Sprite2D" type="Sprite2D" parent="TEMP PackedSceneTemplates/2D Stuff/RhythmBars/WhiteRhythmBar"]
+modulate = Color(1, 1, 1, 0)
+scale = Vector2(0.33, 0.33)
+texture = ExtResource("272_amlcx")
+
+[node name="GreyRhythmBar" type="PathFollow2D" parent="TEMP PackedSceneTemplates/2D Stuff/RhythmBars"]
+script = ExtResource("271_miv6h")
+
+[node name="Sprite2D" type="Sprite2D" parent="TEMP PackedSceneTemplates/2D Stuff/RhythmBars/GreyRhythmBar"]
+modulate = Color(1, 1, 1, 0)
+scale = Vector2(0.33, 0.33)
+texture = ExtResource("273_gu6t4")
 
 [connection signal="pressed" from="GUI&CameraParent/CanvasLayer/DevpanelMenuBG/SceneSwitchButTEMP" to="GUI&CameraParent/CanvasLayer/DevpanelMenuBG/SceneSwitchButTEMP" method="onRotateSceneButtonPressed"]

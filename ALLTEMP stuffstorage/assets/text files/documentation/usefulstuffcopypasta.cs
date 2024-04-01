@@ -7,14 +7,14 @@ public partial class usefulstuffcopypasta : Node
 
 	#if false
 	//Connect Signal here to other node at path:
-	NodeType NodeToConnectTo = GetNode<NodeType>("/root/That/Nodes/NodePath");
-	Callable bullshitabstractionlayer = new Callable(NodeToConnectTo, "WantedMethodInThatNode");
+	ThatNodeType variablename = GetNode<ThatNodeType>("/root/Root3D/That/Nodes/NodePath");
+	Callable bullshitabstractionlayer = new Callable(variablename, "WantedMethodInThatNode");
 	this.Connect("SignalNameInThisNode", bullshitabstractionlayer);
 	EmitSignal(SignalName.SignalNameInThisNode);
 
 	//Connect Signal from other node to a method in this one:
-	NodeType nodevariablename = GetNode<NodeType>("/root/That/Nodes/NodePath");
-	nodevariablename.Connect("ThatNodesSignalName", new Callable(this, nameof(ThisScriptsMethodName)));
+	ThatNodeType variablename = GetNode<ThatNodeType>("/root/Root3D/That/Nodes/NodePath");
+	thisnodevariablename.Connect("ThatNodesSignalName", new Callable(this, nameof(ThisScriptsMethodName)));
 	await ThisScriptsMethodname(); //if you want to wait for that signal before continuing
 
 	//Storing a nodepath/filepath/any same-y value without having to type it in the code:

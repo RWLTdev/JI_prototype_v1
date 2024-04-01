@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 public partial class handlesmusicinfoF : Node
 {
 	private string currenttrackpath;
+	public float bpm;
 
 	//interface for the class types stored in the dict below, for storing playercurrentlocation values compared to constant
 	public async void MusicStart()
@@ -32,7 +33,7 @@ public partial class handlesmusicinfoF : Node
 				return;
 		}
 
-			float bpm = selectedtrack.BPM;
+			bpm = selectedtrack.BPM;
 			float starttrim = selectedtrack.StartTrimValue;
 			float endtrim = selectedtrack.EndTrimValue;
 			AudioStreamPlayer musicplayer1 = GetNode<AudioStreamPlayer>("/root/Root3D/AudioParent/MusicPlayer1");
