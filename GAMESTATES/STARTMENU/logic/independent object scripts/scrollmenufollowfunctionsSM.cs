@@ -12,7 +12,7 @@ public partial class scrollmenufollowfunctionsSM : PathFollow2D
 	//public delegate void isMovingReportEventHandler(string ControlType = "MenuMove");
 	
 	//moves this menu option up along the path2d when prompted by the input watcher
-	public async void ScrollUp()
+	public void ScrollUp()
 	{
 		//EmitSignal(SignalName.isMovingReport);
 		Tween tween = GetTree().CreateTween();
@@ -28,7 +28,7 @@ public partial class scrollmenufollowfunctionsSM : PathFollow2D
 	}
 
 	//moves this menu option down along the path2d when prompted by the input watcher
-	public async void ScrollDown()
+	public void ScrollDown()
 	{
 		//EmitSignal(SignalName.isMovingReport);
 		Tween tween = GetTree().CreateTween();

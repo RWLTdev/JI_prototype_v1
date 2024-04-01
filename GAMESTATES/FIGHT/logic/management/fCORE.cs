@@ -16,9 +16,6 @@ public partial class fCORE : Node
 	
 	private void SETUPFUNCTION()
 	{
-		AnimatedSprite2D ScreenEffects = GetNode<AnimatedSprite2D>("/root/Root3D/GUI&CameraParent/CanvasLayer/ScreenEffects");
-		ScreenEffects.Visible = true; ScreenEffects.Play("StaticBlackScreen");
-
 		//connect signal and tell auto playerdata to distribute fight data
 		Node APlayerData = GetNode("/root/Auto_PlayerData");
 		Callable callplayerdatadistribute = new Callable(APlayerData, "DistributeDataF");

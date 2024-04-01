@@ -7,7 +7,6 @@ public partial class managesaudioSM : Node
 
 	AudioStreamPlayer musicplayer1;
 	private musicplayerfunctionsSM Musicplayer1functions;
-	string musicplayer1path = "/root/Root3D/AudioParent/MusicPlayer1";
 	
 	private bool firstplay = true;
 
@@ -22,8 +21,7 @@ public partial class managesaudioSM : Node
 	
 	public async void onCOREsignal()
 	{
-		musicplayer1 = GetNode<AudioStreamPlayer>(musicplayer1path);
-		musicplayer1.Stream = GD.Load<AudioStream>("res://ALLTEMP stuffstorage/assets/audio/music/LonelyWindFade.wav");
+		musicplayer1 = GetNode<AudioStreamPlayer>("/root/Root3D/AudioParent/MusicPlayer1");
 		Musicplayer1functions = (musicplayerfunctionsSM)musicplayer1;
 
 		length = (float)musicplayer1.Stream.GetLength();

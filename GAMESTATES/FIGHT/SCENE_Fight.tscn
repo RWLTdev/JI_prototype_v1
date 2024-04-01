@@ -1,4 +1,4 @@
-[gd_scene load_steps=341 format=3 uid="uid://c4vcanqeed16j"]
+[gd_scene load_steps=283 format=3 uid="uid://c4vcanqeed16j"]
 
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/rootreadyF.cs" id="1_hq2st"]
 [ext_resource type="Texture2D" uid="uid://fv6ouw785jsm" path="res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png" id="1_s3x03"]
@@ -267,66 +267,8 @@
 [ext_resource type="Texture2D" uid="uid://b8tuic0o316tr" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0118.png" id="245_q612j"]
 [ext_resource type="Texture2D" uid="uid://b2g176xef3r6h" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0119.png" id="246_gxsej"]
 [ext_resource type="Texture2D" uid="uid://cqp0ojvwf88i4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0120.png" id="247_67fcc"]
-[ext_resource type="Texture2D" uid="uid://41u3uk40rlrn" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0121.png" id="248_cncja"]
-[ext_resource type="Texture2D" uid="uid://c2lyejka72muv" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0122.png" id="249_u6hp8"]
-[ext_resource type="Texture2D" uid="uid://b37afyb7mdiu7" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0123.png" id="250_fijoj"]
-[ext_resource type="Texture2D" uid="uid://bae3xhcm4mwmc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0124.png" id="251_icq8e"]
-[ext_resource type="Texture2D" uid="uid://vvjrtughxd6u" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0125.png" id="252_f736r"]
-[ext_resource type="Texture2D" uid="uid://drsgaucdva5io" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0126.png" id="253_m88j4"]
-[ext_resource type="Texture2D" uid="uid://1rm4841hl846" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0127.png" id="254_rmcu6"]
-[ext_resource type="Texture2D" uid="uid://dqrmmtaahkef5" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0128.png" id="255_pgk22"]
-[ext_resource type="Texture2D" uid="uid://kn4omcfkk65g" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0129.png" id="256_xa2eq"]
-[ext_resource type="Texture2D" uid="uid://d0hdrx27t3w8y" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0130.png" id="257_ie3fn"]
-[ext_resource type="Texture2D" uid="uid://mjkdfqalucfa" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0131.png" id="258_d3tnj"]
-[ext_resource type="Texture2D" uid="uid://scp1xkudsj03" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0132.png" id="259_mw75q"]
-[ext_resource type="Texture2D" uid="uid://csvaq1lst1qgk" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0133.png" id="260_xjjju"]
-[ext_resource type="Texture2D" uid="uid://vxowjgthshk0" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0134.png" id="261_odmvs"]
-[ext_resource type="Texture2D" uid="uid://bgpejmy7vxckk" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0135.png" id="262_gbddp"]
-[ext_resource type="Texture2D" uid="uid://b6idbrbgeg6pb" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0136.png" id="263_rtexy"]
-[ext_resource type="Texture2D" uid="uid://bhknu1ocdodgo" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0137.png" id="264_hrgjl"]
-[ext_resource type="Texture2D" uid="uid://b40reiwxkr1g5" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0138.png" id="265_sqy01"]
-[ext_resource type="Texture2D" uid="uid://dhw78v0haq345" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0139.png" id="266_rqt5d"]
-[ext_resource type="Texture2D" uid="uid://bkgiel5wrgna1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0140.png" id="267_swa1d"]
-[ext_resource type="Texture2D" uid="uid://cy7w1o0spjacl" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0141.png" id="268_sv5te"]
-[ext_resource type="Texture2D" uid="uid://deyuyt0nyjdk1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0142.png" id="269_bq1jh"]
-[ext_resource type="Texture2D" uid="uid://beudm0vg2ymqy" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0143.png" id="270_ohpjf"]
-[ext_resource type="Texture2D" uid="uid://4gwwc0vcg3gg" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0144.png" id="271_ec5hw"]
-[ext_resource type="Texture2D" uid="uid://o5iag05k31fa" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0145.png" id="272_ifvp8"]
-[ext_resource type="Texture2D" uid="uid://c8apblcvjejd1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0146.png" id="273_5n7dn"]
-[ext_resource type="Texture2D" uid="uid://c0dl7mdymgstg" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0147.png" id="274_v7y4k"]
-[ext_resource type="Texture2D" uid="uid://bmur7vkt3h6hi" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0148.png" id="275_b7xij"]
-[ext_resource type="Texture2D" uid="uid://v685nsu8i023" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0149.png" id="276_tdhtt"]
-[ext_resource type="Texture2D" uid="uid://gmhhj1wh0te5" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0150.png" id="277_gpqnc"]
-[ext_resource type="Texture2D" uid="uid://dpa35fbecgxvg" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0151.png" id="278_ty8fr"]
-[ext_resource type="Texture2D" uid="uid://dhmple5dm75ng" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0152.png" id="279_netqk"]
-[ext_resource type="Texture2D" uid="uid://f2ao5pc3woiy" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0153.png" id="280_fu2l8"]
-[ext_resource type="Texture2D" uid="uid://b7duk8ot4wtfb" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0154.png" id="281_dx88s"]
-[ext_resource type="Texture2D" uid="uid://cghdlkp2y6eq1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0155.png" id="282_xihld"]
-[ext_resource type="Texture2D" uid="uid://bht6lmfqk3e5v" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0156.png" id="283_oruqp"]
-[ext_resource type="Texture2D" uid="uid://dhem0wvreblih" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0157.png" id="284_io3q8"]
-[ext_resource type="Texture2D" uid="uid://eas57t1gokok" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0158.png" id="285_f6ypj"]
-[ext_resource type="Texture2D" uid="uid://c6gqed0wmqh6x" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0159.png" id="286_x3asp"]
-[ext_resource type="Texture2D" uid="uid://650vqnjxkwdt" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0160.png" id="287_m1qji"]
-[ext_resource type="Texture2D" uid="uid://3njjobvmu03" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0161.png" id="288_75005"]
-[ext_resource type="Texture2D" uid="uid://ck03heehf0bie" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0162.png" id="289_6v1mk"]
-[ext_resource type="Texture2D" uid="uid://csg051yn50vl1" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0163.png" id="290_rlmed"]
-[ext_resource type="Texture2D" uid="uid://wyd8ibyks7wo" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0164.png" id="291_r5h21"]
-[ext_resource type="Texture2D" uid="uid://qhm5esp82xua" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0165.png" id="292_vn7k2"]
-[ext_resource type="Texture2D" uid="uid://nt72be6xehpw" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0166.png" id="293_118tr"]
-[ext_resource type="Texture2D" uid="uid://ds44xk26t7be3" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0167.png" id="294_55ljn"]
-[ext_resource type="Texture2D" uid="uid://dymw3kattnp0o" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0168.png" id="295_1m76d"]
-[ext_resource type="Texture2D" uid="uid://b5y81hiafwdqi" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0169.png" id="296_25iqb"]
-[ext_resource type="Texture2D" uid="uid://b5xj32nifu1ye" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0170.png" id="297_nfcxp"]
-[ext_resource type="Texture2D" uid="uid://cbbijsh82frva" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0171.png" id="298_s4kyl"]
-[ext_resource type="Texture2D" uid="uid://c60i3u5cbngtc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0172.png" id="299_mf2n2"]
-[ext_resource type="Texture2D" uid="uid://cijq7a4do6vpv" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0173.png" id="300_ki2hk"]
-[ext_resource type="Texture2D" uid="uid://wlkfnplijsjf" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0174.png" id="301_qhyi5"]
-[ext_resource type="Texture2D" uid="uid://chff8me0mbp3c" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0175.png" id="302_mhnxr"]
-[ext_resource type="Texture2D" uid="uid://dw5lwn3uk6ofc" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0176.png" id="303_vg424"]
-[ext_resource type="Texture2D" uid="uid://dovtsklak1xul" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0177.png" id="304_1l88u"]
-[ext_resource type="Texture2D" uid="uid://c3151e2hewnea" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0178.png" id="305_rjfux"]
-[ext_resource type="Texture2D" uid="uid://b8pr2lwj0ikrw" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0179.png" id="306_avgfh"]
-[ext_resource type="Texture2D" uid="uid://bo0hqemdtm3fx" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0180.png" id="307_s6qxp"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/handlesmusictimingF.cs" id="326_7l32a"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/managesplayergui.cs" id="327_c4cg1"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xi1nc"]
 animations = [{
@@ -749,7 +691,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("95_utrwq")
 }],
-"loop": true,
+"loop": false,
 "name": &"LockThinking",
 "speed": 30.0
 }, {
@@ -1113,188 +1055,8 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("247_67fcc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("248_cncja")
-}, {
-"duration": 1.0,
-"texture": ExtResource("249_u6hp8")
-}, {
-"duration": 1.0,
-"texture": ExtResource("250_fijoj")
-}, {
-"duration": 1.0,
-"texture": ExtResource("251_icq8e")
-}, {
-"duration": 1.0,
-"texture": ExtResource("252_f736r")
-}, {
-"duration": 1.0,
-"texture": ExtResource("253_m88j4")
-}, {
-"duration": 1.0,
-"texture": ExtResource("254_rmcu6")
-}, {
-"duration": 1.0,
-"texture": ExtResource("255_pgk22")
-}, {
-"duration": 1.0,
-"texture": ExtResource("256_xa2eq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("257_ie3fn")
-}, {
-"duration": 1.0,
-"texture": ExtResource("258_d3tnj")
-}, {
-"duration": 1.0,
-"texture": ExtResource("259_mw75q")
-}, {
-"duration": 1.0,
-"texture": ExtResource("260_xjjju")
-}, {
-"duration": 1.0,
-"texture": ExtResource("261_odmvs")
-}, {
-"duration": 1.0,
-"texture": ExtResource("262_gbddp")
-}, {
-"duration": 1.0,
-"texture": ExtResource("263_rtexy")
-}, {
-"duration": 1.0,
-"texture": ExtResource("264_hrgjl")
-}, {
-"duration": 1.0,
-"texture": ExtResource("265_sqy01")
-}, {
-"duration": 1.0,
-"texture": ExtResource("266_rqt5d")
-}, {
-"duration": 1.0,
-"texture": ExtResource("267_swa1d")
-}, {
-"duration": 1.0,
-"texture": ExtResource("268_sv5te")
-}, {
-"duration": 1.0,
-"texture": ExtResource("269_bq1jh")
-}, {
-"duration": 1.0,
-"texture": ExtResource("270_ohpjf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("271_ec5hw")
-}, {
-"duration": 1.0,
-"texture": ExtResource("272_ifvp8")
-}, {
-"duration": 1.0,
-"texture": ExtResource("273_5n7dn")
-}, {
-"duration": 1.0,
-"texture": ExtResource("274_v7y4k")
-}, {
-"duration": 1.0,
-"texture": ExtResource("275_b7xij")
-}, {
-"duration": 1.0,
-"texture": ExtResource("276_tdhtt")
-}, {
-"duration": 1.0,
-"texture": ExtResource("277_gpqnc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("278_ty8fr")
-}, {
-"duration": 1.0,
-"texture": ExtResource("279_netqk")
-}, {
-"duration": 1.0,
-"texture": ExtResource("280_fu2l8")
-}, {
-"duration": 1.0,
-"texture": ExtResource("281_dx88s")
-}, {
-"duration": 1.0,
-"texture": ExtResource("282_xihld")
-}, {
-"duration": 1.0,
-"texture": ExtResource("283_oruqp")
-}, {
-"duration": 1.0,
-"texture": ExtResource("284_io3q8")
-}, {
-"duration": 1.0,
-"texture": ExtResource("285_f6ypj")
-}, {
-"duration": 1.0,
-"texture": ExtResource("286_x3asp")
-}, {
-"duration": 1.0,
-"texture": ExtResource("287_m1qji")
-}, {
-"duration": 1.0,
-"texture": ExtResource("288_75005")
-}, {
-"duration": 1.0,
-"texture": ExtResource("289_6v1mk")
-}, {
-"duration": 1.0,
-"texture": ExtResource("290_rlmed")
-}, {
-"duration": 1.0,
-"texture": ExtResource("291_r5h21")
-}, {
-"duration": 1.0,
-"texture": ExtResource("292_vn7k2")
-}, {
-"duration": 1.0,
-"texture": ExtResource("293_118tr")
-}, {
-"duration": 1.0,
-"texture": ExtResource("294_55ljn")
-}, {
-"duration": 1.0,
-"texture": ExtResource("295_1m76d")
-}, {
-"duration": 1.0,
-"texture": ExtResource("296_25iqb")
-}, {
-"duration": 1.0,
-"texture": ExtResource("297_nfcxp")
-}, {
-"duration": 1.0,
-"texture": ExtResource("298_s4kyl")
-}, {
-"duration": 1.0,
-"texture": ExtResource("299_mf2n2")
-}, {
-"duration": 1.0,
-"texture": ExtResource("300_ki2hk")
-}, {
-"duration": 1.0,
-"texture": ExtResource("301_qhyi5")
-}, {
-"duration": 1.0,
-"texture": ExtResource("302_mhnxr")
-}, {
-"duration": 1.0,
-"texture": ExtResource("303_vg424")
-}, {
-"duration": 1.0,
-"texture": ExtResource("304_1l88u")
-}, {
-"duration": 1.0,
-"texture": ExtResource("305_rjfux")
-}, {
-"duration": 1.0,
-"texture": ExtResource("306_avgfh")
-}, {
-"duration": 1.0,
-"texture": ExtResource("307_s6qxp")
 }],
-"loop": true,
+"loop": false,
 "name": &"StartBeats",
 "speed": 30.0
 }]
@@ -1391,6 +1153,7 @@ fov = 65.0
 [node name="CanvasLayer" type="CanvasLayer" parent="GUI&CameraParent"]
 
 [node name="ScreenEffects" type="AnimatedSprite2D" parent="GUI&CameraParent/CanvasLayer"]
+visible = false
 position = Vector2(960, 540)
 scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_xi1nc")
@@ -1411,7 +1174,7 @@ curve = SubResource("Curve2D_n46vc")
 position = Vector2(960, 922)
 scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_mksvl")
-animation = &"LockThinking"
+animation = &"StartBeats"
 
 [node name="DevpanelMenuBG" type="Sprite2D" parent="GUI&CameraParent/CanvasLayer"]
 visible = false
@@ -2053,9 +1816,13 @@ script = ExtResource("11_nvdsy")
 [node name="DJ" type="Node" parent="LogicParent/GameLogic"]
 script = ExtResource("18_tt8ml")
 
-[node name="Turntable" type="Node" parent="LogicParent/GameLogic/DJ"]
+[node name="Heart" type="Node" parent="LogicParent/GameLogic/DJ"]
+script = ExtResource("326_7l32a")
 
 [node name="ScenarioConstantsHolder" type="Node" parent="LogicParent/GameLogic"]
+
+[node name="GUIManager" type="Node" parent="LogicParent/GameLogic"]
+script = ExtResource("327_c4cg1")
 
 [node name="Watchers" type="Node" parent="LogicParent"]
 

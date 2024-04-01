@@ -13,8 +13,6 @@ public partial class handlesmusicinfoF : Node
 	public async void MusicStart()
 	{
 		GD.Print("Starting Fight Music Via <djhandlesmusicandtempo>");
-
-		
 	
 		/* uses playervals to pick a random track from the relevant struct list and grab all its relevant data
 		 and (this is literally the simplest way to do it WTF????)*/
@@ -33,92 +31,34 @@ public partial class handlesmusicinfoF : Node
 			default:
 				return;
 		}
+
+			float bpm = selectedtrack.BPM;
+			float starttrim = selectedtrack.StartTrimValue;
+			float endtrim = selectedtrack.EndTrimValue;
 			AudioStreamPlayer musicplayer1 = GetNode<AudioStreamPlayer>("/root/Root3D/AudioParent/MusicPlayer1");
 			musicplayer1.Stream = GD.Load<AudioStream>(selectedtrack.FilePath);
 			AudioStreamPlayer guisfxplayer1 = GetNode<AudioStreamPlayer>("/root/Root3D/AudioParent/GUISFX1");
 			guisfxplayer1.Stream = GD.Load<AudioStream>("res://ALLTEMP stuffstorage/assets/audio/HeartBeatEchoSFX.wav");
+			//guisfxplayer1.speedscale = ????
+
+			//Set all of the speed scale values affected by the new BPM- animations, sfx, systems
+			//rhythmlock
+			AnimatedSprite2D Rhythmlock = GetNode<AnimatedSprite2D>("/root/Root3D/GUI&CameraParent/CanvasLayer/LockHUD/RhythmLock");
+			Rhythmlock.SpeedScale = 120f / bpm;
+			GD.Print(Rhythmlock.SpeedScale);
+			AnimatedSprite2D Screeneffects = GetNode<AnimatedSprite2D>("/root/Root3D/GUI&CameraParent/CanvasLayer/ScreenEffects");
+			Screeneffects.SpeedScale = 120f / bpm;
+			Node Guimanager = GetNode("/root/Root3D/LogicParent/GameLogic/GUIManager"); Guimanager.Call("SetDupeLockSpeedScale", bpm);
 			
 			GD.Print("Music will play at " + selectedtrack.BPM + " BPM!");
 			await ToSignal(GetTree().CreateTimer(2), "timeout");
 
 			//Start with sfx and start BPM counter
-			BPMCounterCentral(selectedtrack.BPM);
+			Node Heart = GetNode("/root/Root3D/LogicParent/GameLogic/DJ/Heart");
+			Heart.Call("StartMusic", bpm, starttrim, endtrim);
 	}
 
 	/*NOTES: the duration of most things like SFX and animations should be templated on 120BPM and then sped up or 
 	down based on the current track's bpm interval using the speed scale property*/
-
-	//The code that runs the BPM timer that everything relies on.
-	public int BEATCOUNT = 0;
-	private bool startsongflag = false;
-	private ManualResetEvent beatCountIncreased = new ManualResetEvent(false);
-
-	private void BPMCounterCentral(dynamic bpm)
-	{
-		//calculate the interval, create the timer
-		double interval = 60000.0 / bpm;
-		System.Timers.Timer KickoffCounter = new System.Timers.Timer(interval);		
-		KickoffCounter.Elapsed += Heartbeat;
-
-		//kickoff counter for BPM before the song starts
-		KickoffCounter.Start();
-
-		AudioStreamPlayer guisfxplayer1 = GetNode<AudioStreamPlayer>("/root/Root3D/AudioParent/GUISFX1");
-		AnimatedSprite2D ScreenEffects = GetNode<AnimatedSprite2D>("/root/Root3D/GUI&CameraParent/CanvasLayer/ScreenEffects");
-		int onoffnum = 0;
-		while (BEATCOUNT < 9)
-		{
-			if (onoffnum == 1)
-			{
-				guisfxplayer1.Play(0.0f);
-			}
-			onoffnum = 1 - onoffnum;
-			beatCountIncreased.WaitOne();
-			beatCountIncreased.Reset();
-		}
-
-		StartSong();
-		ScreenEffects.Play("StartTransitionBasic");
-	}
-
-	/*private Task optionalTask;
-	public void SetOptionalTask(Task task)
-	{
-		this.optionalTask = task;
-	}*/
-	public void Heartbeat(Object source, ElapsedEventArgs e)
-	{
-		//NOTE: This needs to be reformatted to not use a timer and instead use the playback of the song to determine the timing
-
-		//CallDeferred(nameof(EmitSignal), SignalName.Beat);
-		EmitSignal(SignalName.Beat);
-		BEATCOUNT++;
-		beatCountIncreased.Set();
-		GD.Print("BEATCOUNT: " + BEATCOUNT);
-		/*if (this.optionalTask != null)
-		{
-			await this.optionalTask;
-			this.optionalTask = null;
-		}*/
-	}
 	
-	/*public void EmitBeatSignal()
-	{
-		CallDeferred(nameof(EmitBeatSignal), SignalName.Beat);
-	}*/
-
-
-
-	private async void StartSong()
-	{
-		AudioStreamPlayer musicplayer1 = GetNode<AudioStreamPlayer>("/root/Root3D/AudioParent/MusicPlayer1");
-		musicplayer1.Play(0.0f);
-	}
-
-	[Signal]
-	public delegate void BeatEventHandler();
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
-	{
-	}
 }

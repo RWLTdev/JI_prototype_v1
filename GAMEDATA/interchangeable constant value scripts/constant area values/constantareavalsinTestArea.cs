@@ -12,22 +12,27 @@ public partial class constantvalsinTestArea : Node
     {
         public string Name;
         public string FilePath;
-        public double BPM;
+        public float BPM;
+
+        public float StartTrimValue;
+        public float EndTrimValue;
 
         //constructorsss babyyyyyy
-        public cvMusicTrack(string name, string filepath, double bpm)
+        public cvMusicTrack(string name, string filepath, float bpm, float starttrimvalue, float endtrimvalue)
         {
             Name = name;
             FilePath = filepath;
             BPM = bpm;
+            StartTrimValue = starttrimvalue;
+            EndTrimValue = endtrimvalue;
         }
     }       
             //randomizer list ((change to be used on zone load eventually))
             public static Dictionary<string, cvMusicTrack> MusicTrackList = new Dictionary<string, cvMusicTrack>
             {
-                { "DealEmOut", new cvMusicTrack ("Deal 'Em Out", "res://ALLTEMP stuffstorage/assets/audio/music/Deal 'Em Out.mp3", 120.0) },
-                { "GetEnuf", new cvMusicTrack ("GET ENUF", "res://ALLTEMP stuffstorage/assets/audio/music/GET ENUF.mp3", 136.0) },
-                { "Crypteque", new cvMusicTrack ("Crypteque", "res://ALLTEMP stuffstorage/assets/audio/music/Crypteque.mp3", 130.0) },
+              //  { "DealEmOut", new cvMusicTrack ("Deal 'Em Out", "res://ALLTEMP stuffstorage/assets/audio/music/Deal 'Em Out.mp3", 120.0f, 0.0f, 0.0f) },
+                { "GetEnuf", new cvMusicTrack ("GET ENUF", "res://ALLTEMP stuffstorage/assets/audio/music/GET ENUF.mp3", 135.74555f, 0.0f, 0.0f) },
+               // { "Crypteque", new cvMusicTrack ("Crypteque", "res://ALLTEMP stuffstorage/assets/audio/music/Crypteque.mp3", 130.0f, 0.0f, 0.0f) },
             };
 
      //bg element node arrangements in coords from the bgparent/ close/medium/far,
