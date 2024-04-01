@@ -1,8 +1,8 @@
-res://SCENE_Hub.tscn
+res://GAMESTATES/STARTMENU/SCENE_Start Menu.tscn
 res://GAMESTATES/FIGHT/logic/independent object scripts/Rez_Lgridnotchdata.cs
+res://SCENE_Hub.tscn
 res://SCENE_Roam.tscn
 res://GAMESTATES/FIGHT/SCENE_Fight.tscn
-res://GAMESTATES/STARTMENU/SCENE_Start Menu.tscn
 res://ALLTEMP stuffstorage/assets/text files/documentation/usefulstuffcopypasta.cs
 res://ALLTEMP stuffstorage/scripts/functions/initialization/gui/initializesthisdevpanelonscenechange.cs
 res://ALLTEMP stuffstorage/scripts/functions/initialization/problemcheckerF.cs
@@ -28,10 +28,10 @@ res://GAMESTATES/FIGHT/logic/watchers/watchesforinputsF.cs
 res://GAMESTATES/STARTMENU/logic/independent object scripts/detectsmenuoptionnodesinareaSM.cs
 res://GAMESTATES/STARTMENU/logic/independent object scripts/loadsubmenufunctionsSM.cs
 res://GAMESTATES/STARTMENU/logic/independent object scripts/menuoptsizefunctionsSM.cs
-res://GAMESTATES/STARTMENU/logic/independent object scripts/musicplayerfunctions.cs
 res://GAMESTATES/STARTMENU/logic/independent object scripts/scrollmenufollowfunctionsSM.cs
-res://GAMESTATES/STARTMENU/logic/management/managesaudio.cs
 res://GAMESTATES/STARTMENU/logic/management/rootreadySM.cs
 res://GAMESTATES/STARTMENU/logic/management/smCORE.cs
 res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforglobalinputsSM.cs
 res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforinputsSM.cs
+res://GAMESTATES/STARTMENU/logic/independent object scripts/musicplayerfunctionsSM.cs
+res://GAMESTATES/STARTMENU/logic/management/managesaudioSM.cs

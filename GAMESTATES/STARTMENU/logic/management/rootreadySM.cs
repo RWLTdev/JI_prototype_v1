@@ -11,12 +11,10 @@ public partial class rootreadySM : Node
 	{
 		GD.Print("RootSM recognizes scene is loaded! Waking up smCORE.");
 
+		//Root -> CORE "Scene's Ready"		
+		Node CORE = GetNode("/root/Root3D/LogicParent/GameLogic/CORE");
+		Callable roottoCORE = new Callable(CORE, "onRootReady");
+		this.Connect("RootReady", roottoCORE);
 		EmitSignal(SignalName.RootReady);
-		
-		/* CALLABLES?? Create a Callable from the smCORE node and the OnRootReady method
-		Callable callable = new Callable(CORE, "OnRootReady");
-
-		// Connect the signal to the OnRootReady method in the smCORE node
-		this.Connect("tree_entered", callable); */
 	}
 }

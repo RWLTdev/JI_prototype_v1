@@ -7,12 +7,14 @@ public partial class scrollmenufollowfunctionsSM : PathFollow2D
 	private string thisNodepath;
 	private bool isCounting = false;
 
-	[Signal]
-	public delegate void isMovingReportEventHandler(string ControlType = "MenuMove");
+	//was going to be for disabling player input on moving but that would feel bad, switch to menu options magnetizing and independently spacing themselves
+	//[Signal]
+	//public delegate void isMovingReportEventHandler(string ControlType = "MenuMove");
 	
+	//moves this menu option up along the path2d when prompted by the input watcher
 	public async void ScrollUp()
 	{
-		EmitSignal(SignalName.isMovingReport);
+		//EmitSignal(SignalName.isMovingReport);
 		Tween tween = GetTree().CreateTween();
 		tween.SetEase(Tween.EaseType.Out);
 		if(this.ProgressRatio < 0.95f)
@@ -25,9 +27,10 @@ public partial class scrollmenufollowfunctionsSM : PathFollow2D
 		}
 	}
 
+	//moves this menu option down along the path2d when prompted by the input watcher
 	public async void ScrollDown()
 	{
-		EmitSignal(SignalName.isMovingReport);
+		//EmitSignal(SignalName.isMovingReport);
 		Tween tween = GetTree().CreateTween();
 		//tween.Connect("finished", ReturnControl());
 		tween.SetEase(Tween.EaseType.Out);

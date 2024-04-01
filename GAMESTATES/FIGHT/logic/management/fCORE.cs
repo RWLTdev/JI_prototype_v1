@@ -19,7 +19,7 @@ public partial class fCORE : Node
 		AnimatedSprite2D ScreenEffects = GetNode<AnimatedSprite2D>("/root/Root3D/GUI&CameraParent/CanvasLayer/ScreenEffects");
 		ScreenEffects.Visible = true; ScreenEffects.Play("StaticBlackScreen");
 
-		//connect signal and tell auto playerdata to distribute fight data ALSO CORRECT WAY TO CONNECT SIGNALS HERE	
+		//connect signal and tell auto playerdata to distribute fight data
 		Node APlayerData = GetNode("/root/Auto_PlayerData");
 		Callable callplayerdatadistribute = new Callable(APlayerData, "DistributeDataF");
 		this.Connect("CallAPlayerDistributeDataF", callplayerdatadistribute);
@@ -33,7 +33,11 @@ public partial class fCORE : Node
 
 		//signal scenario setup
 		//signal GUI animation handler
-		EmitSignal(SignalName.CallDJStart);
+
+		//Call the DJ Node to start the music (and tempo by extension)
+		Node DJ = GetNode("/root/Root3D/LogicParent/GameLogic/DJ");
+		DJ.Call("MusicStart");
+		
 		//signal turnhandler everythings set to go
 		
 		CallTurnHandler();

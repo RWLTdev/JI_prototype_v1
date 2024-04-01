@@ -91,8 +91,8 @@
 [ext_resource type="Texture2D" uid="uid://dhnhmpnvuk7xm" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPLoadSubmenuFrames/TEMPLoadMenuButton.png" id="84_0qqiw"]
 [ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforinputsSM.cs" id="84_pfe8t"]
 [ext_resource type="AudioStream" uid="uid://yejk0i1163p7" path="res://ALLTEMP stuffstorage/assets/audio/music/LonelyWindFade.wav" id="88_77qr6"]
-[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/independent object scripts/musicplayerfunctions.cs" id="89_b83ak"]
-[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/management/managesaudio.cs" id="93_c3nck"]
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/independent object scripts/musicplayerfunctionsSM.cs" id="89_b83ak"]
+[ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/management/managesaudioSM.cs" id="93_c3nck"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8vvt2"]
 
@@ -442,6 +442,7 @@ position = Vector2(0.470927, 0.302546)
 rotation = -1.72199
 script = ExtResource("78_i1mhd")
 thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/TextAnchorLoadSave"
+thisnodesarea2dNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/SelectDetectorLoad"
 
 [node name="LoadSaveText" type="RichTextLabel" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/TextAnchorLoadSave"]
 layout_direction = 2
@@ -471,6 +472,7 @@ thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOp
 [node name="TextAnchorResume" type="Node2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume"]
 script = ExtResource("78_i1mhd")
 thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/TextAnchorResume"
+thisnodesarea2dNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/SelectDetectorResume"
 
 [node name="ResumeGameText" type="RichTextLabel" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/TextAnchorResume"]
 layout_direction = 2
@@ -500,6 +502,7 @@ thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOp
 [node name="TextAnchorSettings" type="Node2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings"]
 script = ExtResource("78_i1mhd")
 thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings//TextAnchorSettings"
+thisnodesarea2dNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/SelectDetectorSettings"
 
 [node name="SettingsText" type="RichTextLabel" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/TextAnchorSettings"]
 layout_direction = 2
@@ -529,6 +532,7 @@ thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOp
 [node name="TextAnchorQuit" type="Node2D" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit"]
 script = ExtResource("78_i1mhd")
 thisNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/TextAnchorQuit"
+thisnodesarea2dNodepath = "/root/Root3D/GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/SelectDetectorQuit"
 
 [node name="QuitText" type="RichTextLabel" parent="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/TextAnchorQuit"]
 layout_direction = 2
@@ -548,11 +552,11 @@ metadata/_edit_use_anchors_ = true
 scale = Vector2(0.5, 0.5)
 shape = SubResource("CircleShape2D_q2e30")
 
-[node name="MenuOptionSelectDetector" type="Area2D" parent="GUI&CameraParent/CanvasLayer/2DElements"]
+[node name="MainMenuOptionSelectorDetector" type="Area2D" parent="GUI&CameraParent/CanvasLayer/2DElements"]
 position = Vector2(1501.92, 532.225)
 script = ExtResource("81_p7t82")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="GUI&CameraParent/CanvasLayer/2DElements/MenuOptionSelectDetector"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GUI&CameraParent/CanvasLayer/2DElements/MainMenuOptionSelectorDetector"]
 position = Vector2(-20.4601, 0)
 shape = SubResource("RectangleShape2D_7b4hv")
 
@@ -644,14 +648,4 @@ script = ExtResource("82_5jn0h")
 [node name="AudioManager" type="Node" parent="LogicParent/GameLogic"]
 script = ExtResource("93_c3nck")
 
-[connection signal="animation_finished" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuBGAnim" to="LogicParent/GameLogic/CORE" method="StartMenuBGAnimFinished"]
-[connection signal="area_entered" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/SelectDetectorLoad" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/TextAnchorLoadSave" method="MakeBiggerOnAreaEnter"]
-[connection signal="area_exited" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/SelectDetectorLoad" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowLoad/TextAnchorLoadSave" method="MakeSmallerOnAreaExit"]
-[connection signal="area_entered" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/SelectDetectorResume" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/TextAnchorResume" method="MakeBiggerOnAreaEnter"]
-[connection signal="area_exited" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/SelectDetectorResume" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowResume/TextAnchorResume" method="MakeSmallerOnAreaExit"]
-[connection signal="area_entered" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/SelectDetectorSettings" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/TextAnchorSettings" method="MakeBiggerOnAreaEnter"]
-[connection signal="area_exited" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/SelectDetectorSettings" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowSettings/TextAnchorSettings" method="MakeSmallerOnAreaExit"]
-[connection signal="area_entered" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/SelectDetectorQuit" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/TextAnchorQuit" method="MakeBiggerOnAreaEnter"]
-[connection signal="area_exited" from="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/SelectDetectorQuit" to="GUI&CameraParent/CanvasLayer/2DElements/StartMenuOptions/MenuOptionsPath/PathFollowQuit/TextAnchorQuit" method="MakeSmallerOnAreaExit"]
-[connection signal="area_entered" from="GUI&CameraParent/CanvasLayer/2DElements/MenuOptionSelectDetector" to="GUI&CameraParent/CanvasLayer/2DElements/MenuOptionSelectDetector" method="GetMenuOptAreaName"]
 [connection signal="pressed" from="GUI&CameraParent/CanvasLayer/DevpanelMenuBG/SceneSwitchButTEMP" to="GUI&CameraParent/CanvasLayer/DevpanelMenuBG/SceneSwitchButTEMP" method="onRotateSceneButtonPressed"]

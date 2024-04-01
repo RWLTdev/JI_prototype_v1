@@ -1,12 +1,12 @@
 using Godot;
 using System;
 
-public partial class managesaudio : Node
+public partial class managesaudioSM : Node
 {
 	Node AudioManager;
 
 	AudioStreamPlayer musicplayer1;
-	private musicplayerfunctions MusicPlayer1Functions;
+	private musicplayerfunctionsSM Musicplayer1functions;
 	string musicplayer1path = "/root/Root3D/AudioParent/MusicPlayer1";
 	
 	private bool firstplay = true;
@@ -24,11 +24,11 @@ public partial class managesaudio : Node
 	{
 		musicplayer1 = GetNode<AudioStreamPlayer>(musicplayer1path);
 		musicplayer1.Stream = GD.Load<AudioStream>("res://ALLTEMP stuffstorage/assets/audio/music/LonelyWindFade.wav");
-		MusicPlayer1Functions = (musicplayerfunctions)musicplayer1;
+		Musicplayer1functions = (musicplayerfunctionsSM)musicplayer1;
 
 		length = (float)musicplayer1.Stream.GetLength();
 		GD.Print("length" + length);
-		end = length - MusicPlayer1Functions.TrimEndSeconds;
+		end = length - Musicplayer1functions.TrimEndSeconds;
 		GD.Print("end:" + end);
 		await ToSignal(GetTree().CreateTimer(2), "timeout");
 		
@@ -44,14 +44,14 @@ public partial class managesaudio : Node
 		{
 			playbackposition = musicplayer1.GetPlaybackPosition();
 	
-			if (firstplay && playbackposition >= MusicPlayer1Functions.TrimStartSeconds)
+			if (firstplay && playbackposition >= Musicplayer1functions.TrimStartSeconds)
 			{
 				firstplay = false;
 			}
-			if(!firstplay && (playbackposition < MusicPlayer1Functions.TrimStartSeconds || Math.Abs(playbackposition - end) <0.2))
+			if(!firstplay && (playbackposition < Musicplayer1functions.TrimStartSeconds || Math.Abs(playbackposition - end) <0.2))
 			{
 				GD.Print("Looping music at " + musicplayer1.GetPlaybackPosition() + "seconds via <managesaudio>.");
-				musicplayer1.Seek(MusicPlayer1Functions.TrimStartSeconds); 
+				musicplayer1.Seek(Musicplayer1functions.TrimStartSeconds); 
 			}
 		}
 	}

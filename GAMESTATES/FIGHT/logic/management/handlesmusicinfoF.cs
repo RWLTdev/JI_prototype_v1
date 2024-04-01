@@ -5,7 +5,7 @@ using System.Timers;
 using System.Threading;
 using System.Threading.Tasks;
 
-public partial class djhandlesmusicandtempo : Node
+public partial class handlesmusicinfoF : Node
 {
 	private string currenttrackpath;
 
@@ -45,7 +45,8 @@ public partial class djhandlesmusicandtempo : Node
 			BPMCounterCentral(selectedtrack.BPM);
 	}
 
-
+	/*NOTES: the duration of most things like SFX and animations should be templated on 120BPM and then sped up or 
+	down based on the current track's bpm interval using the speed scale property*/
 
 	//The code that runs the BPM timer that everything relies on.
 	public int BEATCOUNT = 0;

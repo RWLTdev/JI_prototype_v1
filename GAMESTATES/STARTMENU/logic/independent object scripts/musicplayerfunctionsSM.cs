@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class musicplayerfunctions : AudioStreamPlayer
+public partial class musicplayerfunctionsSM : AudioStreamPlayer
 {
 	[Export]
 	public float TrimStartSeconds {get; set;}

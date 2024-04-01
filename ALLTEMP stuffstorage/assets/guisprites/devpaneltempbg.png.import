@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fv6ouw785jsm"
-path="res://.godot/imported/devpaneltempbg.png-ab6cd22538f7f17fafc9bcd6bb655749.ctex"
+path="res://.godot/imported/devpaneltempbg.png-7498c2a5a8a0795d210d8b1198c623d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ALLTEMP stuffstorage/assets/GUISprites/devpaneltempbg.png"
-dest_files=["res://.godot/imported/devpaneltempbg.png-ab6cd22538f7f17fafc9bcd6bb655749.ctex"]
+source_file="res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png"
+dest_files=["res://.godot/imported/devpaneltempbg.png-7498c2a5a8a0795d210d8b1198c623d7.ctex"]
 
 [params]
 

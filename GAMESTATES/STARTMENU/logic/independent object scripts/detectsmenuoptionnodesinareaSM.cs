@@ -3,16 +3,28 @@ using System;
 
 public partial class detectsmenuoptionnodesinareaSM : Area2D
 {
+	[Signal]
+	public delegate void SwapInputWatcherControlModeEventHandler(string newmode);
 	string submenuareaname;
-	private void GetMenuOptAreaName(Area2D area)
+
+	//on ready connect this nodes area2d detection signal
+	public override void _Ready()
+	{
+		this.Connect("area_entered", new Callable(this, nameof(GetMenuOptionAreaName)));
+	}
+	
+	//called when the main menu selector detector detects an new menu option area2d and sets its name to submenuareaname string
+	private void GetMenuOptionAreaName(Area2D area)
 	{
 		submenuareaname = area.Name;
 
-		if (submenuareaname == area.Name)
+		/*if (submenuareaname == area.Name)
 		{
 			GD.Print(submenuareaname);
-		}
+		}*/
 	}
+
+	// Control switch case that decides what submenu is turned on/off based on which main scroll menu option is interacted with
 	public void ToggleSelectedSubmenu(string onoroff)
 	{
 		if (submenuareaname == "SelectDetectorLoad")
@@ -24,7 +36,7 @@ public partial class detectsmenuoptionnodesinareaSM : Area2D
 				{
 					LoadSubmenu.Visible = true;
 				}
-				EmitSignal(SignalName.change_inputwatcher_controlmode_on_interact, "LoadSubMenu");
+				EmitSignal(SignalName.SwapInputWatcherControlMode, "LoadSubMenu");
 			}
 			if (onoroff == "off")
 			{
@@ -32,7 +44,7 @@ public partial class detectsmenuoptionnodesinareaSM : Area2D
 				{
 					LoadSubmenu.Visible = false;
 				}
-				EmitSignal(SignalName.change_inputwatcher_controlmode_on_interact, "ScrollMenu");
+				EmitSignal(SignalName.SwapInputWatcherControlMode, "ScrollMenu");
 			}
 		}
 		if (submenuareaname == "SelectDetectorResume")
@@ -48,8 +60,5 @@ public partial class detectsmenuoptionnodesinareaSM : Area2D
 
 		}
 	}
-
-	[Signal]
-	public delegate void change_inputwatcher_controlmode_on_interactEventHandler(string newmode);
 
 }

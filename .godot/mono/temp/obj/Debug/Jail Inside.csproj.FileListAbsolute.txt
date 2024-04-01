@@ -15,3 +15,21 @@ C:\!Godot4Projects\Jail_Inside\.godot\mono\temp\obj\Debug\refint\Jail Inside.dll
 C:\!Godot4Projects\Jail_Inside\.godot\mono\temp\obj\Debug\Jail Inside.pdb
 C:\!Godot4Projects\Jail_Inside\.godot\mono\temp\obj\Debug\Jail Inside.genruntimeconfig.cache
 C:\!Godot4Projects\Jail_Inside\.godot\mono\temp\obj\Debug\ref\Jail Inside.dll
+C:\!GitHub\Jail-Inside\.godot\mono\temp\bin\Debug\Jail Inside.deps.json
+C:\!GitHub\Jail-Inside\.godot\mono\temp\bin\Debug\Jail Inside.runtimeconfig.json
+C:\!GitHub\Jail-Inside\.godot\mono\temp\bin\Debug\Jail Inside.dll
+C:\!GitHub\Jail-Inside\.godot\mono\temp\bin\Debug\Jail Inside.pdb
+C:\!GitHub\Jail-Inside\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\!GitHub\Jail-Inside\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\Jail Inside.csproj.AssemblyReference.cache
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\Jail Inside.GeneratedMSBuildEditorConfig.editorconfig
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\Jail Inside.AssemblyInfoInputs.cache
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\Jail Inside.AssemblyInfo.cs
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\Jail Inside.csproj.CoreCompileInputs.cache
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\Jail Inside.sourcelink.json
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\Jail Ins.D96D839D.Up2Date
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\Jail Inside.dll
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\refint\Jail Inside.dll
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\Jail Inside.pdb
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\Jail Inside.genruntimeconfig.cache
+C:\!GitHub\Jail-Inside\.godot\mono\temp\obj\Debug\ref\Jail Inside.dll

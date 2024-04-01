@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      // For these launch configurations to work, you need to setup a GODOT4
+      // environment variable. On mac or linux, this can be done by adding
+      // the following to your .zshrc, .bashrc, or .bash_profile file:
+      // export GODOT4="/Applications/Godot.app/Contents/MacOS/Godot"
+      {
+        "name": "Play",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${env:GODOT4}",
+        "args": [],
+        "cwd": "C:/!GitHub/Jail_Inside",
+        "stopAtEntry": false,
+      }
+    ]
+  }
+  
+  //Above, replace the text inside the text field to the right of "program" to "Your/Godot/exe/File/Directory/path/here" or setup a Godot environment variable (idk what that means yet)
+  
+  
+  

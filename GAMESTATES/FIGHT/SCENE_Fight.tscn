@@ -51,7 +51,7 @@
 [ext_resource type="Texture2D" uid="uid://6vbc41ybospp" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0013.png" id="17_rbvyg"]
 [ext_resource type="Texture2D" uid="uid://706wr7lbjlex" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0017.png" id="18_d6gc0"]
 [ext_resource type="Texture2D" uid="uid://bx2tsv6lye3ue" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0014.png" id="18_r4h3i"]
-[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/djhandlesmusicandtempo.cs" id="18_tt8ml"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/handlesmusicinfoF.cs" id="18_tt8ml"]
 [ext_resource type="Texture2D" uid="uid://mql4xmv5bf24" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0015.png" id="19_bdvq6"]
 [ext_resource type="Texture2D" uid="uid://w404a24kbt44" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0018.png" id="19_kjjo3"]
 [ext_resource type="Texture2D" uid="uid://b1tv1ixfx3uf" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0019.png" id="20_hnp8c"]
@@ -2052,6 +2052,8 @@ script = ExtResource("11_nvdsy")
 
 [node name="DJ" type="Node" parent="LogicParent/GameLogic"]
 script = ExtResource("18_tt8ml")
+
+[node name="Turntable" type="Node" parent="LogicParent/GameLogic/DJ"]
 
 [node name="ScenarioConstantsHolder" type="Node" parent="LogicParent/GameLogic"]
 

@@ -1,3 +1,4 @@
+Node
 Path2D
 Node2D
 AnimatedSprite2D
@@ -5,7 +6,6 @@ AnimationTree
 Sprite2D
 AnimationPlayer
 Path3D
-Node
 AudioStreamPlayer
 RichTextLabel
 CollisionShape2D
