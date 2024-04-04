@@ -1,4 +1,4 @@
-[gd_scene load_steps=285 format=3 uid="uid://c4vcanqeed16j"]
+[gd_scene load_steps=286 format=3 uid="uid://c4vcanqeed16j"]
 
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/rootreadyF.cs" id="1_hq2st"]
 [ext_resource type="Texture2D" uid="uid://fv6ouw785jsm" path="res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png" id="1_s3x03"]
@@ -265,6 +265,7 @@
 [ext_resource type="Texture2D" uid="uid://b2g176xef3r6h" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0119.png" id="246_gxsej"]
 [ext_resource type="Texture2D" uid="uid://cqp0ojvwf88i4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0120.png" id="247_67fcc"]
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/turnhandlerF.cs" id="264_ssxpa"]
+[ext_resource type="Script" path="res://GAMEDATA/attachables/constant area values/constantareavalsDefault.cs" id="267_ccal0"]
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs" id="271_miv6h"]
 [ext_resource type="Texture2D" uid="uid://crdl7byh1r35n" path="res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarWhite.png" id="272_amlcx"]
 [ext_resource type="Texture2D" uid="uid://bldxxtqtd45rb" path="res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarGreyed.png" id="273_gu6t4"]
@@ -1783,6 +1784,11 @@ script = ExtResource("10_6pxfr")
 script = ExtResource("4_w6hsg")
 
 [node name="WatchingForInputs" type="Node" parent="LogicParent/Watchers"]
+
+[node name="DataHolders" type="Node" parent="LogicParent"]
+
+[node name="HoldingAreaConstantValues" type="Node" parent="LogicParent/DataHolders"]
+script = ExtResource("267_ccal0")
 
 [node name="TEMP PackedSceneTemplates" type="Node" parent="."]
 

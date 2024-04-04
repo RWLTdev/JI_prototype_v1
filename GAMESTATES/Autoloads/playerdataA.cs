@@ -23,7 +23,7 @@ public partial class playerdataA : Node
 
 	//NOTE: All of these values are static.
 
-	public static string playercurrentlocation = "TestArea";
+	public static string playercurrentarea = "TestArea";
 	public static string playercurrentzone = "none";
 	public static string playercurrentroomID = "none";
 

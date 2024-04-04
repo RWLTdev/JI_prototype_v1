@@ -1,6 +1,6 @@
+Node
 CollisionShape3D
 Area3D
-Node
 Node3D
 PathFollow2D
 Node2D
@@ -12,4 +12,3 @@ AnimationPlayer
 Path3D
 AudioStreamPlayer
 RichTextLabel
-CollisionShape2D

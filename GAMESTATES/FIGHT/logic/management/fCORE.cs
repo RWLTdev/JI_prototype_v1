@@ -18,6 +18,9 @@ public partial class fCORE : Node
 		//TEMP remove the temp template storage branch before runtime (and just delete it entirely before shipping)
 		Node Removethesetemplates = GetNode("/root/Root3D/TEMP PackedSceneTemplates");
 		Removethesetemplates.QueueFree();
+		//TEMP this needs to be when the gameplay starts not just fight
+		Node ResourceretrieverA = GetNode("/root/Auto_ResourceRetriever");
+		ResourceretrieverA.Call("TEMPonfCOREinitialize");
 
 		Node APlayerData = GetNode("/root/Auto_PlayerData");
 		Callable callplayerdatadistribute = new Callable(APlayerData, "DistributeDataF");

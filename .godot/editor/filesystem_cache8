@@ -1,523 +1,521 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1712254373
-icon.svg::CompressedTexture2D::770079878670275628::1711916800::1712204468::1::::<><>::
-README.md::TextFile::-1::1711916800::0::1::::<><>::
-SCENE_Hub.tscn::PackedScene::5000709427778831523::1711988459::0::1::::<><>::
-SCENE_Roam.tscn::PackedScene::4009068092526081425::1711988459::0::1::::<><>::
-::res://addons/::1711916800
-::res://addons/godot-git-plugin/::1711916800
-git_plugin.gdextension::GDExtension::-1::1711916800::0::1::::<><>::
-plugin.cfg::TextFile::-1::1711916800::0::1::::<><>::
-THIRDPARTY.md::TextFile::-1::1711916800::0::1::::<><>::
-::res://addons/godot-git-plugin/linux/::1711916800
-::res://addons/godot-git-plugin/macos/::1711916800
-::res://addons/godot-git-plugin/win64/::1712254368
-::res://ALLTEMP stuffstorage/::1711916799
-::res://ALLTEMP stuffstorage/assets/::1711916799
-::res://ALLTEMP stuffstorage/assets/2dsprites/::1711916799
-::res://ALLTEMP stuffstorage/assets/2dsprites/fight/::1711916799
-::res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/::1711916799
-PHfantasyrock.png::CompressedTexture2D::7446724969750662357::1711916799::1711916799::1::::<><>::
-PHPunch!.png::CompressedTexture2D::1710404063505856956::1711916799::1711916799::1::::<><>::
-PHThinker.png::CompressedTexture2D::8468288436713665505::1711916799::1711916799::1::::<><>::
-PHTVspikes.png::CompressedTexture2D::578502308043229394::1711916799::1711916799::1::::<><>::
-::res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/::1711916799
-::res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/playerchars/::1711916799
-CebinPH.png::CompressedTexture2D::3214192733975572671::1711916799::1711916799::1::::<><>::
-LouisPH.png::CompressedTexture2D::4807134568611821754::1711916799::1711916799::1::::<><>::
-MerlinPH.png::CompressedTexture2D::2006573739462875925::1711916799::1711916799::1::::<><>::
-ReprobatePH.png::CompressedTexture2D::3881803290453783899::1711916799::1711916799::1::::<><>::
-::res://ALLTEMP stuffstorage/assets/3dmodeltextures/::1711916799
-PrototypeObjectTexture.png::CompressedTexture2D::2393481292632002580::1711916799::1711916799::1::::<><>::
-::res://ALLTEMP stuffstorage/assets/audio/::1711916799
-HeartBeatEchoSFX.wav::AudioStreamWAV::4479247690617954623::1711916799::1711916799::1::::<><>::
-::res://ALLTEMP stuffstorage/assets/audio/music/::1711916799
-Crypteque.mp3::AudioStreamMP3::8218089355393007509::1711916799::1711916799::1::::<><>::
-Deal 'Em Out.mp3::AudioStreamMP3::8573707567428285823::1711916799::1711916799::1::::<><>::
-GET ENUF.mp3::AudioStreamMP3::4420730745122659360::1711916799::1711916799::1::::<><>::
-LonelyWindFade.wav::AudioStreamWAV::1693355395862469478::1711916799::1711916799::1::::<><>::
-::res://ALLTEMP stuffstorage/assets/guisprites/::1711916895
-devpaneltempbg.png::CompressedTexture2D::396204464867768980::1711916799::1711916895::1::::<><>::
-::res://ALLTEMP stuffstorage/assets/text files/::1711916799
-::res://ALLTEMP stuffstorage/assets/text files/documentation/::1712204435
-NodepathcallsF_documentation.txt::TextFile::-1::1711916799::0::1::::<><>::
-NodepathcallsSM_documentation.txt::TextFile::-1::1711916799::0::1::::<><>::
-usefulstuffcopypasta.cs::CSharpScript::-1::1712204435::0::1::::<>Node<>::
-::res://ALLTEMP stuffstorage/assets/text files/game info storage/::1711916799
-Save_m&kinputbindings.json::JSON::-1::1711916799::0::1::::<><>::
-::res://ALLTEMP stuffstorage/scripts/::1711916799
-::res://ALLTEMP stuffstorage/scripts/functions/::1711916799
-::res://ALLTEMP stuffstorage/scripts/functions/initialization/::1711916799
-problemcheckerF.cs::CSharpScript::-1::1711916799::0::1::::<>Node<>::
-StartMenuBGAnim.cs::CSharpScript::-1::1711916799::0::1::::<>Node<>::
-::res://ALLTEMP stuffstorage/scripts/functions/initialization/gui/::1711916799
-initializesthisdevpanelonscenechange.cs::CSharpScript::-1::1711916799::0::1::::<>Sprite2D<>::
-::res://ALLTEMP stuffstorage/scripts/functions/scene management/::1711916799
-rotatessceneonbuttonTEMP.cs::CSharpScript::-1::1711916799::0::1::::<>Button<>::
-::res://ALLTEMP stuffstorage/scripts/functions/watchers/::1711916799
-watchesgamestateF.cs::CSharpScript::-1::1711916799::0::1::::<>Node<>::
-::res://ALLTEMP stuffstorage/scripts/gamewide value storage (autoload singletons)/::1711916799
-Auto_holdscurrentinputbinds.cs::CSharpScript::-1::1711916799::0::1::::<>Node<>::
-::res://GAMEASSETS/::1711916799
-::res://GAMEASSETS/in Fight/::1711916799
-::res://GAMEASSETS/in Fight/GUI/::1712204435
-::res://GAMEASSETS/in Fight/GUI/Animations/::1711916800
-::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/::1711916800
-::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/::1711916799
-Anim_RhythmLockAct_0001.png::CompressedTexture2D::7290148827480486369::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0002.png::CompressedTexture2D::3882145997257454144::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0003.png::CompressedTexture2D::6347118713764094093::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0004.png::CompressedTexture2D::6542560170042647026::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0005.png::CompressedTexture2D::984435254321278056::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0006.png::CompressedTexture2D::7134766110674291879::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0007.png::CompressedTexture2D::4517884784507444524::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0008.png::CompressedTexture2D::5440556488994488271::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0009.png::CompressedTexture2D::6936276466691001908::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0010.png::CompressedTexture2D::1023059559216850362::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0011.png::CompressedTexture2D::6131525656282291261::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0012.png::CompressedTexture2D::7898513087178324276::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0013.png::CompressedTexture2D::2219271938629262549::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0014.png::CompressedTexture2D::4057689205291652700::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0015.png::CompressedTexture2D::876017070234004431::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0016.png::CompressedTexture2D::4679372958428761275::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0017.png::CompressedTexture2D::4493319270281475091::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0018.png::CompressedTexture2D::8668229247694390909::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0019.png::CompressedTexture2D::5994892832672437828::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0020.png::CompressedTexture2D::3533002739013816548::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0021.png::CompressedTexture2D::582131093099617699::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0022.png::CompressedTexture2D::846746463267815711::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0023.png::CompressedTexture2D::4075225456372021959::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0024.png::CompressedTexture2D::894001229310367950::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0025.png::CompressedTexture2D::7886020420110691362::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0026.png::CompressedTexture2D::1200499659854131772::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0027.png::CompressedTexture2D::8730449426402242236::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0028.png::CompressedTexture2D::1053871392088423705::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0029.png::CompressedTexture2D::962746665267818020::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockAct_0030.png::CompressedTexture2D::9096907956961025009::1711916799::1711916799::1::::<><>::
-::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/::1711916799
-Anim_RhythmLockError1_0001.png::CompressedTexture2D::8262550637862409946::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0002.png::CompressedTexture2D::3030633779397099685::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0003.png::CompressedTexture2D::8223030493788059633::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0004.png::CompressedTexture2D::647471913284309716::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0005.png::CompressedTexture2D::336450055699153907::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0006.png::CompressedTexture2D::7531927532296132465::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0007.png::CompressedTexture2D::4836072305984552713::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0008.png::CompressedTexture2D::5635463080716573060::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0009.png::CompressedTexture2D::2894667954170989154::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0010.png::CompressedTexture2D::4905917614999812340::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0011.png::CompressedTexture2D::4947336936762872517::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0012.png::CompressedTexture2D::1023417050212979455::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0013.png::CompressedTexture2D::5789714035250477717::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0014.png::CompressedTexture2D::7401278254373137979::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_0015.png::CompressedTexture2D::6662775349569854988::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError1_00016.png::CompressedTexture2D::5193233857745874121::1711916799::1711916799::1::::<><>::
-::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/::1711916799
-Anim_RhythmLockError2_0002.png::CompressedTexture2D::8263312266938650577::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0003.png::CompressedTexture2D::6516906142431275055::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0004.png::CompressedTexture2D::6555190005598960076::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0005.png::CompressedTexture2D::8938904043141377840::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0006.png::CompressedTexture2D::8379507081839975191::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0007.png::CompressedTexture2D::4198218731964083511::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0008.png::CompressedTexture2D::4516896734595119230::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0009.png::CompressedTexture2D::7962698630789030839::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0010.png::CompressedTexture2D::4685882382217949610::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0011.png::CompressedTexture2D::5903857664113675424::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0012.png::CompressedTexture2D::809633060666110001::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0013.png::CompressedTexture2D::2698686823805594715::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0014.png::CompressedTexture2D::434339087244615409::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0015.png::CompressedTexture2D::8105369699902974229::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockError2_0016.png::CompressedTexture2D::4522227793934509838::1711916799::1711916799::1::::<><>::
-::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/::1711916800
-Anim_RhythmLockStartBeats_0001.png::CompressedTexture2D::8996408101458604336::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0002.png::CompressedTexture2D::3658066904485056489::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0003.png::CompressedTexture2D::673351066067766659::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0004.png::CompressedTexture2D::3535210601971854825::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0005.png::CompressedTexture2D::3612570006280871012::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0006.png::CompressedTexture2D::1531337863117448618::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0007.png::CompressedTexture2D::4436601922714127146::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0008.png::CompressedTexture2D::6998284055524693994::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0009.png::CompressedTexture2D::1565050761948961665::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0010.png::CompressedTexture2D::4780783086363142897::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0011.png::CompressedTexture2D::6834280982624749078::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0012.png::CompressedTexture2D::3528348703895927079::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0013.png::CompressedTexture2D::3540993827820359500::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0014.png::CompressedTexture2D::7596438596378020860::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0015.png::CompressedTexture2D::1659805180597357178::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0016.png::CompressedTexture2D::3130704780404927631::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0017.png::CompressedTexture2D::895983956288649503::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0018.png::CompressedTexture2D::1977168888837464022::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0019.png::CompressedTexture2D::3592214561146396775::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0020.png::CompressedTexture2D::7964611346387628947::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0021.png::CompressedTexture2D::7150106585547516171::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0022.png::CompressedTexture2D::627746929752968332::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0023.png::CompressedTexture2D::7416869870388600794::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0024.png::CompressedTexture2D::6432609426500797416::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0025.png::CompressedTexture2D::3143746660995950224::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0026.png::CompressedTexture2D::8798504879224468831::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0027.png::CompressedTexture2D::3906750846536255260::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0028.png::CompressedTexture2D::6764640967811195666::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0029.png::CompressedTexture2D::5913355320028784640::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0030.png::CompressedTexture2D::3983252393536257776::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0031.png::CompressedTexture2D::4001251214901783904::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0032.png::CompressedTexture2D::8031045894121484561::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0033.png::CompressedTexture2D::3898370771541530232::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0034.png::CompressedTexture2D::5986595854346950039::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0035.png::CompressedTexture2D::3023075472989958543::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0036.png::CompressedTexture2D::8841105431957980763::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0037.png::CompressedTexture2D::4885134650221544493::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0038.png::CompressedTexture2D::8077449238988661937::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0039.png::CompressedTexture2D::8749681900380309277::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0040.png::CompressedTexture2D::7846821184100565385::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0041.png::CompressedTexture2D::1022946117405202613::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0042.png::CompressedTexture2D::2451982822705799942::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0043.png::CompressedTexture2D::8665862033367242606::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0044.png::CompressedTexture2D::3955460912788222568::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0045.png::CompressedTexture2D::8730260602029338750::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0046.png::CompressedTexture2D::5148849625918903506::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0047.png::CompressedTexture2D::3669761671003816232::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0048.png::CompressedTexture2D::8667892489823742251::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0049.png::CompressedTexture2D::1732257970543765131::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0050.png::CompressedTexture2D::500743073754604264::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0051.png::CompressedTexture2D::491628151928220894::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0052.png::CompressedTexture2D::7059615675837908217::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0053.png::CompressedTexture2D::1063875022033424160::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0054.png::CompressedTexture2D::629224159264215032::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0055.png::CompressedTexture2D::5680072018668174669::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0056.png::CompressedTexture2D::7199827038867259209::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0057.png::CompressedTexture2D::4729750179009344827::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0058.png::CompressedTexture2D::6457902969348125461::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0059.png::CompressedTexture2D::246598071797643959::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0060.png::CompressedTexture2D::6015689589856937288::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0061.png::CompressedTexture2D::3137403434641069894::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0062.png::CompressedTexture2D::4443438956266028022::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0063.png::CompressedTexture2D::8377656550095475730::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0064.png::CompressedTexture2D::1814870332753230549::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0065.png::CompressedTexture2D::198491869048603079::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0066.png::CompressedTexture2D::1733678961987046044::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0067.png::CompressedTexture2D::4702259302810137842::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0068.png::CompressedTexture2D::3618790765904779812::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0069.png::CompressedTexture2D::8507158420120339306::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0070.png::CompressedTexture2D::4611456451326942436::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0071.png::CompressedTexture2D::393417384970087410::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0072.png::CompressedTexture2D::1270027253583316098::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0073.png::CompressedTexture2D::3384336166288143260::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0074.png::CompressedTexture2D::1140392798728085834::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0075.png::CompressedTexture2D::6502336260236559443::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0076.png::CompressedTexture2D::6503890363547960903::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0077.png::CompressedTexture2D::8816228786874182649::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0078.png::CompressedTexture2D::7097476734680563493::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0079.png::CompressedTexture2D::7076731751661223504::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0080.png::CompressedTexture2D::6877576221572404786::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0081.png::CompressedTexture2D::1678386782556465445::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0082.png::CompressedTexture2D::5980080801179495099::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0083.png::CompressedTexture2D::6901262587004487889::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0084.png::CompressedTexture2D::4859052002181097218::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0085.png::CompressedTexture2D::3448963345246202125::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0086.png::CompressedTexture2D::4482507043537131315::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0087.png::CompressedTexture2D::8628388528150845001::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0088.png::CompressedTexture2D::2754906750235201302::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0089.png::CompressedTexture2D::3614401299704520928::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0090.png::CompressedTexture2D::5847241524735330902::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0091.png::CompressedTexture2D::4569473454323516729::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0092.png::CompressedTexture2D::1594436259084959770::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0093.png::CompressedTexture2D::3756141822227547076::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0094.png::CompressedTexture2D::3151360959274614294::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0095.png::CompressedTexture2D::7881816168523515186::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0096.png::CompressedTexture2D::3384779975328528099::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0097.png::CompressedTexture2D::4113198193840789264::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0098.png::CompressedTexture2D::7658884203527883041::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0099.png::CompressedTexture2D::6416495581199074703::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0100.png::CompressedTexture2D::4131940016692212947::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0101.png::CompressedTexture2D::5146437820566318018::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0102.png::CompressedTexture2D::4442505210286097171::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0103.png::CompressedTexture2D::183347347068681914::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0104.png::CompressedTexture2D::6045044614778025850::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0105.png::CompressedTexture2D::9128539965524071269::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0106.png::CompressedTexture2D::9104158843303801846::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0107.png::CompressedTexture2D::3200851497899948157::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0108.png::CompressedTexture2D::4412625812094969055::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0109.png::CompressedTexture2D::77922126161478554::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0110.png::CompressedTexture2D::8666550508254882332::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0111.png::CompressedTexture2D::2016214478665569314::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0112.png::CompressedTexture2D::4362803513321721587::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0113.png::CompressedTexture2D::2813831405892646720::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0114.png::CompressedTexture2D::8739030033272805223::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0115.png::CompressedTexture2D::8791639935356660301::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0116.png::CompressedTexture2D::4590308788103574660::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0117.png::CompressedTexture2D::4434331783841468032::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0118.png::CompressedTexture2D::4743104471623256355::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0119.png::CompressedTexture2D::4295543179605119449::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0120.png::CompressedTexture2D::5928371963998087561::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0121.png::CompressedTexture2D::2090415696459923891::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0122.png::CompressedTexture2D::6692113140111782725::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0123.png::CompressedTexture2D::4417778586232750464::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0124.png::CompressedTexture2D::2396419715104149922::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0125.png::CompressedTexture2D::1517895489787833254::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0126.png::CompressedTexture2D::8389996548176544454::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0127.png::CompressedTexture2D::1860786527605327429::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0128.png::CompressedTexture2D::8318129002500298776::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0129.png::CompressedTexture2D::730511774698777870::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0130.png::CompressedTexture2D::8928647547010437410::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0131.png::CompressedTexture2D::861458338101415554::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0132.png::CompressedTexture2D::1268486350924260434::1711916799::1711916799::1::::<><>::
-Anim_RhythmLockStartBeats_0133.png::CompressedTexture2D::6079622441852739606::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0134.png::CompressedTexture2D::1522336212959014249::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0135.png::CompressedTexture2D::2838779020786812910::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0136.png::CompressedTexture2D::4578974689996774379::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0137.png::CompressedTexture2D::2899212790813786822::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0138.png::CompressedTexture2D::4474546380331758938::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0139.png::CompressedTexture2D::7698003284031406984::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0140.png::CompressedTexture2D::3101188890839066830::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0141.png::CompressedTexture2D::6524816682096530567::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0142.png::CompressedTexture2D::7490820727824767394::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0143.png::CompressedTexture2D::2708668539665881944::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0144.png::CompressedTexture2D::2049237937957963378::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0145.png::CompressedTexture2D::1045061234634146450::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0146.png::CompressedTexture2D::7089986329939471732::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0147.png::CompressedTexture2D::6534481259945937284::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0148.png::CompressedTexture2D::3271064816052070602::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0149.png::CompressedTexture2D::1540019372916156518::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0150.png::CompressedTexture2D::446343628268615658::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0151.png::CompressedTexture2D::8213848619610629436::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0152.png::CompressedTexture2D::7676287144809866200::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0153.png::CompressedTexture2D::406709017666184400::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0154.png::CompressedTexture2D::4639890766967425111::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0155.png::CompressedTexture2D::5208627417869687906::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0156.png::CompressedTexture2D::2918868275740837857::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0157.png::CompressedTexture2D::7659615905054984683::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0158.png::CompressedTexture2D::281903565527462622::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0159.png::CompressedTexture2D::6962060598955861905::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0160.png::CompressedTexture2D::2239341772788094449::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0161.png::CompressedTexture2D::58608464576189070::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0162.png::CompressedTexture2D::5528052040571147536::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0163.png::CompressedTexture2D::6050199721345619756::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0164.png::CompressedTexture2D::1593941131147472362::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0165.png::CompressedTexture2D::1138254558843880012::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0166.png::CompressedTexture2D::953669364967483296::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0167.png::CompressedTexture2D::8484330625860027896::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0168.png::CompressedTexture2D::8869953133633691028::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0169.png::CompressedTexture2D::4543681530363764532::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0170.png::CompressedTexture2D::4540164574925576012::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0171.png::CompressedTexture2D::4845597354635170502::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0172.png::CompressedTexture2D::7000841799092030296::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0173.png::CompressedTexture2D::5353960178521805535::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0174.png::CompressedTexture2D::1567479520715032423::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0175.png::CompressedTexture2D::5274848315396820190::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0176.png::CompressedTexture2D::8766055845105529852::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0177.png::CompressedTexture2D::8186444104240625343::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0178.png::CompressedTexture2D::6793671003408577228::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0179.png::CompressedTexture2D::4734699207556730992::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockStartBeats_0180.png::CompressedTexture2D::3421127758922146849::1711916800::1711916800::1::::<><>::
-::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/::1711916800
-Anim_RhythmLockThink_0001.png::CompressedTexture2D::7330809950207304613::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0002.png::CompressedTexture2D::5516001549051124808::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0003.png::CompressedTexture2D::1797510773418789414::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0004.png::CompressedTexture2D::3032218991882524688::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0005.png::CompressedTexture2D::6516881805414177268::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0006.png::CompressedTexture2D::5885945052308785772::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0007.png::CompressedTexture2D::7773485917700436912::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0008.png::CompressedTexture2D::7917120590623989647::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0009.png::CompressedTexture2D::7095130102230093922::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0010.png::CompressedTexture2D::2551122889165876542::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0011.png::CompressedTexture2D::1427339029062014600::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0012.png::CompressedTexture2D::7357099851055825439::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0013.png::CompressedTexture2D::6165933050313671395::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0014.png::CompressedTexture2D::8378789389705754245::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0015.png::CompressedTexture2D::8228411513975325427::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0016.png::CompressedTexture2D::414266828793826697::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0017.png::CompressedTexture2D::8523007677929272052::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0018.png::CompressedTexture2D::239601481478912323::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0019.png::CompressedTexture2D::2991063975415382788::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0020.png::CompressedTexture2D::8529528159446202963::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0021.png::CompressedTexture2D::1125211439599415066::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0022.png::CompressedTexture2D::4108905567962678858::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0023.png::CompressedTexture2D::4968749677381579413::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0024.png::CompressedTexture2D::1010898762154728854::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0025.png::CompressedTexture2D::3265395532359232159::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0026.png::CompressedTexture2D::6733631070991535162::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0027.png::CompressedTexture2D::353682486972058168::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0028.png::CompressedTexture2D::2999960946868261563::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0029.png::CompressedTexture2D::1043215260589518590::1711916800::1711916800::1::::<><>::
-Anim_RhythmLockThink_0030.png::CompressedTexture2D::2358520385521465731::1711916800::1711916800::1::::<><>::
-::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/::1711916800
-::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/::1711916800
-Anim_FullScreenFightTransition_0001.png::CompressedTexture2D::7117321629512024240::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0002.png::CompressedTexture2D::7462892753083472360::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0003.png::CompressedTexture2D::8051024662590002782::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0004.png::CompressedTexture2D::339322446446109595::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0005.png::CompressedTexture2D::2720506041783645963::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0006.png::CompressedTexture2D::6440027939471814453::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0007.png::CompressedTexture2D::7889554159779198967::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0008.png::CompressedTexture2D::5991670754360411091::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0009.png::CompressedTexture2D::1748152551926912230::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0010.png::CompressedTexture2D::349960542247747661::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0011.png::CompressedTexture2D::1826960297212745502::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0012.png::CompressedTexture2D::3349153197984434746::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0013.png::CompressedTexture2D::9060366345449713250::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0014.png::CompressedTexture2D::7977210584662088439::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0015.png::CompressedTexture2D::1251078596270488352::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0016.png::CompressedTexture2D::3493622324448042842::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0017.png::CompressedTexture2D::2299574897342385155::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0018.png::CompressedTexture2D::1605591270787621707::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0019.png::CompressedTexture2D::125055168796324741::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0020.png::CompressedTexture2D::2994091187162988626::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0021.png::CompressedTexture2D::4552076615579552108::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0022.png::CompressedTexture2D::336378344620281951::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0023.png::CompressedTexture2D::4066333480196755966::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0024.png::CompressedTexture2D::6048189528305445626::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0025.png::CompressedTexture2D::2244193796248128531::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0026.png::CompressedTexture2D::4122905832681460589::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0027.png::CompressedTexture2D::2029524982647399598::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0028.png::CompressedTexture2D::6737403441331124008::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0029.png::CompressedTexture2D::8890919273240443507::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0030.png::CompressedTexture2D::5542477007940856577::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0031.png::CompressedTexture2D::4624424214567444132::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0032.png::CompressedTexture2D::7872105926422784604::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0033.png::CompressedTexture2D::6449010577221859563::1711916800::1711916800::1::::<><>::
-Anim_FullScreenFightTransition_0034.png::CompressedTexture2D::4580738094562930627::1711916800::1711916800::1::::<><>::
-::res://GAMEASSETS/in Fight/GUI/packed game objects/::1712205256
-grey_rhythm_bar.tscn::PackedScene::9015628478265825341::1712205256::0::1::::<><>::res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs<>uid://bldxxtqtd45rb::::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarGreyed.png
-Pgo_GreyRhythmBar.tscn::PackedScene::8263407740964177949::1712205256::0::1::::<><>::res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs<>uid://bldxxtqtd45rb::::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarGreyed.png
-Pgo_WhiteRhythmBar.tscn::PackedScene::6843194164942205129::1712205256::0::1::::<><>::res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs<>uid://crdl7byh1r35n::::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarWhite.png
-::res://GAMEASSETS/in Fight/GUI/Sprites/::1711916800
-::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/::1711916800
-RhythmBarBlack.png::CompressedTexture2D::443784502455426003::1711916800::1711916800::1::::<><>::
-RhythmBarGreyed.png::CompressedTexture2D::3166129684596058419::1711916800::1711916800::1::::<><>::
-RhythmBarWhite.png::CompressedTexture2D::5972969964772470145::1711916800::1711916800::1::::<><>::
-::res://GAMEASSETS/in Fight/GUI/Sprites/ScreenFillers/::1711916800
-FightTransitionBlackscreen.png::CompressedTexture2D::6939670657278645333::1711916800::1711916800::1::::<><>::
-::res://GAMEDATA/::1712205387
-::res://GAMEDATA/attachables/::1711916800
-::res://GAMEDATA/attachables/constant area values/::1712206741
-constantareavalsDefault.cs::CSharpScript::-1::1712206741::0::1::::<><>::
-constantareavalsinTestArea.cs::CSharpScript::-1::1712204435::0::1::::<><>::
-::res://GAMEDATA/universal stuff/::1711916800
-calibrib.ttf::FontFile::7582321666642558428::1711916800::1711916800::1::::<><>::
-::res://GAMESTATES/::1711916800
-::res://GAMESTATES/Autoloads/::1712204968
-GCORE.cs::CSharpScript::-1::1711916800::0::1::::<>Node<>::
-playerdataA.cs::CSharpScript::-1::1711916800::0::1::::<>Node<>::
-playerflagsA.cs::CSharpScript::-1::1712205447::0::1::::<>Node<>::
-resourceretrieverA.cs::CSharpScript::-1::1712206688::0::1::::<><>::
-::res://GAMESTATES/FIGHT/::1712207121
-SCENE_Fight.tscn::PackedScene::6851791907417588071::1712207121::0::1::::<><>::res://GAMESTATES/FIGHT/logic/management/rootreadyF.cs<>uid://fv6ouw785jsm::::res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png<>uid://c8nxin8gviscu::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0001.png<>res://ALLTEMP stuffstorage/scripts/functions/initialization/gui/initializesthisdevpanelonscenechange.cs<>uid://delc0u20ixvdw::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0002.png<>res://ALLTEMP stuffstorage/scripts/functions/scene management/rotatessceneonbuttonTEMP.cs<>uid://dmx8g2d147l8a::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0003.png<>uid://badoj1aati82k::::res://ALLTEMP stuffstorage/assets/3dmodeltextures/PrototypeObjectTexture.png<>res://GAMESTATES/FIGHT/logic/watchers/watchesforglobalinputsF.cs<>uid://db4nxld4pr5tl::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0001.png<>uid://dediqb7fvc08p::::res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHfantasyrock.png<>uid://e3mudljm4o4b::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0004.png<>res://GAMESTATES/FIGHT/logic/independent object scripts/Rez_Lgridnotchdata.cs<>uid://be03lpu6bioqd::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0005.png<>uid://ymsdtohc57ci::::res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHPunch!.png<>uid://bvksm3i11c6rs::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0002.png<>uid://cx0uk4ck73moj::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0006.png<>uid://cwoueajsyghnh::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0003.png<>uid://iih334gbsbfe::::res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHTVspikes.png<>uid://dkn02l2rrm8qd::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0007.png<>uid://c0hjalx1rxt0m::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0004.png<>uid://dswdqdfm5huur::::res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHThinker.png<>uid://crmn7a4vk5fgd::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0008.png<>uid://oa4rftc7n5ea::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0005.png<>uid://bvkmy6oacr3nj::::res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/playerchars/ReprobatePH.png<>uid://c8wes5dbbq4jr::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0006.png<>res://ALLTEMP stuffstorage/scripts/functions/watchers/watchesgamestateF.cs<>uid://y5221ufql21o::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0009.png<>res://GAMESTATES/FIGHT/logic/management/fCORE.cs<>res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/playercharacterfunctions.cs<>res://GAMESTATES/FIGHT/logic/management/initializescenarioF.cs<>uid://b5mq5xdfsn53u::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0007.png<>res://ALLTEMP stuffstorage/scripts/functions/initialization/problemcheckerF.cs<>uid://e8r2fv6yyw50::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0010.png<>uid://1a81fftm0p63::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0011.png<>uid://cjrpf2djjdwwd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0008.png<>uid://bnymcf2xugukg::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0012.png<>uid://c528pv08sly5a::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0009.png<>uid://ottv2skxrdss::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0010.png<>uid://d2c5566ukkqso::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0013.png<>uid://ctmfljqnhx0tl::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0011.png<>uid://dlwhq0y0vgw1l::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0014.png<>uid://r3bc1o758bm3::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0015.png<>uid://dksdmeggehcwi::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0012.png<>uid://bp1lpjlxbn5va::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0016.png<>uid://6vbc41ybospp::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0013.png<>uid://706wr7lbjlex::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0017.png<>uid://bx2tsv6lye3ue::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0014.png<>res://GAMESTATES/FIGHT/logic/management/handlesmusicinfoF.cs<>uid://mql4xmv5bf24::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0015.png<>uid://w404a24kbt44::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0018.png<>uid://b1tv1ixfx3uf::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0019.png<>uid://b7wyua3q7okxv::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0016.png<>uid://b5aukus5mljl8::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0017.png<>uid://biwmiksknekle::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0020.png<>uid://b54cbisckugka::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0021.png<>uid://dvq7p7qahxpa0::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0018.png<>uid://e17dqeqymwx0::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0022.png<>uid://crn8akrimxm4c::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0019.png<>uid://bx606htwgnam5::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0023.png<>uid://bqloblaidoi2o::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0020.png<>uid://ij8u430bnqf8::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0021.png<>uid://csf12el4j2627::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0024.png<>uid://68dsq2fesljf::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0025.png<>uid://mcf144lqhq5l::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0022.png<>uid://byccmrix831h8::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0023.png<>uid://by0fwle7disyf::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0026.png<>uid://m0ccmq2d8gmg::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0024.png<>uid://36d8k23kr5ck::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0027.png<>uid://dkmbusn2bqa4y::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0025.png<>uid://c28wbygie61tc::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0028.png<>uid://rdsb3orvekwy::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0026.png<>uid://dyw3e2rtw4wyd::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0029.png<>uid://dwndhx4cpngvc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0027.png<>uid://ck7210i0pb7dd::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0030.png<>uid://pardwxey45ld::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0028.png<>uid://b65dudnvh4ckq::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0031.png<>uid://dkfko1i1c0i17::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0032.png<>uid://nymkdicdi581::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0029.png<>uid://cx47i54o3byjr::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0033.png<>uid://d2uu0lgsulwb6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0030.png<>uid://b6i7c704m1jff::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0034.png<>uid://dpypacd87lkhm::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0001.png<>uid://bjgcdiqdwsn2l::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0002.png<>uid://c54vmkjign1c8::::res://GAMEASSETS/in Fight/GUI/Sprites/ScreenFillers/FightTransitionBlackscreen.png<>uid://dpfkd1ef80kvh::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0003.png<>uid://jhv1dug1mh45::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0004.png<>uid://e18jvpknwtix::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0005.png<>uid://dfkr0mn51ygo4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0006.png<>uid://ca5vn0noebfqn::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0007.png<>uid://cmj4ivfaxwb6c::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0008.png<>uid://bhig01t11m68e::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0009.png<>uid://cb5p0m100gqka::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0010.png<>uid://ccqr6froyy1mf::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0011.png<>uid://ot0r84mrarg6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0012.png<>uid://coqt0km5q2sbt::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0013.png<>uid://ddph8bcg1ht0f::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0014.png<>uid://c16q63wx4jqvk::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0015.png<>uid://cf8v2kfa8j3yr::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_00016.png<>uid://dpy2ss5hkphjl::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0002.png<>uid://cy33qy15ww7r4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0003.png<>uid://c0nna0bul6tts::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0004.png<>uid://d0mcpc2jck7km::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0005.png<>uid://drndi0r6u4k2r::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0006.png<>uid://b02wbw2yi6i0n::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0007.png<>uid://b5mavnpxo0cbm::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0008.png<>uid://dlpgqope5phad::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0009.png<>uid://b7042e0g8lc3c::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0010.png<>uid://cqd4w5gaxouwe::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0011.png<>uid://lsgskghfswmb::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0012.png<>uid://bepi8ihynft7x::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0013.png<>uid://ggnrbrprlhnt::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0014.png<>uid://dnqkiwqvardof::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0015.png<>uid://b5ouowknp4iss::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0016.png<>uid://dcpdmsmxyvmg8::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0001.png<>uid://ckt80e83dkghc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0002.png<>uid://0uy0fh3hvlxu::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0003.png<>uid://bjg3g6trky6cq::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0004.png<>uid://cy33ddo17yh7y::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0005.png<>uid://cp4gwjiv4jrhc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0006.png<>uid://di0sgbalg0mhk::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0007.png<>uid://dk2d24is3enjj::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0008.png<>uid://c8c60yeugy04e::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0009.png<>uid://bcl1vegbh3ejm::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0010.png<>uid://ulochppclnnc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0011.png<>uid://dc23mh1ee2iol::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0012.png<>uid://ct33atb56twwx::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0013.png<>uid://drm0o4jp1rm5r::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0014.png<>uid://dph50agdiri00::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0015.png<>uid://f5w6c0s8512l::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0016.png<>uid://dtouxrcbrq2ke::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0017.png<>uid://docg32tyd0x0::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0018.png<>uid://biu5ne847swjk::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0019.png<>uid://dtr1c2q06w0i6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0020.png<>uid://qbcckvitf06a::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0021.png<>uid://bysncr8wleofy::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0022.png<>uid://cc15t06ga7jhd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0023.png<>uid://onxmcjyn606m::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0024.png<>uid://bmr1t77yrmrdf::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0025.png<>uid://c2626jpprj8yo::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0026.png<>uid://fbldmkv7nxrs::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0027.png<>uid://bi0g6h1sefjwd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0028.png<>uid://o4luq8ob6doo::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0029.png<>uid://8uqqsaik8luh::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0030.png<>uid://d1f6r6i0wlijg::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0001.png<>uid://bsd83es0ociq0::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0002.png<>uid://juf81xu1nod4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0003.png<>uid://bqmqnw3xcoxev::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0004.png<>uid://brp7rah40s8oe::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0005.png<>uid://v21578adifda::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0006.png<>uid://b4hegkn1f53hm::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0007.png<>uid://c6yaylvah6qhu::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0008.png<>uid://wkefl7fj7fq4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0009.png<>uid://cad32ft8k3axd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0010.png<>uid://c4mtuyliwcofe::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0011.png<>uid://bqjfngenj4yi6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0012.png<>uid://bqpjwes31fvi7::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0013.png<>uid://dgh1h7kn2vxiy::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0014.png<>uid://xwa0pv1j5cow::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0015.png<>uid://bkusirnbdkvcx::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0016.png<>uid://m1ayv6ycowwl::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0017.png<>uid://3f0xhich43nu::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0018.png<>uid://brgdip3oi7ycd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0019.png<>uid://dlqd8q6rjwqqt::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0020.png<>uid://c84thfyc1x8k2::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0021.png<>uid://i7c5uwf2ebay::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0022.png<>uid://ddw107gy428qo::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0023.png<>uid://cxwaew448ea37::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0024.png<>uid://bk14bvyoxi4fc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0025.png<>uid://dxmcdb51eh2q2::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0026.png<>uid://bvwpu6x4kfsfc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0027.png<>uid://c3m3wbtihnpuw::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0028.png<>uid://cqiqdlqotkfue::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0029.png<>uid://bw0rt5hks5d0c::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0030.png<>uid://bxaia1q250cnw::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0031.png<>uid://dmokfgk4tpmtt::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0032.png<>uid://bvsnukgm8ynwi::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0033.png<>uid://crj7mhc3fiwqp::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0034.png<>uid://bjcnu10a1k3hb::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0035.png<>uid://dx7xykjbdmojb::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0036.png<>uid://cbunpo1r27qtx::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0037.png<>uid://dnc1n5u5k3gkf::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0038.png<>uid://dwwn8n3ljgvub::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0039.png<>uid://dj2b87h0xg6h6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0040.png<>uid://otr1jx5rp366::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0041.png<>uid://ba602fqbcnkbu::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0042.png<>uid://dvp2qmyp0s5hi::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0043.png<>uid://bwmb4mapx55ui::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0044.png<>uid://dwnad72f8qcd7::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0045.png<>uid://cfme2ib0o3ur7::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0046.png<>uid://bsjwo58i6cvxg::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0047.png<>uid://dvq16m5feytyp::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0048.png<>uid://yxebhiyhyhb4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0049.png<>uid://hetfvbt6e7bw::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0050.png<>uid://hafbqw4upmcs::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0051.png<>uid://c7ty3rus5vg54::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0052.png<>uid://pfl4pkj6ijbk::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0053.png<>uid://i72h233id6oi::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0054.png<>uid://cm6p7rptpx6td::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0055.png<>uid://datwdm6xsa6ef::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0056.png<>uid://b8nekamah7pxb::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0057.png<>uid://cyaiyop0n2ig8::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0058.png<>uid://drpo07l50g2b::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0059.png<>uid://crybr8dy6th0s::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0060.png<>uid://bkx1tucq8l84a::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0061.png<>uid://b4ko14yqhi6va::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0062.png<>uid://drmg1q8d0xklm::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0063.png<>uid://04ewcrefxjv6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0064.png<>uid://c3feqxnspeb4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0065.png<>uid://yx2o6yyqnygi::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0066.png<>uid://b782r2n3wlnf3::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0067.png<>uid://brs77qhjq1lu7::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0068.png<>uid://dtg6wkv7sakvy::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0069.png<>uid://b6x3aqgxt4yee::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0070.png<>uid://futr6bmtm72m::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0071.png<>uid://sdhfs14ldbtq::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0072.png<>uid://bohnr0wuc0hp1::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0073.png<>uid://qiodq2yyumq1::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0074.png<>uid://cyv1r7uqr1mjr::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0075.png<>uid://cywsehn7k1uf4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0076.png<>uid://dxuwaaccnfyr6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0077.png<>uid://c8ecn1a33becj::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0078.png<>uid://c73a0dfni7grw::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0079.png<>uid://c48sw76shgpgk::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0080.png<>uid://x6a1xtkqg2lt::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0081.png<>uid://crg2b7abxknqh::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0082.png<>uid://c5la10hofyu06::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0083.png<>uid://cbh042kkcnefa::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0084.png<>uid://bpex6mj4po2of::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0085.png<>uid://b44mia64b07wp::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0086.png<>uid://du6wke8x3teb6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0087.png<>uid://bfiq585wc3iyg::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0088.png<>uid://brq3wqreou1jg::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0089.png<>uid://cpkphi7dyhpww::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0090.png<>uid://b6dqtbtqol4rl::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0091.png<>uid://wymeq4pfvxe5::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0092.png<>uid://btrrdvy26f2km::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0093.png<>uid://bk5sppq2fl3ty::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0094.png<>uid://dkkamja3kspju::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0095.png<>uid://bohu3joab38wd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0096.png<>uid://byup1j7bxp71u::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0097.png<>uid://dheax6wk6ywn6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0098.png<>uid://cxog0k7cogkax::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0099.png<>uid://by4spils68r2b::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0100.png<>uid://cfk8cxlbsv6p7::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0101.png<>uid://b4j8n88vnvrhj::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0102.png<>uid://cu2x630yoyva::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0103.png<>uid://csejab4n7ab2a::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0104.png<>uid://d3b6yp1vuhjqj::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0105.png<>uid://d2yefv6b1dj3c::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0106.png<>uid://blurs6lp6ib2t::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0107.png<>uid://b34rkju2pc0il::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0108.png<>uid://bd0mpetq3s15::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0109.png<>uid://dvqe25xxwavjw::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0110.png<>uid://3yw01efa6w23::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0111.png<>uid://b3fm0blp1db52::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0112.png<>uid://bgdbnllbam5ai::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0113.png<>uid://dwrisvlcxn42f::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0114.png<>uid://dxi0a4g3ysrwn::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0115.png<>uid://b6ntykv2ior6s::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0116.png<>uid://b4ga2c5gquu7q::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0117.png<>uid://b8tuic0o316tr::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0118.png<>uid://b2g176xef3r6h::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0119.png<>uid://cqp0ojvwf88i4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0120.png<>res://GAMESTATES/FIGHT/logic/management/turnhandlerF.cs<>res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs<>uid://crdl7byh1r35n::::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarWhite.png<>uid://bldxxtqtd45rb::::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarGreyed.png<>res://GAMESTATES/FIGHT/logic/management/handlesmusictimingF.cs<>res://GAMESTATES/FIGHT/logic/management/visual managers/managesplayergui.cs
-::res://GAMESTATES/FIGHT/data containers/::1712205219
-::res://GAMESTATES/FIGHT/logic/::1712204963
-::res://GAMESTATES/FIGHT/logic/independent object scripts/::1712207121
-Rez_Lgridnotchdata.cs::CSharpScript::-1::1712207121::0::1::::<>Node<>::
-::res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/::1712205227
-playercharacterfunctions.cs::CSharpScript::-1::1712205126::0::1::::<><>::
-rhythmbarfunctions.cs::CSharpScript::-1::1712204435::0::1::::<><>::
-::res://GAMESTATES/FIGHT/logic/independent object scripts/static game element functions/::1712205288
-::res://GAMESTATES/FIGHT/logic/management/::1712205035
-fCORE.cs::CSharpScript::-1::1712204435::0::1::::<>Node<>::
-handlesmusicinfoF.cs::CSharpScript::-1::1712206233::0::1::::<>Node<>::
-handlesmusictimingF.cs::CSharpScript::-1::1712204435::0::1::::<>Node<>::
-initializescenarioF.cs::CSharpScript::-1::1711916800::0::1::::<>Node<>::
-rootreadyF.cs::CSharpScript::-1::1711941302::0::1::::<>Node3D<>::
-turnhandlerF.cs::CSharpScript::-1::1712204435::0::1::::<>Node<>::
-::res://GAMESTATES/FIGHT/logic/management/visual managers/::1712205060
-managesplayergui.cs::CSharpScript::-1::1712204435::0::1::::<><>::
-managesstageelements.cs::CSharpScript::-1::1712205060::0::1::::<><>::
-::res://GAMESTATES/FIGHT/logic/watchers/::1711916800
-watchesforglobalinputsF.cs::CSharpScript::-1::1711916800::0::1::::<>Node<>::
-watchesforinputsF.cs::CSharpScript::-1::1711916800::0::1::::<>Node<>::
-::res://GAMESTATES/STARTMENU/::1711988459
-SCENE_Start Menu.tscn::PackedScene::1378223959196519590::1711988459::0::1::::<><>::res://GAMESTATES/STARTMENU/logic/management/rootreadySM.cs<>uid://fv6ouw785jsm::::res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png<>res://ALLTEMP stuffstorage/scripts/functions/initialization/gui/initializesthisdevpanelonscenechange.cs<>uid://cu70eiig70enp::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0001.png<>res://ALLTEMP stuffstorage/scripts/functions/scene management/rotatessceneonbuttonTEMP.cs<>uid://cd7gjlweyb1hr::::res://GAMESTATES/STARTMENU/assets/icons/JIprotosplash1.png<>uid://bj8by5unrd6og::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0002.png<>uid://crgdpinwp65i1::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0003.png<>res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforglobalinputsSM.cs<>uid://dksgqwplpwbxt::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0004.png<>uid://c1ughcw55x6ss::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0005.png<>uid://dyy4gl0ophn0v::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0006.png<>uid://cvbc5mwv3wwte::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0007.png<>uid://dj2awhj1b5hnt::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0008.png<>uid://bmufs0g41q5bq::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0009.png<>uid://cks73oj13ep62::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0010.png<>uid://c850hy1fnhnn5::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0011.png<>uid://twbaayunitow::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0012.png<>uid://m8u61covbv4m::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0013.png<>uid://cvq6m6rlv5x2l::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0014.png<>uid://bnfw0x7nkn5jf::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0015.png<>uid://b64o5s0a7f8l6::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0016.png<>uid://du153dyiwt0op::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0017.png<>uid://bwcs43xbrwgta::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0018.png<>uid://uurtdlosqi35::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0019.png<>uid://rm7vvdauw65e::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0020.png<>uid://g0f0f3bsxp24::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0021.png<>uid://berxy5l5b11hy::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0022.png<>uid://b2g5vgr3x5vt5::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0023.png<>uid://b2hpscsc8t7tt::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0024.png<>uid://ba3uxflg3jma1::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0025.png<>uid://d3ptjuij8smyy::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0026.png<>uid://bxpbxd3gbsas8::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0027.png<>uid://bf3j3r22kvvmc::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0028.png<>uid://bryfll4pyeie6::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0029.png<>uid://5i4e4vqdqber::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0030.png<>uid://dss1wsfklo2bt::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0031.png<>uid://5gnmvx5yg8ny::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0032.png<>uid://ctef2ibcyywxs::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0033.png<>uid://0olrqqwm0ibb::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0034.png<>uid://c7jdrlqb4foae::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0035.png<>uid://bxx7gudivy4bs::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0036.png<>uid://cqrdgnehpihf::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0037.png<>uid://cwm6ygk8oieur::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0038.png<>uid://bfxltsgu62bgv::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0039.png<>uid://b3yyjkj7p1nrb::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0040.png<>uid://cqnrjggp8xjdu::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0041.png<>uid://cxhacn2cnmeli::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0042.png<>uid://dhd7kms6tpwy1::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0043.png<>uid://dgwp40optuxlw::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0044.png<>uid://c2bjw62ysqv23::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0045.png<>uid://dbcbj10wiyyot::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0046.png<>uid://bcv25pe2737t8::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0047.png<>uid://duaylchtrbt6y::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0048.png<>uid://cokv4t1y5eefb::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0049.png<>uid://biayjk1t7oq46::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0050.png<>uid://cfifp8wbi4d1t::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0051.png<>uid://b7er6vjllewoe::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0052.png<>uid://c70xar04t5aff::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0053.png<>uid://dfjql5xph6une::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0054.png<>uid://cecj8qkvu4jmi::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0055.png<>uid://eivavn5vclu2::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0056.png<>uid://d5x3wcrs18fs::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0057.png<>uid://217ojlwqovd8::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0058.png<>uid://ds66dh6chde8n::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0059.png<>uid://dl10dpuxj813e::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0060.png<>uid://wjy5ipb00oi4::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0061.png<>uid://b0b6080ykfgwe::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0062.png<>uid://bl07nsp244oj6::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0063.png<>uid://cv30k3ybs3myk::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0064.png<>uid://1lgt7e3lmabb::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0065.png<>uid://blosdny8npv8r::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0066.png<>uid://qam00x82i2xq::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0067.png<>uid://duhwmjl6dm25o::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0068.png<>uid://dicdxch00mb5h::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0069.png<>uid://b72flfa8pdplr::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0070.png<>uid://6vw2146n7ybo::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0071.png<>uid://dpp32p6fvxsfp::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0072.png<>uid://dx14r7fw1i606::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0073.png<>uid://dc1ts5chkuqxs::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0074.png<>uid://cfp3ajqm6850c::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0075.png<>uid://dga6y27hrp3hw::::res://GAMEDATA/universal stuff/calibrib.ttf<>res://GAMESTATES/STARTMENU/logic/independent object scripts/menuoptsizefunctionsSM.cs<>res://GAMESTATES/STARTMENU/logic/independent object scripts/scrollmenufollowfunctionsSM.cs<>uid://dmhedctj7jcfo::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPLoadSubmenuFrames/TempLoadMenu.png<>res://GAMESTATES/STARTMENU/logic/independent object scripts/detectsmenuoptionnodesinareaSM.cs<>res://GAMESTATES/STARTMENU/logic/management/smCORE.cs<>res://GAMESTATES/STARTMENU/logic/independent object scripts/loadsubmenufunctionsSM.cs<>uid://dhnhmpnvuk7xm::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPLoadSubmenuFrames/TEMPLoadMenuButton.png<>res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforinputsSM.cs<>uid://yejk0i1163p7::::res://ALLTEMP stuffstorage/assets/audio/music/LonelyWindFade.wav<>res://GAMESTATES/STARTMENU/logic/independent object scripts/musicplayerfunctionsSM.cs<>res://GAMESTATES/STARTMENU/logic/management/managesaudioSM.cs
-::res://GAMESTATES/STARTMENU/assets/::1711916800
-::res://GAMESTATES/STARTMENU/assets/animation frames/::1711916800
-::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPLoadSubmenuFrames/::1711916800
-TempLoadMenu.png::CompressedTexture2D::8016227179216912744::1711916800::1711916800::1::::<><>::
-TEMPLoadMenuButton.png::CompressedTexture2D::7677868124738541962::1711916800::1711916800::1::::<><>::
-::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/::1711916800
-SMBGanim_0001.png::CompressedTexture2D::6244203829133143265::1711916800::1711916800::1::::<><>::
-SMBGanim_0002.png::CompressedTexture2D::3086349925575974182::1711916800::1711916800::1::::<><>::
-SMBGanim_0003.png::CompressedTexture2D::5978647354934120458::1711916800::1711916800::1::::<><>::
-SMBGanim_0004.png::CompressedTexture2D::7898703340898250853::1711916800::1711916800::1::::<><>::
-SMBGanim_0005.png::CompressedTexture2D::6639415800006663370::1711916800::1711916800::1::::<><>::
-SMBGanim_0006.png::CompressedTexture2D::8895111489076565827::1711916800::1711916800::1::::<><>::
-SMBGanim_0007.png::CompressedTexture2D::6249047134599972722::1711916800::1711916800::1::::<><>::
-SMBGanim_0008.png::CompressedTexture2D::7846739513397652073::1711916800::1711916800::1::::<><>::
-SMBGanim_0009.png::CompressedTexture2D::3270311415390421354::1711916800::1711916800::1::::<><>::
-SMBGanim_0010.png::CompressedTexture2D::5513882299786521685::1711916800::1711916800::1::::<><>::
-SMBGanim_0011.png::CompressedTexture2D::7152536266409718324::1711916800::1711916800::1::::<><>::
-SMBGanim_0012.png::CompressedTexture2D::1379065094706420558::1711916800::1711916800::1::::<><>::
-SMBGanim_0013.png::CompressedTexture2D::911661658367678418::1711916800::1711916800::1::::<><>::
-SMBGanim_0014.png::CompressedTexture2D::6281742439167046621::1711916800::1711916800::1::::<><>::
-SMBGanim_0015.png::CompressedTexture2D::3310579216521669975::1711916800::1711916800::1::::<><>::
-SMBGanim_0016.png::CompressedTexture2D::4623046387139126657::1711916800::1711916800::1::::<><>::
-SMBGanim_0017.png::CompressedTexture2D::8618584452496851399::1711916800::1711916800::1::::<><>::
-SMBGanim_0018.png::CompressedTexture2D::3935850199384302398::1711916800::1711916800::1::::<><>::
-SMBGanim_0019.png::CompressedTexture2D::1446130722026754198::1711916800::1711916800::1::::<><>::
-SMBGanim_0020.png::CompressedTexture2D::1219964427988192044::1711916800::1711916800::1::::<><>::
-SMBGanim_0021.png::CompressedTexture2D::473091041432829543::1711916800::1711916800::1::::<><>::
-SMBGanim_0022.png::CompressedTexture2D::2703711424010397134::1711916800::1711916800::1::::<><>::
-SMBGanim_0023.png::CompressedTexture2D::4295765082605238424::1711916800::1711916800::1::::<><>::
-SMBGanim_0024.png::CompressedTexture2D::4296913138369113089::1711916800::1711916800::1::::<><>::
-SMBGanim_0025.png::CompressedTexture2D::2445478953841913554::1711916800::1711916800::1::::<><>::
-SMBGanim_0026.png::CompressedTexture2D::9156686097541991736::1711916800::1711916800::1::::<><>::
-SMBGanim_0027.png::CompressedTexture2D::4031831745030552677::1711916800::1711916800::1::::<><>::
-SMBGanim_0028.png::CompressedTexture2D::2795764870008813526::1711916800::1711916800::1::::<><>::
-SMBGanim_0029.png::CompressedTexture2D::3629499943603822087::1711916800::1711916800::1::::<><>::
-SMBGanim_0030.png::CompressedTexture2D::2123949823488949645::1711916800::1711916800::1::::<><>::
-SMBGanim_0031.png::CompressedTexture2D::8461438919028757953::1711916800::1711916800::1::::<><>::
-SMBGanim_0032.png::CompressedTexture2D::2118863466014416774::1711916800::1711916800::1::::<><>::
-SMBGanim_0033.png::CompressedTexture2D::6115039130779839032::1711916800::1711916800::1::::<><>::
-SMBGanim_0034.png::CompressedTexture2D::1784321491031541003::1711916800::1711916800::1::::<><>::
-SMBGanim_0035.png::CompressedTexture2D::7037676875622583124::1711916800::1711916800::1::::<><>::
-SMBGanim_0036.png::CompressedTexture2D::4050199489737116408::1711916800::1711916800::1::::<><>::
-SMBGanim_0037.png::CompressedTexture2D::174445613014019131::1711916800::1711916800::1::::<><>::
-SMBGanim_0038.png::CompressedTexture2D::6343693878407652233::1711916800::1711916800::1::::<><>::
-SMBGanim_0039.png::CompressedTexture2D::2785548362871588525::1711916800::1711916800::1::::<><>::
-SMBGanim_0040.png::CompressedTexture2D::4402727192238738935::1711916800::1711916800::1::::<><>::
-SMBGanim_0041.png::CompressedTexture2D::5923748362555143622::1711916800::1711916800::1::::<><>::
-SMBGanim_0042.png::CompressedTexture2D::6401639711549166142::1711916800::1711916800::1::::<><>::
-SMBGanim_0043.png::CompressedTexture2D::7658738551036470570::1711916800::1711916800::1::::<><>::
-SMBGanim_0044.png::CompressedTexture2D::7626775301830301720::1711916800::1711916800::1::::<><>::
-SMBGanim_0045.png::CompressedTexture2D::6670591934816674150::1711916800::1711916800::1::::<><>::
-SMBGanim_0046.png::CompressedTexture2D::7233657844601821327::1711916800::1711916800::1::::<><>::
-SMBGanim_0047.png::CompressedTexture2D::2571844031726389735::1711916800::1711916800::1::::<><>::
-SMBGanim_0048.png::CompressedTexture2D::8564515892145684154::1711916800::1711916800::1::::<><>::
-SMBGanim_0049.png::CompressedTexture2D::5777456839969860795::1711916800::1711916800::1::::<><>::
-SMBGanim_0050.png::CompressedTexture2D::2949405279073921161::1711916800::1711916800::1::::<><>::
-SMBGanim_0051.png::CompressedTexture2D::5140632746794770203::1711916800::1711916800::1::::<><>::
-SMBGanim_0052.png::CompressedTexture2D::4641809857022723368::1711916800::1711916800::1::::<><>::
-SMBGanim_0053.png::CompressedTexture2D::7071891231349621295::1711916800::1711916800::1::::<><>::
-SMBGanim_0054.png::CompressedTexture2D::7529778396596353942::1711916800::1711916800::1::::<><>::
-SMBGanim_0055.png::CompressedTexture2D::5058331738383878668::1711916800::1711916800::1::::<><>::
-SMBGanim_0056.png::CompressedTexture2D::298546577896731727::1711916800::1711916800::1::::<><>::
-SMBGanim_0057.png::CompressedTexture2D::273945515999684688::1711916800::1711916800::1::::<><>::
-SMBGanim_0058.png::CompressedTexture2D::1950741035440159179::1711916800::1711916800::1::::<><>::
-SMBGanim_0059.png::CompressedTexture2D::8488544946749950983::1711916800::1711916800::1::::<><>::
-SMBGanim_0060.png::CompressedTexture2D::7986537254708800156::1711916800::1711916800::1::::<><>::
-SMBGanim_0061.png::CompressedTexture2D::1564245184905502749::1711916800::1711916800::1::::<><>::
-SMBGanim_0062.png::CompressedTexture2D::4145134797016036112::1711916800::1711916800::1::::<><>::
-SMBGanim_0063.png::CompressedTexture2D::3212074536511277537::1711916800::1711916800::1::::<><>::
-SMBGanim_0064.png::CompressedTexture2D::6306146951456481162::1711916800::1711916800::1::::<><>::
-SMBGanim_0065.png::CompressedTexture2D::1848018010138076851::1711916800::1711916800::1::::<><>::
-SMBGanim_0066.png::CompressedTexture2D::3188498236916019375::1711916800::1711916800::1::::<><>::
-SMBGanim_0067.png::CompressedTexture2D::1123796097119389786::1711916800::1711916800::1::::<><>::
-SMBGanim_0068.png::CompressedTexture2D::8578847262602101158::1711916800::1711916800::1::::<><>::
-SMBGanim_0069.png::CompressedTexture2D::7725124896959892823::1711916800::1711916800::1::::<><>::
-SMBGanim_0070.png::CompressedTexture2D::4688525372302837867::1711916800::1711916800::1::::<><>::
-SMBGanim_0071.png::CompressedTexture2D::2220591487724141440::1711916800::1711916800::1::::<><>::
-SMBGanim_0072.png::CompressedTexture2D::8244809500188932969::1711916800::1711916800::1::::<><>::
-SMBGanim_0073.png::CompressedTexture2D::8829072117152114765::1711916800::1711916800::1::::<><>::
-SMBGanim_0074.png::CompressedTexture2D::7354500906236102912::1711916800::1711916800::1::::<><>::
-SMBGanim_0075.png::CompressedTexture2D::5156451825699727684::1711916800::1711916800::1::::<><>::
-::res://GAMESTATES/STARTMENU/assets/icons/::1711916800
-JIprotosplash1.png::CompressedTexture2D::5049848972488387055::1711916800::1711916800::1::::<><>::
-::res://GAMESTATES/STARTMENU/logic/::1711916800
-::res://GAMESTATES/STARTMENU/logic/independent object scripts/::1711945836
-detectsmenuoptionnodesinareaSM.cs::CSharpScript::-1::1711940253::0::1::::<>Area2D<>::
-loadsubmenufunctionsSM.cs::CSharpScript::-1::1711916800::0::1::::<>AnimatedSprite2D<>::
-menuoptsizefunctionsSM.cs::CSharpScript::-1::1711936466::0::1::::<>Node2D<>::
-musicplayerfunctionsSM.cs::CSharpScript::-1::1711930968::0::1::::<>AudioStreamPlayer<>::
-scrollmenufollowfunctionsSM.cs::CSharpScript::-1::1711948337::0::1::::<>PathFollow2D<>::
-::res://GAMESTATES/STARTMENU/logic/management/::1711927274
-managesaudioSM.cs::CSharpScript::-1::1711948424::0::1::::<>Node<>::
-rootreadySM.cs::CSharpScript::-1::1711931536::0::1::::<>Node<>::
-smCORE.cs::CSharpScript::-1::1711939518::0::1::::<>Node<>::
-::res://GAMESTATES/STARTMENU/logic/watchernodes/::1711916800
-watchesforglobalinputsSM.cs::CSharpScript::-1::1711916800::0::1::::<>Node<>::
-watchesforinputsSM.cs::CSharpScript::-1::1711940358::0::1::::<>Node<>::
+::res://::1712261534
+icon.svg::CompressedTexture2D::770079878670275628::1712254775::1712254775::1::::<><>::
+README.md::TextFile::-1::1712254775::0::1::::<><>::
+SCENE_Hub.tscn::PackedScene::5000709427778831523::1712254775::0::1::::<><>::
+SCENE_Roam.tscn::PackedScene::4009068092526081425::1712254775::0::1::::<><>::
+::res://addons/::1712254775
+::res://addons/godot-git-plugin/::1712254775
+git_plugin.gdextension::GDExtension::-1::1712254775::0::1::::<><>::
+plugin.cfg::TextFile::-1::1712254775::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1712254775::0::1::::<><>::
+::res://addons/godot-git-plugin/linux/::1712254775
+::res://addons/godot-git-plugin/macos/::1712254775
+::res://addons/godot-git-plugin/win64/::1712255981
+::res://ALLTEMP stuffstorage/::1712254774
+::res://ALLTEMP stuffstorage/assets/::1712254774
+::res://ALLTEMP stuffstorage/assets/2dsprites/::1712254774
+::res://ALLTEMP stuffstorage/assets/2dsprites/fight/::1712254774
+::res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/::1712254774
+PHfantasyrock.png::CompressedTexture2D::7446724969750662357::1712254774::1712254774::1::::<><>::
+PHPunch!.png::CompressedTexture2D::1710404063505856956::1712254774::1712254774::1::::<><>::
+PHThinker.png::CompressedTexture2D::8468288436713665505::1712254774::1712254774::1::::<><>::
+PHTVspikes.png::CompressedTexture2D::578502308043229394::1712254774::1712254774::1::::<><>::
+::res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/::1712254774
+::res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/playerchars/::1712254774
+CebinPH.png::CompressedTexture2D::3214192733975572671::1712254774::1712254774::1::::<><>::
+LouisPH.png::CompressedTexture2D::4807134568611821754::1712254774::1712254774::1::::<><>::
+MerlinPH.png::CompressedTexture2D::2006573739462875925::1712254774::1712254774::1::::<><>::
+ReprobatePH.png::CompressedTexture2D::3881803290453783899::1712254774::1712254774::1::::<><>::
+::res://ALLTEMP stuffstorage/assets/3dmodeltextures/::1712254774
+PrototypeObjectTexture.png::CompressedTexture2D::2393481292632002580::1712254774::1712254774::1::::<><>::
+::res://ALLTEMP stuffstorage/assets/audio/::1712254774
+HeartBeatEchoSFX.wav::AudioStreamWAV::4479247690617954623::1712254774::1712254774::1::::<><>::
+::res://ALLTEMP stuffstorage/assets/audio/music/::1712254774
+Crypteque.mp3::AudioStreamMP3::8218089355393007509::1712254774::1712254774::1::::<><>::
+Deal 'Em Out.mp3::AudioStreamMP3::8573707567428285823::1712254774::1712254774::1::::<><>::
+GET ENUF.mp3::AudioStreamMP3::4420730745122659360::1712254774::1712254774::1::::<><>::
+LonelyWindFade.wav::AudioStreamWAV::1693355395862469478::1712254774::1712254774::1::::<><>::
+::res://ALLTEMP stuffstorage/assets/guisprites/::1712254774
+devpaneltempbg.png::CompressedTexture2D::396204464867768980::1712254774::1712254774::1::::<><>::
+::res://ALLTEMP stuffstorage/assets/text files/::1712254774
+::res://ALLTEMP stuffstorage/assets/text files/documentation/::1712254774
+NodepathcallsF_documentation.txt::TextFile::-1::1712254774::0::1::::<><>::
+NodepathcallsSM_documentation.txt::TextFile::-1::1712254774::0::1::::<><>::
+usefulstuffcopypasta.cs::CSharpScript::-1::1712254774::0::1::::<>Node<>::
+::res://ALLTEMP stuffstorage/assets/text files/game info storage/::1712254774
+Save_m&kinputbindings.json::JSON::-1::1712254774::0::1::::<><>::
+::res://ALLTEMP stuffstorage/scripts/::1712254774
+::res://ALLTEMP stuffstorage/scripts/functions/::1712254774
+::res://ALLTEMP stuffstorage/scripts/functions/initialization/::1712254774
+problemcheckerF.cs::CSharpScript::-1::1712254774::0::1::::<>Node<>::
+StartMenuBGAnim.cs::CSharpScript::-1::1712254774::0::1::::<>Node<>::
+::res://ALLTEMP stuffstorage/scripts/functions/initialization/gui/::1712254774
+initializesthisdevpanelonscenechange.cs::CSharpScript::-1::1712254774::0::1::::<>Sprite2D<>::
+::res://ALLTEMP stuffstorage/scripts/functions/scene management/::1712254774
+rotatessceneonbuttonTEMP.cs::CSharpScript::-1::1712254774::0::1::::<>Button<>::
+::res://ALLTEMP stuffstorage/scripts/functions/watchers/::1712254774
+watchesgamestateF.cs::CSharpScript::-1::1712254774::0::1::::<>Node<>::
+::res://ALLTEMP stuffstorage/scripts/gamewide value storage (autoload singletons)/::1712254774
+Auto_holdscurrentinputbinds.cs::CSharpScript::-1::1712254774::0::1::::<>Node<>::
+::res://GAMEASSETS/::1712254774
+::res://GAMEASSETS/in Fight/::1712254774
+::res://GAMEASSETS/in Fight/GUI/::1712254775
+::res://GAMEASSETS/in Fight/GUI/Animations/::1712254775
+::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/::1712254775
+::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/::1712254774
+Anim_RhythmLockAct_0001.png::CompressedTexture2D::7290148827480486369::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0002.png::CompressedTexture2D::3882145997257454144::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0003.png::CompressedTexture2D::6347118713764094093::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0004.png::CompressedTexture2D::6542560170042647026::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0005.png::CompressedTexture2D::984435254321278056::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0006.png::CompressedTexture2D::7134766110674291879::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0007.png::CompressedTexture2D::4517884784507444524::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0008.png::CompressedTexture2D::5440556488994488271::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0009.png::CompressedTexture2D::6936276466691001908::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0010.png::CompressedTexture2D::1023059559216850362::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0011.png::CompressedTexture2D::6131525656282291261::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0012.png::CompressedTexture2D::7898513087178324276::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0013.png::CompressedTexture2D::2219271938629262549::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0014.png::CompressedTexture2D::4057689205291652700::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0015.png::CompressedTexture2D::876017070234004431::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0016.png::CompressedTexture2D::4679372958428761275::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0017.png::CompressedTexture2D::4493319270281475091::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0018.png::CompressedTexture2D::8668229247694390909::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0019.png::CompressedTexture2D::5994892832672437828::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0020.png::CompressedTexture2D::3533002739013816548::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0021.png::CompressedTexture2D::582131093099617699::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0022.png::CompressedTexture2D::846746463267815711::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0023.png::CompressedTexture2D::4075225456372021959::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0024.png::CompressedTexture2D::894001229310367950::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0025.png::CompressedTexture2D::7886020420110691362::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0026.png::CompressedTexture2D::1200499659854131772::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0027.png::CompressedTexture2D::8730449426402242236::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0028.png::CompressedTexture2D::1053871392088423705::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0029.png::CompressedTexture2D::962746665267818020::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockAct_0030.png::CompressedTexture2D::9096907956961025009::1712254774::1712254774::1::::<><>::
+::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/::1712254774
+Anim_RhythmLockError1_0001.png::CompressedTexture2D::8262550637862409946::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0002.png::CompressedTexture2D::3030633779397099685::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0003.png::CompressedTexture2D::8223030493788059633::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0004.png::CompressedTexture2D::647471913284309716::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0005.png::CompressedTexture2D::336450055699153907::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0006.png::CompressedTexture2D::7531927532296132465::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0007.png::CompressedTexture2D::4836072305984552713::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0008.png::CompressedTexture2D::5635463080716573060::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0009.png::CompressedTexture2D::2894667954170989154::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0010.png::CompressedTexture2D::4905917614999812340::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0011.png::CompressedTexture2D::4947336936762872517::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0012.png::CompressedTexture2D::1023417050212979455::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0013.png::CompressedTexture2D::5789714035250477717::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0014.png::CompressedTexture2D::7401278254373137979::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_0015.png::CompressedTexture2D::6662775349569854988::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError1_00016.png::CompressedTexture2D::5193233857745874121::1712254774::1712254774::1::::<><>::
+::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/::1712254774
+Anim_RhythmLockError2_0002.png::CompressedTexture2D::8263312266938650577::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0003.png::CompressedTexture2D::6516906142431275055::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0004.png::CompressedTexture2D::6555190005598960076::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0005.png::CompressedTexture2D::8938904043141377840::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0006.png::CompressedTexture2D::8379507081839975191::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0007.png::CompressedTexture2D::4198218731964083511::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0008.png::CompressedTexture2D::4516896734595119230::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0009.png::CompressedTexture2D::7962698630789030839::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0010.png::CompressedTexture2D::4685882382217949610::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0011.png::CompressedTexture2D::5903857664113675424::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0012.png::CompressedTexture2D::809633060666110001::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0013.png::CompressedTexture2D::2698686823805594715::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0014.png::CompressedTexture2D::434339087244615409::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0015.png::CompressedTexture2D::8105369699902974229::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockError2_0016.png::CompressedTexture2D::4522227793934509838::1712254774::1712254774::1::::<><>::
+::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/::1712254775
+Anim_RhythmLockStartBeats_0001.png::CompressedTexture2D::8996408101458604336::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0002.png::CompressedTexture2D::3658066904485056489::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0003.png::CompressedTexture2D::673351066067766659::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0004.png::CompressedTexture2D::3535210601971854825::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0005.png::CompressedTexture2D::3612570006280871012::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0006.png::CompressedTexture2D::1531337863117448618::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0007.png::CompressedTexture2D::4436601922714127146::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0008.png::CompressedTexture2D::6998284055524693994::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0009.png::CompressedTexture2D::1565050761948961665::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0010.png::CompressedTexture2D::4780783086363142897::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0011.png::CompressedTexture2D::6834280982624749078::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0012.png::CompressedTexture2D::3528348703895927079::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0013.png::CompressedTexture2D::3540993827820359500::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0014.png::CompressedTexture2D::7596438596378020860::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0015.png::CompressedTexture2D::1659805180597357178::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0016.png::CompressedTexture2D::3130704780404927631::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0017.png::CompressedTexture2D::895983956288649503::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0018.png::CompressedTexture2D::1977168888837464022::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0019.png::CompressedTexture2D::3592214561146396775::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0020.png::CompressedTexture2D::7964611346387628947::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0021.png::CompressedTexture2D::7150106585547516171::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0022.png::CompressedTexture2D::627746929752968332::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0023.png::CompressedTexture2D::7416869870388600794::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0024.png::CompressedTexture2D::6432609426500797416::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0025.png::CompressedTexture2D::3143746660995950224::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0026.png::CompressedTexture2D::8798504879224468831::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0027.png::CompressedTexture2D::3906750846536255260::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0028.png::CompressedTexture2D::6764640967811195666::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0029.png::CompressedTexture2D::5913355320028784640::1712254774::1712254774::1::::<><>::
+Anim_RhythmLockStartBeats_0030.png::CompressedTexture2D::3983252393536257776::1712254774::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0031.png::CompressedTexture2D::4001251214901783904::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0032.png::CompressedTexture2D::8031045894121484561::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0033.png::CompressedTexture2D::3898370771541530232::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0034.png::CompressedTexture2D::5986595854346950039::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0035.png::CompressedTexture2D::3023075472989958543::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0036.png::CompressedTexture2D::8841105431957980763::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0037.png::CompressedTexture2D::4885134650221544493::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0038.png::CompressedTexture2D::8077449238988661937::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0039.png::CompressedTexture2D::8749681900380309277::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0040.png::CompressedTexture2D::7846821184100565385::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0041.png::CompressedTexture2D::1022946117405202613::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0042.png::CompressedTexture2D::2451982822705799942::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0043.png::CompressedTexture2D::8665862033367242606::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0044.png::CompressedTexture2D::3955460912788222568::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0045.png::CompressedTexture2D::8730260602029338750::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0046.png::CompressedTexture2D::5148849625918903506::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0047.png::CompressedTexture2D::3669761671003816232::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0048.png::CompressedTexture2D::8667892489823742251::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0049.png::CompressedTexture2D::1732257970543765131::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0050.png::CompressedTexture2D::500743073754604264::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0051.png::CompressedTexture2D::491628151928220894::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0052.png::CompressedTexture2D::7059615675837908217::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0053.png::CompressedTexture2D::1063875022033424160::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0054.png::CompressedTexture2D::629224159264215032::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0055.png::CompressedTexture2D::5680072018668174669::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0056.png::CompressedTexture2D::7199827038867259209::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0057.png::CompressedTexture2D::4729750179009344827::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0058.png::CompressedTexture2D::6457902969348125461::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0059.png::CompressedTexture2D::246598071797643959::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0060.png::CompressedTexture2D::6015689589856937288::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0061.png::CompressedTexture2D::3137403434641069894::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0062.png::CompressedTexture2D::4443438956266028022::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0063.png::CompressedTexture2D::8377656550095475730::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0064.png::CompressedTexture2D::1814870332753230549::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0065.png::CompressedTexture2D::198491869048603079::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0066.png::CompressedTexture2D::1733678961987046044::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0067.png::CompressedTexture2D::4702259302810137842::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0068.png::CompressedTexture2D::3618790765904779812::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0069.png::CompressedTexture2D::8507158420120339306::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0070.png::CompressedTexture2D::4611456451326942436::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0071.png::CompressedTexture2D::393417384970087410::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0072.png::CompressedTexture2D::1270027253583316098::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0073.png::CompressedTexture2D::3384336166288143260::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0074.png::CompressedTexture2D::1140392798728085834::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0075.png::CompressedTexture2D::6502336260236559443::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0076.png::CompressedTexture2D::6503890363547960903::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0077.png::CompressedTexture2D::8816228786874182649::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0078.png::CompressedTexture2D::7097476734680563493::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0079.png::CompressedTexture2D::7076731751661223504::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0080.png::CompressedTexture2D::6877576221572404786::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0081.png::CompressedTexture2D::1678386782556465445::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0082.png::CompressedTexture2D::5980080801179495099::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0083.png::CompressedTexture2D::6901262587004487889::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0084.png::CompressedTexture2D::4859052002181097218::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0085.png::CompressedTexture2D::3448963345246202125::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0086.png::CompressedTexture2D::4482507043537131315::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0087.png::CompressedTexture2D::8628388528150845001::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0088.png::CompressedTexture2D::2754906750235201302::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0089.png::CompressedTexture2D::3614401299704520928::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0090.png::CompressedTexture2D::5847241524735330902::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0091.png::CompressedTexture2D::4569473454323516729::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0092.png::CompressedTexture2D::1594436259084959770::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0093.png::CompressedTexture2D::3756141822227547076::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0094.png::CompressedTexture2D::3151360959274614294::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0095.png::CompressedTexture2D::7881816168523515186::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0096.png::CompressedTexture2D::3384779975328528099::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0097.png::CompressedTexture2D::4113198193840789264::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0098.png::CompressedTexture2D::7658884203527883041::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0099.png::CompressedTexture2D::6416495581199074703::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0100.png::CompressedTexture2D::4131940016692212947::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0101.png::CompressedTexture2D::5146437820566318018::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0102.png::CompressedTexture2D::4442505210286097171::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0103.png::CompressedTexture2D::183347347068681914::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0104.png::CompressedTexture2D::6045044614778025850::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0105.png::CompressedTexture2D::9128539965524071269::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0106.png::CompressedTexture2D::9104158843303801846::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0107.png::CompressedTexture2D::3200851497899948157::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0108.png::CompressedTexture2D::4412625812094969055::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0109.png::CompressedTexture2D::77922126161478554::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0110.png::CompressedTexture2D::8666550508254882332::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0111.png::CompressedTexture2D::2016214478665569314::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0112.png::CompressedTexture2D::4362803513321721587::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0113.png::CompressedTexture2D::2813831405892646720::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0114.png::CompressedTexture2D::8739030033272805223::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0115.png::CompressedTexture2D::8791639935356660301::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0116.png::CompressedTexture2D::4590308788103574660::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0117.png::CompressedTexture2D::4434331783841468032::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0118.png::CompressedTexture2D::4743104471623256355::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0119.png::CompressedTexture2D::4295543179605119449::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0120.png::CompressedTexture2D::5928371963998087561::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0121.png::CompressedTexture2D::2090415696459923891::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0122.png::CompressedTexture2D::6692113140111782725::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0123.png::CompressedTexture2D::4417778586232750464::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0124.png::CompressedTexture2D::2396419715104149922::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0125.png::CompressedTexture2D::1517895489787833254::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0126.png::CompressedTexture2D::8389996548176544454::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0127.png::CompressedTexture2D::1860786527605327429::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0128.png::CompressedTexture2D::8318129002500298776::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0129.png::CompressedTexture2D::730511774698777870::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0130.png::CompressedTexture2D::8928647547010437410::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0131.png::CompressedTexture2D::861458338101415554::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0132.png::CompressedTexture2D::1268486350924260434::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0133.png::CompressedTexture2D::6079622441852739606::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0134.png::CompressedTexture2D::1522336212959014249::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0135.png::CompressedTexture2D::2838779020786812910::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0136.png::CompressedTexture2D::4578974689996774379::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0137.png::CompressedTexture2D::2899212790813786822::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0138.png::CompressedTexture2D::4474546380331758938::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0139.png::CompressedTexture2D::7698003284031406984::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0140.png::CompressedTexture2D::3101188890839066830::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0141.png::CompressedTexture2D::6524816682096530567::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0142.png::CompressedTexture2D::7490820727824767394::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0143.png::CompressedTexture2D::2708668539665881944::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0144.png::CompressedTexture2D::2049237937957963378::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0145.png::CompressedTexture2D::1045061234634146450::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0146.png::CompressedTexture2D::7089986329939471732::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0147.png::CompressedTexture2D::6534481259945937284::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0148.png::CompressedTexture2D::3271064816052070602::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0149.png::CompressedTexture2D::1540019372916156518::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0150.png::CompressedTexture2D::446343628268615658::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0151.png::CompressedTexture2D::8213848619610629436::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0152.png::CompressedTexture2D::7676287144809866200::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0153.png::CompressedTexture2D::406709017666184400::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0154.png::CompressedTexture2D::4639890766967425111::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0155.png::CompressedTexture2D::5208627417869687906::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0156.png::CompressedTexture2D::2918868275740837857::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0157.png::CompressedTexture2D::7659615905054984683::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0158.png::CompressedTexture2D::281903565527462622::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0159.png::CompressedTexture2D::6962060598955861905::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0160.png::CompressedTexture2D::2239341772788094449::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0161.png::CompressedTexture2D::58608464576189070::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0162.png::CompressedTexture2D::5528052040571147536::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0163.png::CompressedTexture2D::6050199721345619756::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0164.png::CompressedTexture2D::1593941131147472362::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0165.png::CompressedTexture2D::1138254558843880012::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0166.png::CompressedTexture2D::953669364967483296::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0167.png::CompressedTexture2D::8484330625860027896::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0168.png::CompressedTexture2D::8869953133633691028::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0169.png::CompressedTexture2D::4543681530363764532::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0170.png::CompressedTexture2D::4540164574925576012::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0171.png::CompressedTexture2D::4845597354635170502::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0172.png::CompressedTexture2D::7000841799092030296::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0173.png::CompressedTexture2D::5353960178521805535::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0174.png::CompressedTexture2D::1567479520715032423::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0175.png::CompressedTexture2D::5274848315396820190::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0176.png::CompressedTexture2D::8766055845105529852::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0177.png::CompressedTexture2D::8186444104240625343::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0178.png::CompressedTexture2D::6793671003408577228::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0179.png::CompressedTexture2D::4734699207556730992::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockStartBeats_0180.png::CompressedTexture2D::3421127758922146849::1712254775::1712254775::1::::<><>::
+::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/::1712254775
+Anim_RhythmLockThink_0001.png::CompressedTexture2D::7330809950207304613::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0002.png::CompressedTexture2D::5516001549051124808::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0003.png::CompressedTexture2D::1797510773418789414::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0004.png::CompressedTexture2D::3032218991882524688::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0005.png::CompressedTexture2D::6516881805414177268::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0006.png::CompressedTexture2D::5885945052308785772::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0007.png::CompressedTexture2D::7773485917700436912::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0008.png::CompressedTexture2D::7917120590623989647::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0009.png::CompressedTexture2D::7095130102230093922::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0010.png::CompressedTexture2D::2551122889165876542::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0011.png::CompressedTexture2D::1427339029062014600::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0012.png::CompressedTexture2D::7357099851055825439::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0013.png::CompressedTexture2D::6165933050313671395::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0014.png::CompressedTexture2D::8378789389705754245::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0015.png::CompressedTexture2D::8228411513975325427::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0016.png::CompressedTexture2D::414266828793826697::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0017.png::CompressedTexture2D::8523007677929272052::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0018.png::CompressedTexture2D::239601481478912323::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0019.png::CompressedTexture2D::2991063975415382788::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0020.png::CompressedTexture2D::8529528159446202963::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0021.png::CompressedTexture2D::1125211439599415066::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0022.png::CompressedTexture2D::4108905567962678858::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0023.png::CompressedTexture2D::4968749677381579413::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0024.png::CompressedTexture2D::1010898762154728854::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0025.png::CompressedTexture2D::3265395532359232159::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0026.png::CompressedTexture2D::6733631070991535162::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0027.png::CompressedTexture2D::353682486972058168::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0028.png::CompressedTexture2D::2999960946868261563::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0029.png::CompressedTexture2D::1043215260589518590::1712254775::1712254775::1::::<><>::
+Anim_RhythmLockThink_0030.png::CompressedTexture2D::2358520385521465731::1712254775::1712254775::1::::<><>::
+::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/::1712254775
+::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/::1712254775
+Anim_FullScreenFightTransition_0001.png::CompressedTexture2D::7117321629512024240::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0002.png::CompressedTexture2D::7462892753083472360::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0003.png::CompressedTexture2D::8051024662590002782::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0004.png::CompressedTexture2D::339322446446109595::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0005.png::CompressedTexture2D::2720506041783645963::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0006.png::CompressedTexture2D::6440027939471814453::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0007.png::CompressedTexture2D::7889554159779198967::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0008.png::CompressedTexture2D::5991670754360411091::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0009.png::CompressedTexture2D::1748152551926912230::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0010.png::CompressedTexture2D::349960542247747661::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0011.png::CompressedTexture2D::1826960297212745502::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0012.png::CompressedTexture2D::3349153197984434746::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0013.png::CompressedTexture2D::9060366345449713250::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0014.png::CompressedTexture2D::7977210584662088439::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0015.png::CompressedTexture2D::1251078596270488352::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0016.png::CompressedTexture2D::3493622324448042842::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0017.png::CompressedTexture2D::2299574897342385155::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0018.png::CompressedTexture2D::1605591270787621707::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0019.png::CompressedTexture2D::125055168796324741::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0020.png::CompressedTexture2D::2994091187162988626::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0021.png::CompressedTexture2D::4552076615579552108::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0022.png::CompressedTexture2D::336378344620281951::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0023.png::CompressedTexture2D::4066333480196755966::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0024.png::CompressedTexture2D::6048189528305445626::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0025.png::CompressedTexture2D::2244193796248128531::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0026.png::CompressedTexture2D::4122905832681460589::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0027.png::CompressedTexture2D::2029524982647399598::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0028.png::CompressedTexture2D::6737403441331124008::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0029.png::CompressedTexture2D::8890919273240443507::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0030.png::CompressedTexture2D::5542477007940856577::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0031.png::CompressedTexture2D::4624424214567444132::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0032.png::CompressedTexture2D::7872105926422784604::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0033.png::CompressedTexture2D::6449010577221859563::1712254775::1712254775::1::::<><>::
+Anim_FullScreenFightTransition_0034.png::CompressedTexture2D::4580738094562930627::1712254775::1712254775::1::::<><>::
+::res://GAMEASSETS/in Fight/GUI/packed game objects/::1712254775
+grey_rhythm_bar.tscn::PackedScene::9015628478265825341::1712254775::0::1::::<><>::res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs<>uid://bldxxtqtd45rb::::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarGreyed.png
+Pgo_GreyRhythmBar.tscn::PackedScene::8263407740964177949::1712254775::0::1::::<><>::res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs<>uid://bldxxtqtd45rb::::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarGreyed.png
+Pgo_WhiteRhythmBar.tscn::PackedScene::6843194164942205129::1712254775::0::1::::<><>::res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs<>uid://crdl7byh1r35n::::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarWhite.png
+::res://GAMEASSETS/in Fight/GUI/Sprites/::1712254775
+::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/::1712254775
+RhythmBarBlack.png::CompressedTexture2D::443784502455426003::1712254775::1712254775::1::::<><>::
+RhythmBarGreyed.png::CompressedTexture2D::3166129684596058419::1712254775::1712254775::1::::<><>::
+RhythmBarWhite.png::CompressedTexture2D::5972969964772470145::1712254775::1712254775::1::::<><>::
+::res://GAMEASSETS/in Fight/GUI/Sprites/ScreenFillers/::1712254775
+FightTransitionBlackscreen.png::CompressedTexture2D::6939670657278645333::1712254775::1712254775::1::::<><>::
+::res://GAMEDATA/::1712254775
+::res://GAMEDATA/attachables/::1712254775
+::res://GAMEDATA/attachables/constant area values/::1712254775
+constantareavalsDefault.cs::CSharpScript::-1::1712261342::0::1::::<><>::
+constantareavalsinTestArea.cs::CSharpScript::-1::1712254775::0::1::::<><>::
+::res://GAMEDATA/universal stuff/::1712254775
+calibrib.ttf::FontFile::7582321666642558428::1712254775::1712254775::1::::<><>::
+::res://GAMESTATES/::1712254775
+::res://GAMESTATES/Autoloads/::1712261534
+constantvalretrieverA.cs::CSharpScript::-1::1712261582::0::1::::<><>::
+GCORE.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+playerdataA.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+playerflagsA.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+::res://GAMESTATES/FIGHT/::1712254775
+SCENE_Fight.tscn::PackedScene::6851791907417588071::1712254775::0::1::::<><>::res://GAMESTATES/FIGHT/logic/management/rootreadyF.cs<>uid://fv6ouw785jsm::::res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png<>uid://c8nxin8gviscu::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0001.png<>res://ALLTEMP stuffstorage/scripts/functions/initialization/gui/initializesthisdevpanelonscenechange.cs<>uid://delc0u20ixvdw::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0002.png<>res://ALLTEMP stuffstorage/scripts/functions/scene management/rotatessceneonbuttonTEMP.cs<>uid://dmx8g2d147l8a::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0003.png<>uid://badoj1aati82k::::res://ALLTEMP stuffstorage/assets/3dmodeltextures/PrototypeObjectTexture.png<>res://GAMESTATES/FIGHT/logic/watchers/watchesforglobalinputsF.cs<>uid://db4nxld4pr5tl::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0001.png<>uid://dediqb7fvc08p::::res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHfantasyrock.png<>uid://e3mudljm4o4b::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0004.png<>res://GAMESTATES/FIGHT/logic/independent object scripts/Rez_Lgridnotchdata.cs<>uid://be03lpu6bioqd::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0005.png<>uid://ymsdtohc57ci::::res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHPunch!.png<>uid://bvksm3i11c6rs::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0002.png<>uid://cx0uk4ck73moj::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0006.png<>uid://cwoueajsyghnh::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0003.png<>uid://iih334gbsbfe::::res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHTVspikes.png<>uid://dkn02l2rrm8qd::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0007.png<>uid://c0hjalx1rxt0m::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0004.png<>uid://dswdqdfm5huur::::res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHThinker.png<>uid://crmn7a4vk5fgd::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0008.png<>uid://oa4rftc7n5ea::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0005.png<>uid://bvkmy6oacr3nj::::res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/playerchars/ReprobatePH.png<>uid://c8wes5dbbq4jr::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0006.png<>res://ALLTEMP stuffstorage/scripts/functions/watchers/watchesgamestateF.cs<>uid://y5221ufql21o::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0009.png<>res://GAMESTATES/FIGHT/logic/management/fCORE.cs<>res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/playercharacterfunctions.cs<>res://GAMESTATES/FIGHT/logic/management/initializescenarioF.cs<>uid://b5mq5xdfsn53u::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0007.png<>res://ALLTEMP stuffstorage/scripts/functions/initialization/problemcheckerF.cs<>uid://e8r2fv6yyw50::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0010.png<>uid://1a81fftm0p63::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0011.png<>uid://cjrpf2djjdwwd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0008.png<>uid://bnymcf2xugukg::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0012.png<>uid://c528pv08sly5a::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0009.png<>uid://ottv2skxrdss::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0010.png<>uid://d2c5566ukkqso::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0013.png<>uid://ctmfljqnhx0tl::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0011.png<>uid://dlwhq0y0vgw1l::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0014.png<>uid://r3bc1o758bm3::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0015.png<>uid://dksdmeggehcwi::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0012.png<>uid://bp1lpjlxbn5va::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0016.png<>uid://6vbc41ybospp::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0013.png<>uid://706wr7lbjlex::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0017.png<>uid://bx2tsv6lye3ue::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0014.png<>res://GAMESTATES/FIGHT/logic/management/handlesmusicinfoF.cs<>uid://mql4xmv5bf24::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0015.png<>uid://w404a24kbt44::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0018.png<>uid://b1tv1ixfx3uf::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0019.png<>uid://b7wyua3q7okxv::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0016.png<>uid://b5aukus5mljl8::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0017.png<>uid://biwmiksknekle::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0020.png<>uid://b54cbisckugka::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0021.png<>uid://dvq7p7qahxpa0::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0018.png<>uid://e17dqeqymwx0::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0022.png<>uid://crn8akrimxm4c::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0019.png<>uid://bx606htwgnam5::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0023.png<>uid://bqloblaidoi2o::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0020.png<>uid://ij8u430bnqf8::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0021.png<>uid://csf12el4j2627::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0024.png<>uid://68dsq2fesljf::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0025.png<>uid://mcf144lqhq5l::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0022.png<>uid://byccmrix831h8::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0023.png<>uid://by0fwle7disyf::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0026.png<>uid://m0ccmq2d8gmg::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0024.png<>uid://36d8k23kr5ck::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0027.png<>uid://dkmbusn2bqa4y::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0025.png<>uid://c28wbygie61tc::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0028.png<>uid://rdsb3orvekwy::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0026.png<>uid://dyw3e2rtw4wyd::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0029.png<>uid://dwndhx4cpngvc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0027.png<>uid://ck7210i0pb7dd::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0030.png<>uid://pardwxey45ld::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0028.png<>uid://b65dudnvh4ckq::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0031.png<>uid://dkfko1i1c0i17::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0032.png<>uid://nymkdicdi581::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0029.png<>uid://cx47i54o3byjr::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0033.png<>uid://d2uu0lgsulwb6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0030.png<>uid://b6i7c704m1jff::::res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0034.png<>uid://dpypacd87lkhm::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0001.png<>uid://bjgcdiqdwsn2l::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0002.png<>uid://c54vmkjign1c8::::res://GAMEASSETS/in Fight/GUI/Sprites/ScreenFillers/FightTransitionBlackscreen.png<>uid://dpfkd1ef80kvh::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0003.png<>uid://jhv1dug1mh45::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0004.png<>uid://e18jvpknwtix::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0005.png<>uid://dfkr0mn51ygo4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0006.png<>uid://ca5vn0noebfqn::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0007.png<>uid://cmj4ivfaxwb6c::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0008.png<>uid://bhig01t11m68e::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0009.png<>uid://cb5p0m100gqka::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0010.png<>uid://ccqr6froyy1mf::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0011.png<>uid://ot0r84mrarg6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0012.png<>uid://coqt0km5q2sbt::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0013.png<>uid://ddph8bcg1ht0f::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0014.png<>uid://c16q63wx4jqvk::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_0015.png<>uid://cf8v2kfa8j3yr::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError1/Anim_RhythmLockError1_00016.png<>uid://dpy2ss5hkphjl::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0002.png<>uid://cy33qy15ww7r4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0003.png<>uid://c0nna0bul6tts::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0004.png<>uid://d0mcpc2jck7km::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0005.png<>uid://drndi0r6u4k2r::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0006.png<>uid://b02wbw2yi6i0n::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0007.png<>uid://b5mavnpxo0cbm::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0008.png<>uid://dlpgqope5phad::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0009.png<>uid://b7042e0g8lc3c::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0010.png<>uid://cqd4w5gaxouwe::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0011.png<>uid://lsgskghfswmb::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0012.png<>uid://bepi8ihynft7x::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0013.png<>uid://ggnrbrprlhnt::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0014.png<>uid://dnqkiwqvardof::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0015.png<>uid://b5ouowknp4iss::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockError2/Anim_RhythmLockError2_0016.png<>uid://dcpdmsmxyvmg8::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0001.png<>uid://ckt80e83dkghc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0002.png<>uid://0uy0fh3hvlxu::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0003.png<>uid://bjg3g6trky6cq::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0004.png<>uid://cy33ddo17yh7y::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0005.png<>uid://cp4gwjiv4jrhc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0006.png<>uid://di0sgbalg0mhk::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0007.png<>uid://dk2d24is3enjj::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0008.png<>uid://c8c60yeugy04e::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0009.png<>uid://bcl1vegbh3ejm::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0010.png<>uid://ulochppclnnc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0011.png<>uid://dc23mh1ee2iol::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0012.png<>uid://ct33atb56twwx::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0013.png<>uid://drm0o4jp1rm5r::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0014.png<>uid://dph50agdiri00::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0015.png<>uid://f5w6c0s8512l::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0016.png<>uid://dtouxrcbrq2ke::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0017.png<>uid://docg32tyd0x0::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0018.png<>uid://biu5ne847swjk::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0019.png<>uid://dtr1c2q06w0i6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0020.png<>uid://qbcckvitf06a::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0021.png<>uid://bysncr8wleofy::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0022.png<>uid://cc15t06ga7jhd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0023.png<>uid://onxmcjyn606m::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0024.png<>uid://bmr1t77yrmrdf::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0025.png<>uid://c2626jpprj8yo::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0026.png<>uid://fbldmkv7nxrs::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0027.png<>uid://bi0g6h1sefjwd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0028.png<>uid://o4luq8ob6doo::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0029.png<>uid://8uqqsaik8luh::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockThinking/Anim_RhythmLockThink_0030.png<>uid://d1f6r6i0wlijg::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0001.png<>uid://bsd83es0ociq0::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0002.png<>uid://juf81xu1nod4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0003.png<>uid://bqmqnw3xcoxev::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0004.png<>uid://brp7rah40s8oe::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0005.png<>uid://v21578adifda::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0006.png<>uid://b4hegkn1f53hm::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0007.png<>uid://c6yaylvah6qhu::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0008.png<>uid://wkefl7fj7fq4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0009.png<>uid://cad32ft8k3axd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0010.png<>uid://c4mtuyliwcofe::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0011.png<>uid://bqjfngenj4yi6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0012.png<>uid://bqpjwes31fvi7::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0013.png<>uid://dgh1h7kn2vxiy::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0014.png<>uid://xwa0pv1j5cow::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0015.png<>uid://bkusirnbdkvcx::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0016.png<>uid://m1ayv6ycowwl::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0017.png<>uid://3f0xhich43nu::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0018.png<>uid://brgdip3oi7ycd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0019.png<>uid://dlqd8q6rjwqqt::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0020.png<>uid://c84thfyc1x8k2::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0021.png<>uid://i7c5uwf2ebay::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0022.png<>uid://ddw107gy428qo::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0023.png<>uid://cxwaew448ea37::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0024.png<>uid://bk14bvyoxi4fc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0025.png<>uid://dxmcdb51eh2q2::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0026.png<>uid://bvwpu6x4kfsfc::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0027.png<>uid://c3m3wbtihnpuw::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0028.png<>uid://cqiqdlqotkfue::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0029.png<>uid://bw0rt5hks5d0c::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0030.png<>uid://bxaia1q250cnw::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0031.png<>uid://dmokfgk4tpmtt::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0032.png<>uid://bvsnukgm8ynwi::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0033.png<>uid://crj7mhc3fiwqp::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0034.png<>uid://bjcnu10a1k3hb::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0035.png<>uid://dx7xykjbdmojb::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0036.png<>uid://cbunpo1r27qtx::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0037.png<>uid://dnc1n5u5k3gkf::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0038.png<>uid://dwwn8n3ljgvub::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0039.png<>uid://dj2b87h0xg6h6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0040.png<>uid://otr1jx5rp366::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0041.png<>uid://ba602fqbcnkbu::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0042.png<>uid://dvp2qmyp0s5hi::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0043.png<>uid://bwmb4mapx55ui::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0044.png<>uid://dwnad72f8qcd7::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0045.png<>uid://cfme2ib0o3ur7::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0046.png<>uid://bsjwo58i6cvxg::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0047.png<>uid://dvq16m5feytyp::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0048.png<>uid://yxebhiyhyhb4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0049.png<>uid://hetfvbt6e7bw::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0050.png<>uid://hafbqw4upmcs::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0051.png<>uid://c7ty3rus5vg54::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0052.png<>uid://pfl4pkj6ijbk::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0053.png<>uid://i72h233id6oi::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0054.png<>uid://cm6p7rptpx6td::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0055.png<>uid://datwdm6xsa6ef::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0056.png<>uid://b8nekamah7pxb::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0057.png<>uid://cyaiyop0n2ig8::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0058.png<>uid://drpo07l50g2b::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0059.png<>uid://crybr8dy6th0s::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0060.png<>uid://bkx1tucq8l84a::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0061.png<>uid://b4ko14yqhi6va::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0062.png<>uid://drmg1q8d0xklm::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0063.png<>uid://04ewcrefxjv6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0064.png<>uid://c3feqxnspeb4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0065.png<>uid://yx2o6yyqnygi::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0066.png<>uid://b782r2n3wlnf3::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0067.png<>uid://brs77qhjq1lu7::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0068.png<>uid://dtg6wkv7sakvy::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0069.png<>uid://b6x3aqgxt4yee::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0070.png<>uid://futr6bmtm72m::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0071.png<>uid://sdhfs14ldbtq::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0072.png<>uid://bohnr0wuc0hp1::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0073.png<>uid://qiodq2yyumq1::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0074.png<>uid://cyv1r7uqr1mjr::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0075.png<>uid://cywsehn7k1uf4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0076.png<>uid://dxuwaaccnfyr6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0077.png<>uid://c8ecn1a33becj::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0078.png<>uid://c73a0dfni7grw::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0079.png<>uid://c48sw76shgpgk::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0080.png<>uid://x6a1xtkqg2lt::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0081.png<>uid://crg2b7abxknqh::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0082.png<>uid://c5la10hofyu06::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0083.png<>uid://cbh042kkcnefa::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0084.png<>uid://bpex6mj4po2of::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0085.png<>uid://b44mia64b07wp::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0086.png<>uid://du6wke8x3teb6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0087.png<>uid://bfiq585wc3iyg::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0088.png<>uid://brq3wqreou1jg::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0089.png<>uid://cpkphi7dyhpww::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0090.png<>uid://b6dqtbtqol4rl::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0091.png<>uid://wymeq4pfvxe5::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0092.png<>uid://btrrdvy26f2km::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0093.png<>uid://bk5sppq2fl3ty::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0094.png<>uid://dkkamja3kspju::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0095.png<>uid://bohu3joab38wd::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0096.png<>uid://byup1j7bxp71u::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0097.png<>uid://dheax6wk6ywn6::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0098.png<>uid://cxog0k7cogkax::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0099.png<>uid://by4spils68r2b::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0100.png<>uid://cfk8cxlbsv6p7::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0101.png<>uid://b4j8n88vnvrhj::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0102.png<>uid://cu2x630yoyva::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0103.png<>uid://csejab4n7ab2a::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0104.png<>uid://d3b6yp1vuhjqj::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0105.png<>uid://d2yefv6b1dj3c::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0106.png<>uid://blurs6lp6ib2t::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0107.png<>uid://b34rkju2pc0il::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0108.png<>uid://bd0mpetq3s15::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0109.png<>uid://dvqe25xxwavjw::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0110.png<>uid://3yw01efa6w23::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0111.png<>uid://b3fm0blp1db52::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0112.png<>uid://bgdbnllbam5ai::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0113.png<>uid://dwrisvlcxn42f::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0114.png<>uid://dxi0a4g3ysrwn::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0115.png<>uid://b6ntykv2ior6s::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0116.png<>uid://b4ga2c5gquu7q::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0117.png<>uid://b8tuic0o316tr::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0118.png<>uid://b2g176xef3r6h::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0119.png<>uid://cqp0ojvwf88i4::::res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0120.png<>res://GAMESTATES/FIGHT/logic/management/turnhandlerF.cs<>res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs<>uid://crdl7byh1r35n::::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarWhite.png<>uid://bldxxtqtd45rb::::res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarGreyed.png<>res://GAMESTATES/FIGHT/logic/management/handlesmusictimingF.cs<>res://GAMESTATES/FIGHT/logic/management/visual managers/managesplayergui.cs
+::res://GAMESTATES/FIGHT/logic/::1712254775
+::res://GAMESTATES/FIGHT/logic/independent object scripts/::1712254775
+Rez_Lgridnotchdata.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+::res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/::1712254775
+playercharacterfunctions.cs::CSharpScript::-1::1712254775::0::1::::<><>::
+rhythmbarfunctions.cs::CSharpScript::-1::1712254775::0::1::::<><>::
+::res://GAMESTATES/FIGHT/logic/management/::1712254775
+fCORE.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+handlesmusicinfoF.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+handlesmusictimingF.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+initializescenarioF.cs::CSharpScript::-1::1712261236::0::1::::<>Node<>::
+rootreadyF.cs::CSharpScript::-1::1712254775::0::1::::<>Node3D<>::
+turnhandlerF.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+::res://GAMESTATES/FIGHT/logic/management/visual managers/::1712254775
+managesplayergui.cs::CSharpScript::-1::1712254775::0::1::::<><>::
+managesstageelements.cs::CSharpScript::-1::1712254775::0::1::::<><>::
+::res://GAMESTATES/FIGHT/logic/watchers/::1712254775
+watchesforglobalinputsF.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+watchesforinputsF.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+::res://GAMESTATES/STARTMENU/::1712254775
+SCENE_Start Menu.tscn::PackedScene::1378223959196519590::1712254775::0::1::::<><>::res://GAMESTATES/STARTMENU/logic/management/rootreadySM.cs<>uid://fv6ouw785jsm::::res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png<>res://ALLTEMP stuffstorage/scripts/functions/initialization/gui/initializesthisdevpanelonscenechange.cs<>uid://cu70eiig70enp::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0001.png<>res://ALLTEMP stuffstorage/scripts/functions/scene management/rotatessceneonbuttonTEMP.cs<>uid://cd7gjlweyb1hr::::res://GAMESTATES/STARTMENU/assets/icons/JIprotosplash1.png<>uid://bj8by5unrd6og::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0002.png<>uid://crgdpinwp65i1::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0003.png<>res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforglobalinputsSM.cs<>uid://dksgqwplpwbxt::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0004.png<>uid://c1ughcw55x6ss::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0005.png<>uid://dyy4gl0ophn0v::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0006.png<>uid://cvbc5mwv3wwte::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0007.png<>uid://dj2awhj1b5hnt::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0008.png<>uid://bmufs0g41q5bq::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0009.png<>uid://cks73oj13ep62::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0010.png<>uid://c850hy1fnhnn5::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0011.png<>uid://twbaayunitow::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0012.png<>uid://m8u61covbv4m::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0013.png<>uid://cvq6m6rlv5x2l::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0014.png<>uid://bnfw0x7nkn5jf::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0015.png<>uid://b64o5s0a7f8l6::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0016.png<>uid://du153dyiwt0op::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0017.png<>uid://bwcs43xbrwgta::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0018.png<>uid://uurtdlosqi35::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0019.png<>uid://rm7vvdauw65e::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0020.png<>uid://g0f0f3bsxp24::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0021.png<>uid://berxy5l5b11hy::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0022.png<>uid://b2g5vgr3x5vt5::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0023.png<>uid://b2hpscsc8t7tt::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0024.png<>uid://ba3uxflg3jma1::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0025.png<>uid://d3ptjuij8smyy::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0026.png<>uid://bxpbxd3gbsas8::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0027.png<>uid://bf3j3r22kvvmc::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0028.png<>uid://bryfll4pyeie6::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0029.png<>uid://5i4e4vqdqber::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0030.png<>uid://dss1wsfklo2bt::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0031.png<>uid://5gnmvx5yg8ny::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0032.png<>uid://ctef2ibcyywxs::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0033.png<>uid://0olrqqwm0ibb::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0034.png<>uid://c7jdrlqb4foae::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0035.png<>uid://bxx7gudivy4bs::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0036.png<>uid://cqrdgnehpihf::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0037.png<>uid://cwm6ygk8oieur::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0038.png<>uid://bfxltsgu62bgv::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0039.png<>uid://b3yyjkj7p1nrb::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0040.png<>uid://cqnrjggp8xjdu::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0041.png<>uid://cxhacn2cnmeli::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0042.png<>uid://dhd7kms6tpwy1::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0043.png<>uid://dgwp40optuxlw::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0044.png<>uid://c2bjw62ysqv23::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0045.png<>uid://dbcbj10wiyyot::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0046.png<>uid://bcv25pe2737t8::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0047.png<>uid://duaylchtrbt6y::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0048.png<>uid://cokv4t1y5eefb::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0049.png<>uid://biayjk1t7oq46::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0050.png<>uid://cfifp8wbi4d1t::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0051.png<>uid://b7er6vjllewoe::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0052.png<>uid://c70xar04t5aff::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0053.png<>uid://dfjql5xph6une::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0054.png<>uid://cecj8qkvu4jmi::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0055.png<>uid://eivavn5vclu2::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0056.png<>uid://d5x3wcrs18fs::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0057.png<>uid://217ojlwqovd8::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0058.png<>uid://ds66dh6chde8n::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0059.png<>uid://dl10dpuxj813e::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0060.png<>uid://wjy5ipb00oi4::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0061.png<>uid://b0b6080ykfgwe::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0062.png<>uid://bl07nsp244oj6::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0063.png<>uid://cv30k3ybs3myk::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0064.png<>uid://1lgt7e3lmabb::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0065.png<>uid://blosdny8npv8r::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0066.png<>uid://qam00x82i2xq::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0067.png<>uid://duhwmjl6dm25o::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0068.png<>uid://dicdxch00mb5h::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0069.png<>uid://b72flfa8pdplr::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0070.png<>uid://6vw2146n7ybo::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0071.png<>uid://dpp32p6fvxsfp::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0072.png<>uid://dx14r7fw1i606::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0073.png<>uid://dc1ts5chkuqxs::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0074.png<>uid://cfp3ajqm6850c::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0075.png<>uid://dga6y27hrp3hw::::res://GAMEDATA/universal stuff/calibrib.ttf<>res://GAMESTATES/STARTMENU/logic/independent object scripts/menuoptsizefunctionsSM.cs<>res://GAMESTATES/STARTMENU/logic/independent object scripts/scrollmenufollowfunctionsSM.cs<>uid://dmhedctj7jcfo::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPLoadSubmenuFrames/TempLoadMenu.png<>res://GAMESTATES/STARTMENU/logic/independent object scripts/detectsmenuoptionnodesinareaSM.cs<>res://GAMESTATES/STARTMENU/logic/management/smCORE.cs<>res://GAMESTATES/STARTMENU/logic/independent object scripts/loadsubmenufunctionsSM.cs<>uid://dhnhmpnvuk7xm::::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPLoadSubmenuFrames/TEMPLoadMenuButton.png<>res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforinputsSM.cs<>uid://yejk0i1163p7::::res://ALLTEMP stuffstorage/assets/audio/music/LonelyWindFade.wav<>res://GAMESTATES/STARTMENU/logic/independent object scripts/musicplayerfunctionsSM.cs<>res://GAMESTATES/STARTMENU/logic/management/managesaudioSM.cs
+::res://GAMESTATES/STARTMENU/assets/::1712254775
+::res://GAMESTATES/STARTMENU/assets/animation frames/::1712254775
+::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPLoadSubmenuFrames/::1712254775
+TempLoadMenu.png::CompressedTexture2D::8016227179216912744::1712254775::1712254775::1::::<><>::
+TEMPLoadMenuButton.png::CompressedTexture2D::7677868124738541962::1712254775::1712254775::1::::<><>::
+::res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/::1712254775
+SMBGanim_0001.png::CompressedTexture2D::6244203829133143265::1712254775::1712254775::1::::<><>::
+SMBGanim_0002.png::CompressedTexture2D::3086349925575974182::1712254775::1712254775::1::::<><>::
+SMBGanim_0003.png::CompressedTexture2D::5978647354934120458::1712254775::1712254775::1::::<><>::
+SMBGanim_0004.png::CompressedTexture2D::7898703340898250853::1712254775::1712254775::1::::<><>::
+SMBGanim_0005.png::CompressedTexture2D::6639415800006663370::1712254775::1712254775::1::::<><>::
+SMBGanim_0006.png::CompressedTexture2D::8895111489076565827::1712254775::1712254775::1::::<><>::
+SMBGanim_0007.png::CompressedTexture2D::6249047134599972722::1712254775::1712254775::1::::<><>::
+SMBGanim_0008.png::CompressedTexture2D::7846739513397652073::1712254775::1712254775::1::::<><>::
+SMBGanim_0009.png::CompressedTexture2D::3270311415390421354::1712254775::1712254775::1::::<><>::
+SMBGanim_0010.png::CompressedTexture2D::5513882299786521685::1712254775::1712254775::1::::<><>::
+SMBGanim_0011.png::CompressedTexture2D::7152536266409718324::1712254775::1712254775::1::::<><>::
+SMBGanim_0012.png::CompressedTexture2D::1379065094706420558::1712254775::1712254775::1::::<><>::
+SMBGanim_0013.png::CompressedTexture2D::911661658367678418::1712254775::1712254775::1::::<><>::
+SMBGanim_0014.png::CompressedTexture2D::6281742439167046621::1712254775::1712254775::1::::<><>::
+SMBGanim_0015.png::CompressedTexture2D::3310579216521669975::1712254775::1712254775::1::::<><>::
+SMBGanim_0016.png::CompressedTexture2D::4623046387139126657::1712254775::1712254775::1::::<><>::
+SMBGanim_0017.png::CompressedTexture2D::8618584452496851399::1712254775::1712254775::1::::<><>::
+SMBGanim_0018.png::CompressedTexture2D::3935850199384302398::1712254775::1712254775::1::::<><>::
+SMBGanim_0019.png::CompressedTexture2D::1446130722026754198::1712254775::1712254775::1::::<><>::
+SMBGanim_0020.png::CompressedTexture2D::1219964427988192044::1712254775::1712254775::1::::<><>::
+SMBGanim_0021.png::CompressedTexture2D::473091041432829543::1712254775::1712254775::1::::<><>::
+SMBGanim_0022.png::CompressedTexture2D::2703711424010397134::1712254775::1712254775::1::::<><>::
+SMBGanim_0023.png::CompressedTexture2D::4295765082605238424::1712254775::1712254775::1::::<><>::
+SMBGanim_0024.png::CompressedTexture2D::4296913138369113089::1712254775::1712254775::1::::<><>::
+SMBGanim_0025.png::CompressedTexture2D::2445478953841913554::1712254775::1712254775::1::::<><>::
+SMBGanim_0026.png::CompressedTexture2D::9156686097541991736::1712254775::1712254775::1::::<><>::
+SMBGanim_0027.png::CompressedTexture2D::4031831745030552677::1712254775::1712254775::1::::<><>::
+SMBGanim_0028.png::CompressedTexture2D::2795764870008813526::1712254775::1712254775::1::::<><>::
+SMBGanim_0029.png::CompressedTexture2D::3629499943603822087::1712254775::1712254775::1::::<><>::
+SMBGanim_0030.png::CompressedTexture2D::2123949823488949645::1712254775::1712254775::1::::<><>::
+SMBGanim_0031.png::CompressedTexture2D::8461438919028757953::1712254775::1712254775::1::::<><>::
+SMBGanim_0032.png::CompressedTexture2D::2118863466014416774::1712254775::1712254775::1::::<><>::
+SMBGanim_0033.png::CompressedTexture2D::6115039130779839032::1712254775::1712254775::1::::<><>::
+SMBGanim_0034.png::CompressedTexture2D::1784321491031541003::1712254775::1712254775::1::::<><>::
+SMBGanim_0035.png::CompressedTexture2D::7037676875622583124::1712254775::1712254775::1::::<><>::
+SMBGanim_0036.png::CompressedTexture2D::4050199489737116408::1712254775::1712254775::1::::<><>::
+SMBGanim_0037.png::CompressedTexture2D::174445613014019131::1712254775::1712254775::1::::<><>::
+SMBGanim_0038.png::CompressedTexture2D::6343693878407652233::1712254775::1712254775::1::::<><>::
+SMBGanim_0039.png::CompressedTexture2D::2785548362871588525::1712254775::1712254775::1::::<><>::
+SMBGanim_0040.png::CompressedTexture2D::4402727192238738935::1712254775::1712254775::1::::<><>::
+SMBGanim_0041.png::CompressedTexture2D::5923748362555143622::1712254775::1712254775::1::::<><>::
+SMBGanim_0042.png::CompressedTexture2D::6401639711549166142::1712254775::1712254775::1::::<><>::
+SMBGanim_0043.png::CompressedTexture2D::7658738551036470570::1712254775::1712254775::1::::<><>::
+SMBGanim_0044.png::CompressedTexture2D::7626775301830301720::1712254775::1712254775::1::::<><>::
+SMBGanim_0045.png::CompressedTexture2D::6670591934816674150::1712254775::1712254775::1::::<><>::
+SMBGanim_0046.png::CompressedTexture2D::7233657844601821327::1712254775::1712254775::1::::<><>::
+SMBGanim_0047.png::CompressedTexture2D::2571844031726389735::1712254775::1712254775::1::::<><>::
+SMBGanim_0048.png::CompressedTexture2D::8564515892145684154::1712254775::1712254775::1::::<><>::
+SMBGanim_0049.png::CompressedTexture2D::5777456839969860795::1712254775::1712254775::1::::<><>::
+SMBGanim_0050.png::CompressedTexture2D::2949405279073921161::1712254775::1712254775::1::::<><>::
+SMBGanim_0051.png::CompressedTexture2D::5140632746794770203::1712254775::1712254775::1::::<><>::
+SMBGanim_0052.png::CompressedTexture2D::4641809857022723368::1712254775::1712254775::1::::<><>::
+SMBGanim_0053.png::CompressedTexture2D::7071891231349621295::1712254775::1712254775::1::::<><>::
+SMBGanim_0054.png::CompressedTexture2D::7529778396596353942::1712254775::1712254775::1::::<><>::
+SMBGanim_0055.png::CompressedTexture2D::5058331738383878668::1712254775::1712254775::1::::<><>::
+SMBGanim_0056.png::CompressedTexture2D::298546577896731727::1712254775::1712254775::1::::<><>::
+SMBGanim_0057.png::CompressedTexture2D::273945515999684688::1712254775::1712254775::1::::<><>::
+SMBGanim_0058.png::CompressedTexture2D::1950741035440159179::1712254775::1712254775::1::::<><>::
+SMBGanim_0059.png::CompressedTexture2D::8488544946749950983::1712254775::1712254775::1::::<><>::
+SMBGanim_0060.png::CompressedTexture2D::7986537254708800156::1712254775::1712254775::1::::<><>::
+SMBGanim_0061.png::CompressedTexture2D::1564245184905502749::1712254775::1712254775::1::::<><>::
+SMBGanim_0062.png::CompressedTexture2D::4145134797016036112::1712254775::1712254775::1::::<><>::
+SMBGanim_0063.png::CompressedTexture2D::3212074536511277537::1712254775::1712254775::1::::<><>::
+SMBGanim_0064.png::CompressedTexture2D::6306146951456481162::1712254775::1712254775::1::::<><>::
+SMBGanim_0065.png::CompressedTexture2D::1848018010138076851::1712254775::1712254775::1::::<><>::
+SMBGanim_0066.png::CompressedTexture2D::3188498236916019375::1712254775::1712254775::1::::<><>::
+SMBGanim_0067.png::CompressedTexture2D::1123796097119389786::1712254775::1712254775::1::::<><>::
+SMBGanim_0068.png::CompressedTexture2D::8578847262602101158::1712254775::1712254775::1::::<><>::
+SMBGanim_0069.png::CompressedTexture2D::7725124896959892823::1712254775::1712254775::1::::<><>::
+SMBGanim_0070.png::CompressedTexture2D::4688525372302837867::1712254775::1712254775::1::::<><>::
+SMBGanim_0071.png::CompressedTexture2D::2220591487724141440::1712254775::1712254775::1::::<><>::
+SMBGanim_0072.png::CompressedTexture2D::8244809500188932969::1712254775::1712254775::1::::<><>::
+SMBGanim_0073.png::CompressedTexture2D::8829072117152114765::1712254775::1712254775::1::::<><>::
+SMBGanim_0074.png::CompressedTexture2D::7354500906236102912::1712254775::1712254775::1::::<><>::
+SMBGanim_0075.png::CompressedTexture2D::5156451825699727684::1712254775::1712254775::1::::<><>::
+::res://GAMESTATES/STARTMENU/assets/icons/::1712254775
+JIprotosplash1.png::CompressedTexture2D::5049848972488387055::1712254775::1712254775::1::::<><>::
+::res://GAMESTATES/STARTMENU/logic/::1712254775
+::res://GAMESTATES/STARTMENU/logic/independent object scripts/::1712254775
+detectsmenuoptionnodesinareaSM.cs::CSharpScript::-1::1712254775::0::1::::<>Area2D<>::
+loadsubmenufunctionsSM.cs::CSharpScript::-1::1712254775::0::1::::<>AnimatedSprite2D<>::
+menuoptsizefunctionsSM.cs::CSharpScript::-1::1712254775::0::1::::<>Node2D<>::
+musicplayerfunctionsSM.cs::CSharpScript::-1::1712254775::0::1::::<>AudioStreamPlayer<>::
+scrollmenufollowfunctionsSM.cs::CSharpScript::-1::1712254775::0::1::::<>PathFollow2D<>::
+::res://GAMESTATES/STARTMENU/logic/management/::1712254775
+managesaudioSM.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+rootreadySM.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+smCORE.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+::res://GAMESTATES/STARTMENU/logic/watchernodes/::1712254775
+watchesforglobalinputsSM.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::
+watchesforinputsSM.cs::CSharpScript::-1::1712254775::0::1::::<>Node<>::

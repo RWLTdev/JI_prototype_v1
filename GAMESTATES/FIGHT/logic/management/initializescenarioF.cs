@@ -15,25 +15,20 @@ public partial class initializescenarioF : Node
 	{
 		
 	}
-	private void PickStageElements()
+	private void GetSetStageElements()
 	{
-
+		
 	}
 
 	//Enemies are already predetermined in Roam
-	private void PickEnemies()
+	private void GetSetPlayerElements()
 	{
 
 	}
 
-	private void GetPlayerInfo()
+	private void GetSetEnemies()
 	{
 
 	}
-	private void SetTheField()
-	{
-
-	}
-
 
 }
