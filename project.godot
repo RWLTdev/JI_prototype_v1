@@ -20,6 +20,7 @@ config/icon="res://icon.svg"
 AutoCORE="*res://GAMESTATES/Autoloads/GCORE.cs"
 Auto_PlayerData="*res://GAMESTATES/Autoloads/playerdataA.cs"
 Auto_PlayerFlags="*res://GAMESTATES/Autoloads/playerflagsA.cs"
+Auto_ResourceRetriever="*res://GAMESTATES/Autoloads/resourceretrieverA.cs"
 
 [display]
 

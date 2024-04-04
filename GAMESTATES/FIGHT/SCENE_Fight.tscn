@@ -1,4 +1,4 @@
-[gd_scene load_steps=287 format=3 uid="uid://c4vcanqeed16j"]
+[gd_scene load_steps=285 format=3 uid="uid://c4vcanqeed16j"]
 
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/rootreadyF.cs" id="1_hq2st"]
 [ext_resource type="Texture2D" uid="uid://fv6ouw785jsm" path="res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png" id="1_s3x03"]
@@ -29,18 +29,15 @@
 [ext_resource type="Script" path="res://ALLTEMP stuffstorage/scripts/functions/watchers/watchesgamestateF.cs" id="10_6pxfr"]
 [ext_resource type="Texture2D" uid="uid://y5221ufql21o" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0009.png" id="10_aot0g"]
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/fCORE.cs" id="10_d7h8g"]
-[ext_resource type="Script" path="res://GAMESTATES/FIGHT/data containers/playerunits/P1values.cs" id="10_yyspo"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/playercharacterfunctions.cs" id="10_yyspo"]
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/initializescenarioF.cs" id="11_7gy4w"]
 [ext_resource type="Texture2D" uid="uid://b5mq5xdfsn53u" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0007.png" id="11_esrkr"]
 [ext_resource type="Script" path="res://ALLTEMP stuffstorage/scripts/functions/initialization/problemcheckerF.cs" id="11_nvdsy"]
 [ext_resource type="Texture2D" uid="uid://e8r2fv6yyw50" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0010.png" id="11_vebbi"]
-[ext_resource type="Script" path="res://GAMESTATES/FIGHT/data containers/playerunits/P2values.cs" id="11_vrjp7"]
 [ext_resource type="Texture2D" uid="uid://1a81fftm0p63" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0011.png" id="12_aldc0"]
 [ext_resource type="Texture2D" uid="uid://cjrpf2djjdwwd" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0008.png" id="12_lma8n"]
-[ext_resource type="Script" path="res://GAMESTATES/FIGHT/data containers/playerunits/P3values.cs" id="12_nx7j4"]
 [ext_resource type="Texture2D" uid="uid://bnymcf2xugukg" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0012.png" id="13_3uljv"]
 [ext_resource type="Texture2D" uid="uid://c528pv08sly5a" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0009.png" id="13_45ddr"]
-[ext_resource type="Script" path="res://GAMESTATES/FIGHT/data containers/playerunits/P4values.cs" id="13_pep6b"]
 [ext_resource type="Texture2D" uid="uid://ottv2skxrdss" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0010.png" id="14_7akmr"]
 [ext_resource type="Texture2D" uid="uid://d2c5566ukkqso" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0013.png" id="14_cfo5h"]
 [ext_resource type="Texture2D" uid="uid://ctmfljqnhx0tl" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0011.png" id="15_fjqh5"]
@@ -268,11 +265,11 @@
 [ext_resource type="Texture2D" uid="uid://b2g176xef3r6h" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0119.png" id="246_gxsej"]
 [ext_resource type="Texture2D" uid="uid://cqp0ojvwf88i4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0120.png" id="247_67fcc"]
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/turnhandlerF.cs" id="264_ssxpa"]
-[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/PackedSceneTemplates/rhythmbarfunctions.cs" id="271_miv6h"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs" id="271_miv6h"]
 [ext_resource type="Texture2D" uid="uid://crdl7byh1r35n" path="res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarWhite.png" id="272_amlcx"]
 [ext_resource type="Texture2D" uid="uid://bldxxtqtd45rb" path="res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarGreyed.png" id="273_gu6t4"]
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/handlesmusictimingF.cs" id="326_7l32a"]
-[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/managesplayergui.cs" id="327_c4cg1"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/visual managers/managesplayergui.cs" id="327_c4cg1"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xi1nc"]
 animations = [{
@@ -1138,6 +1135,8 @@ sky_material = SubResource("ProceduralSkyMaterial_k0m1e")
 background_mode = 2
 sky = SubResource("Sky_mbf7d")
 
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ljyhe"]
+
 [node name="Root3D" type="Node3D"]
 script = ExtResource("1_hq2st")
 
@@ -1696,60 +1695,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0)
 
 [node name="PlayerUnitContainer" type="Node" parent="UnitContainerParent"]
 
-[node name="P1 Anchor" type="Node3D" parent="UnitContainerParent/PlayerUnitContainer"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.59542, 1.61986, 4.90325)
-
-[node name="NotchDetector" type="Area3D" parent="UnitContainerParent/PlayerUnitContainer/P1 Anchor"]
-transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="UnitContainerParent/PlayerUnitContainer/P1 Anchor/NotchDetector"]
-shape = SubResource("SphereShape3D_lai02")
-
-[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="UnitContainerParent/PlayerUnitContainer/P1 Anchor"]
-transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0, 0)
-offset = Vector2(0, 500)
-billboard = 2
-sprite_frames = SubResource("SpriteFrames_61tnm")
-animation = &"PLChfkjhksejf"
-
-[node name="P1 MainSpriteAnim" type="AnimationPlayer" parent="UnitContainerParent/PlayerUnitContainer/P1 Anchor/AnimatedSprite3D"]
-
-[node name="Values" type="Node" parent="UnitContainerParent/PlayerUnitContainer/P1 Anchor"]
-script = ExtResource("10_yyspo")
-
-[node name="P2 Anchor" type="Node3D" parent="UnitContainerParent/PlayerUnitContainer"]
-
-[node name="NotchDetector" type="Area3D" parent="UnitContainerParent/PlayerUnitContainer/P2 Anchor"]
-transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="UnitContainerParent/PlayerUnitContainer/P2 Anchor/NotchDetector"]
-shape = SubResource("SphereShape3D_lai02")
-
-[node name="Values" type="Node" parent="UnitContainerParent/PlayerUnitContainer/P2 Anchor"]
-script = ExtResource("11_vrjp7")
-
-[node name="P3 Anchor" type="Node3D" parent="UnitContainerParent/PlayerUnitContainer"]
-
-[node name="NotchDetector" type="Area3D" parent="UnitContainerParent/PlayerUnitContainer/P3 Anchor"]
-transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="UnitContainerParent/PlayerUnitContainer/P3 Anchor/NotchDetector"]
-shape = SubResource("SphereShape3D_lai02")
-
-[node name="Values" type="Node" parent="UnitContainerParent/PlayerUnitContainer/P3 Anchor"]
-script = ExtResource("12_nx7j4")
-
-[node name="P4 Anchor" type="Node3D" parent="UnitContainerParent/PlayerUnitContainer"]
-
-[node name="NotchDetector" type="Area3D" parent="UnitContainerParent/PlayerUnitContainer/P4 Anchor"]
-transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="UnitContainerParent/PlayerUnitContainer/P4 Anchor/NotchDetector"]
-shape = SubResource("SphereShape3D_lai02")
-
-[node name="Values" type="Node" parent="UnitContainerParent/PlayerUnitContainer/P4 Anchor"]
-script = ExtResource("13_pep6b")
-
 [node name="EnemyUnitContainer" type="Node" parent="UnitContainerParent"]
 
 [node name="BackgroundParent" type="Node3D" parent="."]
@@ -1860,5 +1805,35 @@ script = ExtResource("271_miv6h")
 modulate = Color(1, 1, 1, 0)
 scale = Vector2(0.33, 0.33)
 texture = ExtResource("273_gu6t4")
+
+[node name="3D Stuff" type="Node3D" parent="TEMP PackedSceneTemplates"]
+
+[node name="PCharAnchor" type="Node3D" parent="TEMP PackedSceneTemplates/3D Stuff"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.59542, 1.61986, 4.90325)
+
+[node name="NotchDetector" type="Area3D" parent="TEMP PackedSceneTemplates/3D Stuff/PCharAnchor"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TEMP PackedSceneTemplates/3D Stuff/PCharAnchor/NotchDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="CharacterSprite" type="AnimatedSprite3D" parent="TEMP PackedSceneTemplates/3D Stuff/PCharAnchor"]
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0, 0)
+offset = Vector2(0, 500)
+billboard = 2
+sprite_frames = SubResource("SpriteFrames_61tnm")
+animation = &"PLChfkjhksejf"
+
+[node name="Hurtbox" type="Area3D" parent="TEMP PackedSceneTemplates/3D Stuff/PCharAnchor"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.570751, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TEMP PackedSceneTemplates/3D Stuff/PCharAnchor/Hurtbox"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_ljyhe")
+
+[node name="PCharLogic" type="Node" parent="TEMP PackedSceneTemplates/3D Stuff/PCharAnchor"]
+script = ExtResource("10_yyspo")
+
+[node name="PValues" type="Node" parent="TEMP PackedSceneTemplates/3D Stuff/PCharAnchor/PCharLogic"]
 
 [connection signal="pressed" from="GUI&CameraParent/CanvasLayer/DevpanelMenuBG/SceneSwitchButTEMP" to="GUI&CameraParent/CanvasLayer/DevpanelMenuBG/SceneSwitchButTEMP" method="onRotateSceneButtonPressed"]

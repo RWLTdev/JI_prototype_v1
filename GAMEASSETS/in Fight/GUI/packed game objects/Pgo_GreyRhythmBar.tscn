@@ -1,7 +1,8 @@
 [gd_scene load_steps=3 format=3 uid="uid://dpy4eavr3kbx2"]
 
-[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/PackedSceneTemplates/rhythmbarfunctions.cs" id="1_3q0ib"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs" id="1_3q0ib"]
 [ext_resource type="Texture2D" uid="uid://bldxxtqtd45rb" path="res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarGreyed.png" id="2_1ri1y"]
+
 
 [node name="GreyRhythmBar" type="PathFollow2D"]
 script = ExtResource("1_3q0ib")

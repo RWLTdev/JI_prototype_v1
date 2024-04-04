@@ -1,9 +1,6 @@
 using Godot;
 using System;
 using System.Collections.Generic;
-using System.Timers;
-using System.Threading;
-using System.Threading.Tasks;
 
 public partial class handlesmusicinfoF : Node
 {
@@ -16,7 +13,8 @@ public partial class handlesmusicinfoF : Node
 		GD.Print("Starting Fight Music Via <djhandlesmusicandtempo>");
 	
 		/* uses playervals to pick a random track from the relevant struct list and grab all its relevant data
-		 and (this is literally the simplest way to do it WTF????)*/
+		 and (this is literally the simplest way to do it WTF????) Actually no just make a method that requests data from the node
+		 via node.Call to a method that returns the information*/
 		string currentplayerlocation = playerdataA.playercurrentlocation;
 		dynamic selectedtrack;
 		switch (currentplayerlocation)
