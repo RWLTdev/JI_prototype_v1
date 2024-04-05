@@ -1,0 +1,41 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://byntpkrb13w41"]
+
+[ext_resource type="Texture2D" uid="uid://dediqb7fvc08p" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHfantasyrock.png" id="1_0t3bc"]
+[ext_resource type="Texture2D" uid="uid://ymsdtohc57ci" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHPunch!.png" id="2_g37kk"]
+[ext_resource type="Texture2D" uid="uid://iih334gbsbfe" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHTVspikes.png" id="3_kigdf"]
+[ext_resource type="Texture2D" uid="uid://dswdqdfm5huur" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/backgroundelements/PHThinker.png" id="4_5xyyw"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_0t3bc")
+}],
+"loop": true,
+"name": &"BGObjFantasyRockTEMP",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_g37kk")
+}],
+"loop": true,
+"name": &"BGObjPunch!TEMP",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_kigdf")
+}],
+"loop": true,
+"name": &"BGObjTVSpikesTEMP",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_5xyyw")
+}],
+"loop": true,
+"name": &"BGObjThinkerTEMP",
+"speed": 1.0
+}]

@@ -24,7 +24,7 @@ public partial class usefulstuffcopypasta : Node
 	//Easy way to create a timer that waits and then continues
 	await ToSignal(GetTree().CreateTimer(5), "timeout");
 
-
+	//To get values from other scripts without needing to reference the script just call a method in the script with the node requesting info back
 
 	#endif
 }

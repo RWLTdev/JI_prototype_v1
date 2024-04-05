@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://xwttqn8d6xo6"]
+
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/backdropobjclosefunctions.cs" id="1_0ffs1"]
+
+[node name="CloseBackdropObj" type="AnimatedSprite3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 14)
+flip_h = true
+script = ExtResource("1_0ffs1")

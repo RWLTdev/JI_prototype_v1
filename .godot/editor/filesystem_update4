@@ -38,3 +38,5 @@ res://GAMESTATES/STARTMENU/logic/management/smCORE.cs
 res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforglobalinputsSM.cs
 res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforinputsSM.cs
 res://GAMEDATA/attachables/constant area values/constantareavalsinTestArea.cs
+res://GAMEASSETS/in Fight/GUI/Animations/Transitions/new_animation.tres
+res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/backdropobjclosefunctions.cs

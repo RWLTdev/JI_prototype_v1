@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jail Inside")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f089ad5a3dd917a388241ee1af0423556147349")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da9daf9141e36509f4c03dc771c48cdfc7fe3589")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jail Inside")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jail Inside")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

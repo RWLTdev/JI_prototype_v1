@@ -4,12 +4,10 @@ using System.Collections.Generic;
 
 public partial class fCORE : Node
 {
-	[Signal]
-	public delegate void CallAPlayerDistributeDataFEventHandler();
-	[Signal]
-	public delegate void CallDJAndTurnHandlerEventHandler();
-	[Signal]
-	public delegate void EnableControlsEventHandler(string newmode);
+	[Signal] public delegate void CallAPlayerDistributeDataFEventHandler();
+	[Signal] public delegate void CallDJAndTurnHandlerEventHandler();
+	[Signal] public delegate void EnableControlsEventHandler(string newmode);
+
 	//Starts fCORE when the gamestatewatcher gives the OK
 	public void COREstartup()
 	{
@@ -48,11 +46,12 @@ public partial class fCORE : Node
 
 		//attach 'constantvalues[location] to ScenarioConstantsHolder node for scenario setup to reference
 
+		//Call the scenario setupper to set up all the game parts
+		Node Scenariosetup = GetNode("/root/Root3D/LogicParent/GameLogic/ScenarioSetup");
+		Scenariosetup.Call("onCOREcall");
+		
 
-		//signal scenario setup
-		//signal GUI animation handler
-
-		//Call the DJ Node to start the music (and tempo by extension)
+		//Call the DJ Node to start the music (and tempo by extension) ((and everything that relies on the tempo))
 		Node DJ = GetNode("/root/Root3D/LogicParent/GameLogic/DJ");
 		DJ.Call("MusicStart");
 		

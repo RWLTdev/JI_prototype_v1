@@ -1,3 +1,4 @@
+AnimatedSprite3D
 Node
 CollisionShape3D
 Area3D
@@ -11,4 +12,3 @@ AnimationTree
 AnimationPlayer
 Path3D
 AudioStreamPlayer
-RichTextLabel
