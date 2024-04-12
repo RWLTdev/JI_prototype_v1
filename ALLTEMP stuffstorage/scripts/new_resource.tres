@@ -1,0 +1,7 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bjfqosrr6rivq"]
+
+[ext_resource type="Script" path="res://ALLTEMP stuffstorage/scripts/resourcetestscript.cs" id="1_oe4nm"]
+
+[resource]
+script = ExtResource("1_oe4nm")
+test = 0

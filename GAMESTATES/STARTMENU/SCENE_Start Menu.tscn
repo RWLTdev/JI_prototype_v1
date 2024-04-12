@@ -81,7 +81,7 @@
 [ext_resource type="Texture2D" uid="uid://dx14r7fw1i606" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0073.png" id="75_nigbo"]
 [ext_resource type="Texture2D" uid="uid://dc1ts5chkuqxs" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0074.png" id="76_vyf7h"]
 [ext_resource type="Texture2D" uid="uid://cfp3ajqm6850c" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPSMBGswipeanim/SMBGanim_0075.png" id="77_li30p"]
-[ext_resource type="FontFile" uid="uid://dga6y27hrp3hw" path="res://GAMEDATA/universal stuff/calibrib.ttf" id="78_ceh1e"]
+[ext_resource type="FontFile" uid="uid://dga6y27hrp3hw" path="res://GAMEDATA/text/calibrib.ttf" id="78_ceh1e"]
 [ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/independent object scripts/menuoptsizefunctionsSM.cs" id="78_i1mhd"]
 [ext_resource type="Script" path="res://GAMESTATES/STARTMENU/logic/independent object scripts/scrollmenufollowfunctionsSM.cs" id="78_plt6p"]
 [ext_resource type="Texture2D" uid="uid://dmhedctj7jcfo" path="res://GAMESTATES/STARTMENU/assets/animation frames/TEMPLoadSubmenuFrames/TempLoadMenu.png" id="81_i6atd"]

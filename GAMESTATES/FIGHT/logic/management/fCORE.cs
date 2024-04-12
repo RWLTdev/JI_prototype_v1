@@ -24,13 +24,6 @@ public partial class fCORE : Node
 		Callable callplayerdatadistribute = new Callable(APlayerData, "DistributeDataF");
 		this.Connect("CallAPlayerDistributeDataF", callplayerdatadistribute);
 
-		Node Dj = GetNode("/root/Root3D/LogicParent/GameLogic/DJ");
-		Callable COREtodj = new Callable(Dj, "MusicStart");
-		this.Connect("CallDJAndTurnHandler", COREtodj);
-		Node Turnhandler = GetNode("/root/Root3D/LogicParent/GameLogic/TurnHandler");
-		Callable COREtoturnhandler = new Callable(Turnhandler, "onCOREcall");
-		this.Connect("CallDJAndTurnHandler", COREtoturnhandler);
-
 		SETUPFUNCTION();
 	}
 
@@ -38,7 +31,7 @@ public partial class fCORE : Node
 	
 	private void SETUPFUNCTION()
 	{
-		//connect signal and tell auto playerdata to distribute fight data
+		//tell the auto dataretriever to get the correct fight data and distribute it to (places)
 		EmitSignal(SignalName.CallAPlayerDistributeDataF);
 		
 		//tell auto playerflags to distribute (flags?)
@@ -59,7 +52,7 @@ public partial class fCORE : Node
 		
 		Node Turnhandler = GetNode("/root/Root3D/LogicParent/GameLogic/TurnHandler");
 		Turnhandler.Call("onCOREcall");
-		GD.Print("fCORE initialization complete. Calling ((turnhandler)) and ((beathandler))");
+		//GD.Print("fCORE initialization complete. Calling ((turnhandler)) and ((beathandler))");
 		//GD.Print("There was a problem at the " + COREstartstate + " step. Shutting down CORE.");
 		
 	}

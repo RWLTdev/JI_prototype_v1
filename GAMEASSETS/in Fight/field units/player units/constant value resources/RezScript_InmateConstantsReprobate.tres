@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="rez_inmateconstantsreprobate" load_steps=2 format=3 uid="uid://bxc3u872jiuma"]
+
+[ext_resource type="Script" path="res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_inmateconstantsreprobate.cs" id="1_stgmk"]
+
+[resource]
+script = ExtResource("1_stgmk")
+inherent_AFF_high = "disgust"
+inherent_AFF_med = "sadness"
+inherent_AFF_low = "fear"
+animationpack_filepath_F = "res://GAMEASSETS/in Fight/field units/player units/animation packs/SpriteFramesF_AnimPackReprobateSprites.tres"

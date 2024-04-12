@@ -33,8 +33,9 @@ public partial class constantareavalsinTestArea : Node
         private Dictionary<string, cvMusicTrack> MusicTrackList = new Dictionary<string, cvMusicTrack>
         {
             { "DealEmOut", new cvMusicTrack ("Deal 'Em Out", "res://ALLTEMP stuffstorage/assets/audio/music/Deal 'Em Out.mp3", 120.0f, 0.0f, 0.0f) },
-            { "GetEnuf", new cvMusicTrack ("GET ENUF", "res://ALLTEMP stuffstorage/assets/audio/music/GET ENUF.mp3", 135.74555f, 0.0f, 0.0f) },
+            //{ "GetEnuf", new cvMusicTrack ("GET ENUF", "res://ALLTEMP stuffstorage/assets/audio/music/GET ENUF.mp3", 135.74555f, 0.0f, 0.0f) },
             { "Crypteque", new cvMusicTrack ("Crypteque", "res://ALLTEMP stuffstorage/assets/audio/music/Crypteque.mp3", 130.0f, 0.0f, 0.0f) },
+            { "JackDaFunk", new cvMusicTrack ("JACK DA FUNK", "res://ALLTEMP stuffstorage/assets/audio/music/JACK DA FUNK.mp3", 112.0f, 0.0f, 0.0f) }, 
         };
     
     //randomly picks a track when musicpicker requests it and sends the relevant info back to it

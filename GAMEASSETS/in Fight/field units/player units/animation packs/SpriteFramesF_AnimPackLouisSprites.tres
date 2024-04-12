@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" load_steps=2 format=3 uid="uid://dx7nxlam6krls"]
+
+[ext_resource type="Texture2D" uid="uid://caqu2lo7x3qbi" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/playerchars/LouisPH.png" id="1_v8l64"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_v8l64")
+}],
+"loop": true,
+"name": &"TEMPStatic",
+"speed": 1.0
+}]

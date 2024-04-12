@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="rez_inmateconstantsdefault" load_steps=2 format=3 uid="uid://dooy2mxcfucy8"]
+
+[ext_resource type="Script" path="res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_inmateconstantsdefault.cs" id="1_6u5n8"]
+
+[resource]
+script = ExtResource("1_6u5n8")
+inherent_AFF_high = "none"
+inherent_AFF_med = "none"
+inherent_AFF_low = "none"
+animationpack_filepath_F = "res://GAMEASSETS/in Fight/field units/player units/animation packs/SpriteFramesF_AnimPackMerlinSprites.tres"

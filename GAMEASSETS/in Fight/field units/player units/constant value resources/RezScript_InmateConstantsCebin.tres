@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="rez_inmateconstantscebin" load_steps=2 format=3 uid="uid://kcs1xrq2sldb"]
+
+[ext_resource type="Script" path="res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_inmateconstantscebin.cs" id="1_3lgma"]
+
+[resource]
+script = ExtResource("1_3lgma")
+inherent_AFF_high = "disgust"
+inherent_AFF_med = "sadness"
+inherent_AFF_low = "fear"
+animationpack_filepath_F = "res://GAMEASSETS/in Fight/field units/player units/animation packs/SpriteFramesF_AnimPackCebinSprites.tres"

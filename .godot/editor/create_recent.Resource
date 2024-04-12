@@ -1,3 +1,8 @@
+rez_inmateconstantsreprobate
+rez_inmateconstantslouis
+rez_inmateconstantscebin
+rez_inmateconstantsmerlin
+rez_inmateconstantsdefault
+Resource
 Animation
 CSharpScript
-Resource

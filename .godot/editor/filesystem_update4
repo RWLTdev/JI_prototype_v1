@@ -1,21 +1,28 @@
-res://SCENE_Hub.tscn
-res://GAMESTATES/FIGHT/logic/independent object scripts/Rez_Lgridnotchdata.cs
-res://SCENE_Roam.tscn
 res://GAMESTATES/FIGHT/SCENE_Fight.tscn
+res://GAMESTATES/FIGHT/logic/independent object scripts/Rez_Lgridnotchdata.cs
+res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/playercharacterfunctions.cs
 res://GAMESTATES/STARTMENU/SCENE_Start Menu.tscn
-res://ALLTEMP stuffstorage/assets/text files/documentation/usefulstuffcopypasta.cs
 res://ALLTEMP stuffstorage/scripts/functions/initialization/gui/initializesthisdevpanelonscenechange.cs
 res://ALLTEMP stuffstorage/scripts/functions/initialization/problemcheckerF.cs
 res://ALLTEMP stuffstorage/scripts/functions/initialization/StartMenuBGAnim.cs
 res://ALLTEMP stuffstorage/scripts/functions/scene management/rotatessceneonbuttonTEMP.cs
 res://ALLTEMP stuffstorage/scripts/functions/watchers/watchesgamestateF.cs
 res://ALLTEMP stuffstorage/scripts/gamewide value storage (autoload singletons)/Auto_holdscurrentinputbinds.cs
+res://ALLTEMP stuffstorage/scripts/resourcetestscript.cs
+res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_inmateconstantscebin.cs
+res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_inmateconstantsdefault.cs
+res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_inmateconstantslouis.cs
+res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_inmateconstantsmerlin.cs
+res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_inmateconstantsreprobate.cs
 res://GAMEDATA/attachables/constant area values/constantareavalsDefault.cs
+res://GAMEDATA/attachables/constant area values/constantareavalsinTestArea.cs
+res://GAMEDATA/attachables/constant character data/Att_CharConstantsDefault.cs
+res://GAMEDATA/attachables/constant character data/Att_CharConstantsforMerlin.cs
 res://GAMESTATES/Autoloads/GCORE.cs
 res://GAMESTATES/Autoloads/playerdataA.cs
 res://GAMESTATES/Autoloads/playerflagsA.cs
 res://GAMESTATES/Autoloads/resourceretrieverA.cs
-res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/playercharacterfunctions.cs
+res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/backdropobjclosefunctions.cs
 res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs
 res://GAMESTATES/FIGHT/logic/management/fCORE.cs
 res://GAMESTATES/FIGHT/logic/management/handlesmusicinfoF.cs
@@ -37,6 +44,3 @@ res://GAMESTATES/STARTMENU/logic/management/rootreadySM.cs
 res://GAMESTATES/STARTMENU/logic/management/smCORE.cs
 res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforglobalinputsSM.cs
 res://GAMESTATES/STARTMENU/logic/watchernodes/watchesforinputsSM.cs
-res://GAMEDATA/attachables/constant area values/constantareavalsinTestArea.cs
-res://GAMEASSETS/in Fight/GUI/Animations/Transitions/new_animation.tres
-res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/backdropobjclosefunctions.cs

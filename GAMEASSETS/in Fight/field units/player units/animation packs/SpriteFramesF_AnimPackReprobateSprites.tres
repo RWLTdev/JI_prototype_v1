@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" load_steps=2 format=3 uid="uid://bi7qy0efgj6as"]
+
+[ext_resource type="Texture2D" uid="uid://bvkmy6oacr3nj" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/playerchars/ReprobatePH.png" id="1_kluou"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_kluou")
+}],
+"loop": true,
+"name": &"TEMPStatic",
+"speed": 1.0
+}]

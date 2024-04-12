@@ -51,6 +51,11 @@ public partial class watchesforinputsF : Node
 		currentfControlMode = fControlMode.NoControl;
 	}
 
+	public void ConnectSignalstoInstances()
+	{
+
+	}
+
 	//Disabled controls until x reports
 	public void DisableControls(string ControlType = "Check if needed later")
 	{
@@ -60,7 +65,7 @@ public partial class watchesforinputsF : Node
 	public void EnablefControlMode(string newmode)
 	{
 		//Activates on CORE's Signal
-		if (newmode == "Act")
+		if (newmode == "PlayerTurn")
 		{
 			currentfControlMode = fControlMode.PlayerTurn;
 			GD.Print("Main Act menu controls enabled via <watchesforinputsSM>");
@@ -72,7 +77,8 @@ public partial class watchesforinputsF : Node
 		}
 	}
 
-	
+	//Inmates only not selectable in player submenus
+	[Signal] public delegate void SelectInmateEventHandler(string atplace, bool onoff);
 
 
     public override void _Input(InputEvent @event)
@@ -102,16 +108,17 @@ public partial class watchesforinputsF : Node
 			}
 			if (@event is InputEventAction up && up.Action == upselectString)
 			{
+				GD.Print("inputtest");
 				if(Input.IsActionJustPressed(upselectString))
 				{
 					//indicators on
-					EmitSignal(SignalName.SelectInmate, "Up", true);
+					EmitSignal(SignalName.SelectInmate, "up", true);
 					return;
 				}
 				if(Input.IsActionJustReleased(upselectString))
 				{
 					//indicators off
-					EmitSignal(SignalName.SelectInmate, "Up", false);
+					EmitSignal(SignalName.SelectInmate, "up", false);
 					return;
 				}
 			}
@@ -120,13 +127,13 @@ public partial class watchesforinputsF : Node
 				if(Input.IsActionJustPressed(downselectString))
 				{
 					//indicators on
-					EmitSignal(SignalName.SelectInmate, "Down", true);
+					EmitSignal(SignalName.SelectInmate, "down", true);
 					return;
 				}
 				if(Input.IsActionJustReleased(downselectString))
 				{
 					//indicators off
-					EmitSignal(SignalName.SelectInmate, "Down", false);
+					EmitSignal(SignalName.SelectInmate, "down", false);
 					return;
 				}
 			}
@@ -135,13 +142,13 @@ public partial class watchesforinputsF : Node
 				if(Input.IsActionJustPressed(leftselectString))
 				{
 					//indicators on
-					EmitSignal(SignalName.SelectInmate, "Left", true);
+					EmitSignal(SignalName.SelectInmate, "left", true);
 					return;
 				}
 				if(Input.IsActionJustReleased(leftselectString))
 				{
 					//indicators off
-					EmitSignal(SignalName.SelectInmate, "Left", false);
+					EmitSignal(SignalName.SelectInmate, "left", false);
 					return;
 				}
 			}
@@ -150,13 +157,13 @@ public partial class watchesforinputsF : Node
 				if(Input.IsActionJustPressed(rightselectString))
 				{
 					//indicators on
-					EmitSignal(SignalName.SelectInmate, "Right", true);
+					EmitSignal(SignalName.SelectInmate, "right", true);
 					return;
 				}
 				if(Input.IsActionJustReleased(rightselectString))
 				{
 					//indicators off
-					EmitSignal(SignalName.SelectInmate, "Right", false);
+					EmitSignal(SignalName.SelectInmate, "right", false);
 					return;
 				}
 			}
@@ -211,9 +218,6 @@ public partial class watchesforinputsF : Node
     
 	//MoverOverride Movement Signals
 
-	//Inmates only not selectable in player submenus
-	[Signal]
-	public delegate void SelectInmateEventHandler(string atplace, bool onoff);
 
 	//Move Cam in Thinking + If its down zoom out and show all spirit clocks
 	[Signal]

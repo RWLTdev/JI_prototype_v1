@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=3 uid="uid://b1lk2wxeqi5qc"]
+
+[ext_resource type="Texture2D" uid="uid://jibgjbqg2tft" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/playerchars/jerma.png" id="1_ku7fe"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/playercharacterfunctions.cs" id="2_367j2"]
+[ext_resource type="Resource" uid="uid://dooy2mxcfucy8" path="res://GAMEASSETS/in Fight/field units/player units/constant value resources/RezScript_InmateConstantsDefault.tres" id="3_r3o7y"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_lai02"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6mb1h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ku7fe")
+}],
+"loop": true,
+"name": &"default",
+"speed": 1.0
+}]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ljyhe"]
+
+[node name="PCharAnchor" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.59542, 1.61986, 4.90325)
+
+[node name="NotchDetector" type="Area3D" parent="."]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NotchDetector"]
+shape = SubResource("SphereShape3D_lai02")
+
+[node name="CharacterSprite" type="AnimatedSprite3D" parent="."]
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0, 0)
+offset = Vector2(0, 500)
+billboard = 2
+sprite_frames = SubResource("SpriteFrames_6mb1h")
+
+[node name="Hurtbox" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.570751, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Hurtbox"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_ljyhe")
+
+[node name="PCharLogic" type="Node" parent="."]
+script = ExtResource("2_367j2")
+thisCharacterConstants = ExtResource("3_r3o7y")
+
+[node name="PCharValues" type="Node" parent="PCharLogic"]

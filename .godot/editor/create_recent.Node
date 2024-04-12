@@ -1,8 +1,9 @@
-AnimatedSprite3D
+RigidBody3D
+Node3D
 Node
+AnimatedSprite3D
 CollisionShape3D
 Area3D
-Node3D
 PathFollow2D
 Node2D
 Path2D

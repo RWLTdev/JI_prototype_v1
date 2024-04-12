@@ -1,4 +1,4 @@
-[gd_scene load_steps=284 format=3 uid="uid://c4vcanqeed16j"]
+[gd_scene load_steps=286 format=3 uid="uid://c4vcanqeed16j"]
 
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/rootreadyF.cs" id="1_hq2st"]
 [ext_resource type="Texture2D" uid="uid://fv6ouw785jsm" path="res://ALLTEMP stuffstorage/assets/guisprites/devpaneltempbg.png" id="1_s3x03"]
@@ -20,7 +20,6 @@
 [ext_resource type="Texture2D" uid="uid://c0hjalx1rxt0m" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0004.png" id="8_6ytbd"]
 [ext_resource type="Texture2D" uid="uid://crmn7a4vk5fgd" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0008.png" id="9_1qb5m"]
 [ext_resource type="Texture2D" uid="uid://oa4rftc7n5ea" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0005.png" id="9_qctio"]
-[ext_resource type="Texture2D" uid="uid://bvkmy6oacr3nj" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/playerchars/ReprobatePH.png" id="9_us2bp"]
 [ext_resource type="Texture2D" uid="uid://c8wes5dbbq4jr" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockActing/Anim_RhythmLockAct_0006.png" id="10_0fkxu"]
 [ext_resource type="Script" path="res://ALLTEMP stuffstorage/scripts/functions/watchers/watchesgamestateF.cs" id="10_6pxfr"]
 [ext_resource type="Texture2D" uid="uid://y5221ufql21o" path="res://GAMEASSETS/in Fight/GUI/Animations/Transitions/StartFightBasicTrans/Anim_FullScreenFightTransition_0009.png" id="10_aot0g"]
@@ -260,8 +259,11 @@
 [ext_resource type="Texture2D" uid="uid://b8tuic0o316tr" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0118.png" id="245_q612j"]
 [ext_resource type="Texture2D" uid="uid://b2g176xef3r6h" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0119.png" id="246_gxsej"]
 [ext_resource type="Texture2D" uid="uid://cqp0ojvwf88i4" path="res://GAMEASSETS/in Fight/GUI/Animations/RhythmLock/LockStartBeats/Anim_RhythmLockStartBeats_0120.png" id="247_67fcc"]
+[ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/watchers/watchesforinputsF.cs" id="262_7rux3"]
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/management/turnhandlerF.cs" id="264_ssxpa"]
+[ext_resource type="Texture2D" uid="uid://jibgjbqg2tft" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/playerchars/jerma.png" id="266_7rl24"]
 [ext_resource type="Script" path="res://GAMEDATA/attachables/constant area values/constantareavalsDefault.cs" id="267_ccal0"]
+[ext_resource type="Resource" uid="uid://dooy2mxcfucy8" path="res://GAMEASSETS/in Fight/field units/player units/constant value resources/RezScript_InmateConstantsDefault.tres" id="268_q5pol"]
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/rhythmbarfunctions.cs" id="271_miv6h"]
 [ext_resource type="Texture2D" uid="uid://crdl7byh1r35n" path="res://GAMEASSETS/in Fight/GUI/Sprites/RhythmBar/RhythmBarWhite.png" id="272_amlcx"]
 [ext_resource type="Script" path="res://GAMESTATES/FIGHT/logic/independent object scripts/packed game object functions/backdropobjclosefunctions.cs" id="272_klx6t"]
@@ -1092,15 +1094,15 @@ sky_material = SubResource("ProceduralSkyMaterial_k0m1e")
 background_mode = 2
 sky = SubResource("Sky_mbf7d")
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_lemei"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_6mb1h"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("9_us2bp")
+"texture": ExtResource("266_7rl24")
 }],
 "loop": true,
-"name": &"PLChfkjhksejf",
-"speed": 5.0
+"name": &"default",
+"speed": 1.0
 }]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ljyhe"]
@@ -1119,7 +1121,7 @@ render_target_update_mode = 4
 
 [node name="MainCam" type="Camera3D" parent="GUI&CameraParent/SubViewport"]
 transform = Transform3D(-1, -7.62898e-10, -8.74195e-08, 0, 0.999962, -0.00872654, 8.74228e-08, -0.00872654, -0.999962, 0, 3, 0)
-fov = 65.0
+fov = 53.1
 
 [node name="CanvasLayer" type="CanvasLayer" parent="GUI&CameraParent"]
 
@@ -1712,10 +1714,10 @@ script = ExtResource("18_tt8ml")
 [node name="Heart" type="Node" parent="LogicParent/GameLogic/DJ"]
 script = ExtResource("326_7l32a")
 
-[node name="ScenarioConstantsHolder" type="Node" parent="LogicParent/GameLogic"]
-
 [node name="GUIManager" type="Node" parent="LogicParent/GameLogic"]
 script = ExtResource("327_c4cg1")
+
+[node name="FieldUnitManager" type="Node" parent="LogicParent/GameLogic"]
 
 [node name="Watchers" type="Node" parent="LogicParent"]
 
@@ -1726,6 +1728,7 @@ script = ExtResource("10_6pxfr")
 script = ExtResource("4_w6hsg")
 
 [node name="WatchingForInputs" type="Node" parent="LogicParent/Watchers"]
+script = ExtResource("262_7rux3")
 
 [node name="DataHolders" type="Node" parent="LogicParent"]
 
@@ -1769,8 +1772,7 @@ shape = SubResource("SphereShape3D_lai02")
 transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0, 0)
 offset = Vector2(0, 500)
 billboard = 2
-sprite_frames = SubResource("SpriteFrames_lemei")
-animation = &"PLChfkjhksejf"
+sprite_frames = SubResource("SpriteFrames_6mb1h")
 
 [node name="Hurtbox" type="Area3D" parent="TEMP PackedSceneTemplates/3D Stuff/PCharAnchor"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.570751, 0)
@@ -1781,8 +1783,9 @@ shape = SubResource("CapsuleShape3D_ljyhe")
 
 [node name="PCharLogic" type="Node" parent="TEMP PackedSceneTemplates/3D Stuff/PCharAnchor"]
 script = ExtResource("10_yyspo")
+thisCharacterConstants = ExtResource("268_q5pol")
 
-[node name="PValues" type="Node" parent="TEMP PackedSceneTemplates/3D Stuff/PCharAnchor/PCharLogic"]
+[node name="PCharValues" type="Node" parent="TEMP PackedSceneTemplates/3D Stuff/PCharAnchor/PCharLogic"]
 
 [node name="CloseBackdropObj" type="AnimatedSprite3D" parent="TEMP PackedSceneTemplates/3D Stuff"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 14)

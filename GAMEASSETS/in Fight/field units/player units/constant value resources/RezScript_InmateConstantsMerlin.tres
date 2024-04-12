@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="rez_inmateconstantsmerlin" load_steps=2 format=3 uid="uid://cirtdw3r8xej4"]
+
+[ext_resource type="Script" path="res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_inmateconstantsmerlin.cs" id="1_cdgw4"]
+
+[resource]
+script = ExtResource("1_cdgw4")
+inherent_AFF_high = "disgust"
+inherent_AFF_med = "sadness"
+inherent_AFF_low = "fear"
+animationpack_filepath_F = "res://GAMEASSETS/in Fight/field units/player units/animation packs/SpriteFramesF_AnimPackMerlinSprites.tres"

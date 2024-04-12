@@ -1,0 +1,67 @@
+
+
+SCRIPT NAMING CONVENTIONS:
+
+	[T/typeofscript][SCENE]_[functionality][brieflywhatitdoes]
+	
+	_CORE - the core manager of its respective scene. The big boss.
+	
+	[T/typeofscript]
+		UpCase: Global
+		lowcase: scene dependent
+		
+		Auto - singleton script
+		reztmpl - script template to make resources of it
+		mng - a manager script
+		wtc - a watcher script
+		indp - a free floating independent script
+		att - an interchangeable attachable data script which can be attached during runtime
+		pgo - a flexible, instanceable script attached to a packed game object node
+	
+	[SCENE]
+		(won't have if it's not attached to anything in the scene on launch)
+		SM - start menu
+		F - fight
+	
+	[brieflywhatitdoes]
+	
+		keep it short and only include necessary keywords
+	
+CODE NAMING CONVENTIONS
+
+	Variables
+		lowcase: a single value contained exclcusively in the code
+		halfupCase: a reference to a file, upcase being the type
+		Frontupcase: a reference to a godot node 
+		
+	Methods
+		onCallingScriptsEvent - is Node.Call -ed from an external source
+		onCallingScriptsSignalsignal - is called by an external script via a godot signal
+		returnsWantedData - method with arguments that are passed back after this script requested them from another one
+		recievesExternalData - method with arguments that are passed in from an external script not as a result of this one
+		
+FILE NAMING CONVENTIONS
+
+	[TypeOfAsset][SCENE]_[Subject][BrieflyWhatItIs]
+	
+	[TypeOfAsset]
+		Pgo - packed game object/packedscene
+		Rez - a custom script resource
+		Animf - animation frame
+		AnimPack- a bunch of animations
+		Sndfx - sound effect
+		Sndmus - music track
+		Doc - documentation
+		
+	[SCENE]
+		(Won't have if not scene- dependent)
+		MM - Main Menu
+		F - Fight
+		
+	[Subject]
+		What subcategory the asset is used for, this varies and the categories changeg based on the type of asset it is
+		
+	[BrieflyWhatItIs]
+		Keep it short and to the keywords
+		
+		

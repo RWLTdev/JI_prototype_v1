@@ -13,6 +13,7 @@ public partial class turnhandlerF : Node
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
+		Inputwatcher = GetNode("/root/Root3D/LogicParent/Watchers/WatchingForInputs");
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -20,10 +21,11 @@ public partial class turnhandlerF : Node
 	{
 	}
 
+	Node Inputwatcher;
 	public void onCOREcall()
 	{
 		GD.Print("TurnhandlerSetups Teset");
-
+		Inputwatcher.Call("EnablefControlMode", "PlayerTurn");
 		
 	}
 

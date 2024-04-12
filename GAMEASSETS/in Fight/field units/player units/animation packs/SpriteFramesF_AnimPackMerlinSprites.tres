@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" load_steps=2 format=3 uid="uid://dehidjvu7wk1e"]
+
+[ext_resource type="Texture2D" uid="uid://3t88gvqcbfmb" path="res://ALLTEMP stuffstorage/assets/2dsprites/fight/unitsprites/playerchars/MerlinPH.png" id="1_kuwga"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_kuwga")
+}],
+"loop": true,
+"name": &"TEMPStatic",
+"speed": 1.0
+}]

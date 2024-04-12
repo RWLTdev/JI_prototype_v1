@@ -27,12 +27,17 @@ public partial class playerdataA : Node
 	public static string playercurrentzone = "none";
 	public static string playercurrentroomID = "none";
 
+	/*Change these to be basic pieces of information (if the equip determines the stats, stat info is not needed and can be queried
+	from the relevant attachable (the information about each equippable needs to be get/setted here when the attachable for its
+	pool is present and loaded*/
+
+	public static int partycount = 4;
 	public static Dictionary<int, string> partySlots = new Dictionary<int, string>()
 	{
-		{1, "none"},
-		{2, "none"},
-		{3, "none"},
-		{4, "none"}
+		{1, "Merlin"},
+		{2, "Cebin"},
+		{3, "Louis"},
+		{4, "Reprobate"}
 	};
 	
 	public static Dictionary<int, string> backupSlots = new Dictionary<int, string>()
@@ -47,32 +52,7 @@ public partial class playerdataA : Node
 		{8, "none"},
 	};
 
-	//PARTY DATA VALUES, check if null before using
-	public static Dictionary<string, double?> partyHP = new Dictionary<string, double?>()
-	{
-		{"p1", null},
-		{"p2", null},
-		{"p3", null},
-		{"p4", null}
-	};
-
-	public static Dictionary<string, int?> partyATK = new Dictionary<string, int?>()
-	{
-		{"p1", null},
-		{"p2", null},
-		{"p3", null},
-		{"p4", null}
-	};
-
-	public static Dictionary<string, int?> partyDEF = new Dictionary<string, int?>()
-	{
-		{"p1", null},
-		{"p2", null},
-		{"p3", null},
-		{"p4", null}
-	};
-
-	public static Dictionary<string, string> partyAffinites = new Dictionary<string, string>()
+	public static Dictionary<string, string> partyAffinityOverrides = new Dictionary<string, string>()
 	{
 		{"p1", "none"},
 		{"p2", "none"},

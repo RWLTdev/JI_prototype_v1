@@ -36,7 +36,6 @@ public partial class managesplayergui : Node
 		else if (animationname == "StartLockThink")
 		{
 			Rhythmlock.Visible = true;
-			GD.Print("NEW SPEED SCALE::" + Rhythmlock.SpeedScale);
 			Rhythmlock.Animation = "LockThinking";
 		}
 		else if (animationname == "StartTransitionBasic")

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="rez_inmateconstantslouis" load_steps=2 format=3 uid="uid://bs0cesbq80q28"]
+
+[ext_resource type="Script" path="res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_inmateconstantslouis.cs" id="1_8yddl"]
+
+[resource]
+script = ExtResource("1_8yddl")
+inherent_AFF_high = "disgust"
+inherent_AFF_med = "sadness"
+inherent_AFF_low = "fear"
+animationpack_filepath_F = "res://GAMEASSETS/in Fight/field units/player units/animation packs/SpriteFramesF_AnimPackLouisSprites.tres"
