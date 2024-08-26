@@ -16,8 +16,6 @@ res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_
 res://GAMEASSETS/in Fight/field units/player units/constant value resources/rez_inmateconstantsreprobate.cs
 res://GAMEDATA/attachables/constant area values/constantareavalsDefault.cs
 res://GAMEDATA/attachables/constant area values/constantareavalsinTestArea.cs
-res://GAMEDATA/attachables/constant character data/Att_CharConstantsDefault.cs
-res://GAMEDATA/attachables/constant character data/Att_CharConstantsforMerlin.cs
 res://GAMESTATES/Autoloads/GCORE.cs
 res://GAMESTATES/Autoloads/playerdataA.cs
 res://GAMESTATES/Autoloads/playerflagsA.cs
